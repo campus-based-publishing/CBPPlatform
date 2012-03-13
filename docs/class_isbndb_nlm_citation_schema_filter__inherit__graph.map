@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$class_isbndb_isbn_nlm_citation_schema_filter.html" title="Filter that uses the ISBNdb web service to look up an ISBN and create a NLM citation description from..." alt="" coords="4,315,237,343"/>
+<area shape="rect" id="node11" href="$class_isbndb_nlm_citation_schema_isbn_filter.html" title="Filter that uses the ISBNdb web service to identify an ISBN for a given citation." alt="" coords="263,315,496,343"/>
+<area shape="rect" id="node2" href="$class_nlm_citation_schema_filter.html" title="Abstract base class for all filters that transform NLM citation metadata descriptions." alt="" coords="166,161,335,189"/>
+<area shape="rect" id="node4" href="$class_filter.html" title="Class that provides the basic template for a filter. Filters are generic data processors that take in..." alt="" coords="225,83,276,111"/>
+<area shape="rect" id="node6" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="207,6,295,34"/>
+</map>

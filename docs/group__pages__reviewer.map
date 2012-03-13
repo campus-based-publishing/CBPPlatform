@@ -1,0 +1,8 @@
+<map id="structs" name="structs">
+<area shape="rect" id="node1" href="$group__plugins__generic__books_for_review.html" title="Plugins_generic_booksForReview" alt="" coords="353,10,575,38"/>
+<area shape="rect" id="node2" href="$group__pages__proofreader.html" title="Pages_proofreader" alt="" coords="396,62,532,90"/>
+<area shape="rect" id="node3" href="$group__pages__author.html" title="Pages_author" alt="" coords="412,114,516,142"/>
+<area shape="rect" id="node4" href="$group__pages__section_editor.html" title="Pages_sectionEditor" alt="" coords="392,166,536,194"/>
+<area shape="rect" id="node6" href="$group__pages__layout_editor.html" title="Pages_layoutEditor" alt="" coords="396,218,532,246"/>
+<area shape="rect" id="node7" href="$group__pages__copyeditor.html" title="Pages_copyeditor" alt="" coords="400,270,528,298"/>
+</map>

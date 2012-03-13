@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$class_individual_subscription_form.html" title="Form class for individual subscription create/edits." alt="" coords="5,161,187,189"/>
+<area shape="rect" id="node7" href="$class_institutional_subscription_form.html" title="Form class for institutional subscription create/edits." alt="" coords="211,161,404,189"/>
+<area shape="rect" id="node2" href="$class_form.html" title="Class defining basic operations for handling HTML forms." alt="" coords="175,6,227,34"/>
+</map>

@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_classic_blue_theme_plugin.html" title="&quot;ClassicBlue&quot; theme plugin" alt="" coords="401,5,570,33"/>
+<area shape="rect" id="node9" href="$class_classic_brown_theme_plugin.html" title="&quot;ClassicBrown&quot; theme plugin" alt="" coords="395,57,576,85"/>
+<area shape="rect" id="node11" href="$class_classic_green_theme_plugin.html" title="&quot;ClassicGreen&quot; theme plugin" alt="" coords="395,109,575,137"/>
+<area shape="rect" id="node13" href="$class_classic_navy_theme_plugin.html" title="&quot;ClassicNavy&quot; theme plugin" alt="" coords="399,161,572,189"/>
+<area shape="rect" id="node15" href="$class_classic_red_theme_plugin.html" title="&quot;ClassicRed&quot; theme plugin" alt="" coords="402,213,569,241"/>
+<area shape="rect" id="node17" href="$class_custom_theme_plugin.html" title="&quot;Custom&quot; theme plugin" alt="" coords="412,265,558,293"/>
+<area shape="rect" id="node19" href="$class_desert_theme_plugin.html" title="&quot;Desert&quot; theme plugin" alt="" coords="416,317,555,345"/>
+<area shape="rect" id="node21" href="$class_lilac_theme_plugin.html" title="&quot;Lilac&quot; theme plugin" alt="" coords="422,369,549,397"/>
+<area shape="rect" id="node23" href="$class_night_theme_plugin.html" title="&quot;Night&quot; theme plugin" alt="" coords="420,421,551,449"/>
+<area shape="rect" id="node25" href="$class_polished_theme_plugin.html" title="&quot;Polished&quot; theme plugin" alt="" coords="410,473,561,501"/>
+<area shape="rect" id="node27" href="$class_redbar_theme_plugin.html" title="&quot;Redbar&quot; theme plugin" alt="" coords="414,525,557,553"/>
+<area shape="rect" id="node29" href="$class_steel_theme_plugin.html" title="&quot;Steel&quot; theme plugin" alt="" coords="420,577,550,605"/>
+<area shape="rect" id="node31" href="$class_uncommon_theme_plugin.html" title="&quot;Uncommon&quot; theme plugin" alt="" coords="401,629,569,657"/>
+<area shape="rect" id="node33" href="$class_vanilla_theme_plugin.html" title="&quot;Vanilla&quot; theme plugin" alt="" coords="416,681,555,709"/>
+<area shape="rect" id="node2" href="$class_plugin.html" title="Abstract class for plugins." alt="" coords="139,343,197,371"/>
+<area shape="rect" id="node4" href="$class_p_k_p_plugin.html" title="Abstract class for plugins." alt="" coords="5,343,91,371"/>
+</map>

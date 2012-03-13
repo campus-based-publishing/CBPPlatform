@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$class_article.html" title="Article class." alt="" coords="280,161,339,189"/>
+<area shape="rect" id="node2" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="5,161,93,189"/>
+<area shape="rect" id="node7" href="$class_author_submission.html" title="AuthorSubmission class." alt="" coords="407,5,537,33"/>
+<area shape="rect" id="node9" href="$class_copyeditor_submission.html" title="CopyeditorSubmission class." alt="" coords="395,57,549,85"/>
+<area shape="rect" id="node11" href="$class_layout_editor_submission.html" title="Describes a layout editor&#39;s view of a submission." alt="" coords="389,109,555,137"/>
+<area shape="rect" id="node13" href="$class_proofreader_submission.html" title="Describes a proofreader&#39;s view of a submission." alt="" coords="392,161,552,189"/>
+<area shape="rect" id="node15" href="$class_published_article.html" title="Published article class." alt="" coords="414,213,530,241"/>
+<area shape="rect" id="node17" href="$class_reviewer_submission.html" title="ReviewerSubmission class." alt="" coords="399,265,545,293"/>
+<area shape="rect" id="node19" href="$class_section_editor_submission.html" title="SectionEditorSubmission class." alt="" coords="387,317,557,345"/>
+<area shape="rect" id="node21" href="$class_editor_submission.html" title="EditorSubmission class." alt="" coords="605,317,731,345"/>
+</map>

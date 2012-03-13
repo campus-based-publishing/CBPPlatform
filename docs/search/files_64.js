@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['dao_2einc_2ephp',['DAO.inc.php',['../_d_a_o_8inc_8php.html',1,'']]],
+  ['daoregistry_2einc_2ephp',['DAORegistry.inc.php',['../_d_a_o_registry_8inc_8php.html',1,'']]],
+  ['daoresultfactory_2einc_2ephp',['DAOResultFactory.inc.php',['../_d_a_o_result_factory_8inc_8php.html',1,'']]],
+  ['dataobject_2einc_2ephp',['DataObject.inc.php',['../_data_object_8inc_8php.html',1,'']]],
+  ['dataobjectgridcellprovider_2einc_2ephp',['DataObjectGridCellProvider.inc.php',['../_data_object_grid_cell_provider_8inc_8php.html',1,'']]],
+  ['datestringnormalizerfilter_2einc_2ephp',['DateStringNormalizerFilter.inc.php',['../_date_string_normalizer_filter_8inc_8php.html',1,'']]],
+  ['dbconnection_2einc_2ephp',['DBConnection.inc.php',['../_d_b_connection_8inc_8php.html',1,'']]],
+  ['dbdataxmlparser_2einc_2ephp',['DBDataXMLParser.inc.php',['../_d_b_data_x_m_l_parser_8inc_8php.html',1,'']]],
+  ['dbresultrange_2einc_2ephp',['DBResultRange.inc.php',['../_d_b_result_range_8inc_8php.html',1,'']]],
+  ['dbrowiterator_2einc_2ephp',['DBRowIterator.inc.php',['../_d_b_row_iterator_8inc_8php.html',1,'']]],
+  ['dbxmltosql_2ephp',['dbXMLtoSQL.php',['../db_x_m_lto_s_q_l_8php.html',1,'']]],
+  ['deletesubmissions_2ephp',['deleteSubmissions.php',['../delete_submissions_8php.html',1,'']]],
+  ['depositpointform_2einc_2ephp',['DepositPointForm.inc.php',['../_deposit_point_form_8inc_8php.html',1,'']]],
+  ['desertthemeplugin_2einc_2ephp',['DesertThemePlugin.inc.php',['../_desert_theme_plugin_8inc_8php.html',1,'']]],
+  ['developedbyblockplugin_2einc_2ephp',['DevelopedByBlockPlugin.inc.php',['../_developed_by_block_plugin_8inc_8php.html',1,'']]],
+  ['digitalobject_2einc_2ephp',['DigitalObject.inc.php',['../_digital_object_8inc_8php.html',1,'']]],
+  ['dispatcher_2einc_2ephp',['Dispatcher.inc.php',['../_dispatcher_8inc_8php.html',1,'']]],
+  ['doajexportdom_2einc_2ephp',['DOAJExportDom.inc.php',['../_d_o_a_j_export_dom_8inc_8php.html',1,'']]],
+  ['doajplugin_2einc_2ephp',['DOAJPlugin.inc.php',['../_d_o_a_j_plugin_8inc_8php.html',1,'']]],
+  ['donationblockplugin_2einc_2ephp',['DonationBlockPlugin.inc.php',['../_donation_block_plugin_8inc_8php.html',1,'']]],
+  ['donationshandler_2einc_2ephp',['DonationsHandler.inc.php',['../_donations_handler_8inc_8php.html',1,'']]]
+];

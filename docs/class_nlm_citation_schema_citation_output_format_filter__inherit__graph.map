@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$class_nlm_citation_schema_abnt_filter.html" title="Filter that transforms NLM citation metadata descriptions into ABNT citation output." alt="" coords="794,5,990,33"/>
+<area shape="rect" id="node11" href="$class_nlm_citation_schema_apa_filter.html" title="Filter that transforms NLM citation metadata descriptions into APA citation output." alt="" coords="796,57,988,85"/>
+<area shape="rect" id="node13" href="$class_nlm_citation_schema_mla_filter.html" title="Filter that transforms NLM citation metadata descriptions into MLA citation output." alt="" coords="797,109,987,137"/>
+<area shape="rect" id="node15" href="$class_nlm_citation_schema_nlm_filter.html" title="Filter that transforms NLM citation metadata descriptions into NLM XML citation output." alt="" coords="796,161,988,189"/>
+<area shape="rect" id="node17" href="$class_nlm_citation_schema_vancouver_filter.html" title="Filter that transforms NLM citation metadata descriptions into Vancouver citation output..." alt="" coords="776,213,1008,241"/>
+<area shape="rect" id="node2" href="$class_template_based_filter.html" title="Abstract base class for all filters that transform their input via smarty templates." alt="" coords="241,109,383,137"/>
+<area shape="rect" id="node4" href="$class_filter.html" title="Class that provides the basic template for a filter. Filters are generic data processors that take in..." alt="" coords="141,109,192,137"/>
+<area shape="rect" id="node6" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="5,109,93,137"/>
+</map>

@@ -1,0 +1,86 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_form.html" title="Class defining basic operations for handling HTML forms." alt="" coords="6,1591,58,1619"/>
+<area shape="rect" id="node3" href="$class_article_galley_form.html" title="Article galley editing form." alt="" coords="154,5,281,33"/>
+<area shape="rect" id="node5" href="$class_author_deposit_form.html" title="Form to perform an author&#39;s SWORD deposit(s)" alt="" coords="149,57,286,85"/>
+<area shape="rect" id="node7" href="$class_author_submit_form.html" title="Base class for journal author submit forms." alt="" coords="151,109,284,137"/>
+<area shape="rect" id="node19" href="$class_author_submit_supp_file_form.html" title="Supplementary file author submission form." alt="" coords="124,161,310,189"/>
+<area shape="rect" id="node21" href="$class_auth_source_settings_form.html" title="Form for editing authentication source settings." alt="" coords="132,213,302,241"/>
+<area shape="rect" id="node23" href="$class_book_for_review_form.html" title="Form for journal managers to create/edit books for review." alt="" coords="144,265,291,293"/>
+<area shape="rect" id="node25" href="$class_books_for_review_settings_form.html" title="Form for editors to modify books for review plugin settings." alt="" coords="117,317,318,345"/>
+<area shape="rect" id="node27" href="$class_change_password_form.html" title="Form to change a user&#39;s password." alt="" coords="138,369,296,397"/>
+<area shape="rect" id="node29" href="$class_citation_form.html" title="Form for adding/editing a citation." alt="" coords="169,421,266,449"/>
+<area shape="rect" id="node31" href="$class_comment_form.html" title="Form to change metadata information for an RT comment." alt="" coords="162,473,272,501"/>
+<area shape="rect" id="node43" href="$class_context_form.html" title="Form to change metadata information for an RT context." alt="" coords="168,525,267,553"/>
+<area shape="rect" id="node45" href="$class_create_reviewer_form.html" title="Form for section editors to create reviewers." alt="" coords="143,577,291,605"/>
+<area shape="rect" id="node47" href="$class_custom_block_edit_form.html" title="CustomBlockEditForm" alt="" coords="140,629,294,657"/>
+<area shape="rect" id="node49" href="$class_custom_theme_settings_form.html" title="Form for journal managers to modify custom theme plugin settings." alt="" coords="123,681,311,709"/>
+<area shape="rect" id="node51" href="$class_deposit_point_form.html" title="Form for journal managers to modify SWORD deposit points." alt="" coords="153,733,281,761"/>
+<area shape="rect" id="node53" href="$class_edit_comment_form.html" title="Edit comment form." alt="" coords="151,785,284,813"/>
+<area shape="rect" id="node55" href="$class_email_template_form.html" title="Form for creating and modifying email templates." alt="" coords="147,837,287,865"/>
+<area shape="rect" id="node57" href="$class_external_feed_form.html" title="Form for journal managers to mody external feed plugin settings." alt="" coords="151,889,283,917"/>
+<area shape="rect" id="node59" href="$class_external_feed_settings_form.html" title="Form for journal managers to modify External Feed plugin settings." alt="" coords="127,941,307,969"/>
+<area shape="rect" id="node61" href="$class_filter_form.html" title="Form for adding/editing a filter. New filter instances are based on filter templates." alt="" coords="176,993,258,1021"/>
+<area shape="rect" id="node63" href="$class_google_analytics_settings_form.html" title="Form for journal managers to modify Google Analytics plugin settings." alt="" coords="119,1045,316,1073"/>
+<area shape="rect" id="node65" href="$class_group_form.html" title="Form for journal managers to create/edit groups." alt="" coords="173,1097,262,1125"/>
+<area shape="rect" id="node67" href="$class_install_form.html" title="Form for system installation." alt="" coords="174,1149,261,1177"/>
+<area shape="rect" id="node69" href="$class_issue_form.html" title="Form to create or edit an issue." alt="" coords="175,1201,259,1229"/>
+<area shape="rect" id="node71" href="$class_journal_setup_form.html" title="Base class for journal setup forms." alt="" coords="152,1253,283,1281"/>
+<area shape="rect" id="node83" href="$class_journal_site_settings_form.html" title="Form for site administrator to edit basic journal settings." alt="" coords="134,1305,301,1333"/>
+<area shape="rect" id="node85" href="$class_language_settings_form.html" title="Form for modifying journal language settings." alt="" coords="137,1357,297,1385"/>
+<area shape="rect" id="node87" href="$class_login_change_password_form.html" title="Form to change a user&#39;s password in order to login." alt="" coords="122,1409,312,1437"/>
+<area shape="rect" id="node89" href="$class_metadata_form.html" title="Form to change metadata information for a submission." alt="" coords="163,1461,271,1489"/>
+<area shape="rect" id="node91" href="$class_notification_mailing_list_form.html" title="Form to subscribe to the notification mailing list." alt="" coords="127,1513,308,1541"/>
+<area shape="rect" id="node93" href="$class_open_ads_settings_form.html" title="Form for journal managers to modify Article XML Galley plugin settings." alt="" coords="139,1565,295,1593"/>
+<area shape="rect" id="node95" href="$class_payment_settings_form.html" title="Form for managers to modify Payment costs and settings." alt="" coords="141,1617,294,1645"/>
+<area shape="rect" id="node97" href="$class_pay_method_settings_form.html" title="Form for managers to modify Payment Plugin settings." alt="" coords="133,1669,301,1697"/>
+<area shape="rect" id="node99" href="$class_php_my_visites_settings_form.html" title="Form for journal managers to modify phpMyVisites plugin settings." alt="" coords="127,1721,308,1749"/>
+<area shape="rect" id="node101" href="$class_p_k_p_announcement_form.html" title="PKPAnnouncementForm" alt="" coords="133,1773,301,1801"/>
+<area shape="rect" id="node105" href="$class_p_k_p_announcement_type_form.html" title="PKPAnnouncementTypeForm" alt="" coords="119,1825,316,1853"/>
+<area shape="rect" id="node109" href="$class_p_k_p_notification_settings_form.html" title="Form to edit notification settings." alt="" coords="121,1877,314,1905"/>
+<area shape="rect" id="node113" href="$class_p_k_p_site_settings_form.html" title="PKPSiteSettingsForm" alt="" coords="142,1929,292,1957"/>
+<area shape="rect" id="node117" href="$class_profile_form.html" title="Form to edit user profile." alt="" coords="172,1981,262,2009"/>
+<area shape="rect" id="node119" href="$class_quick_submit_form.html" title="Form for QuickSubmit one&#45;page submission plugin." alt="" coords="153,2033,281,2061"/>
+<area shape="rect" id="node121" href="$class_registration_form.html" title="Form for user registration." alt="" coords="156,2085,279,2113"/>
+<area shape="rect" id="node123" href="$class_review_form_element_form.html" title="Form for creating and modifying review form elements." alt="" coords="129,2137,305,2165"/>
+<area shape="rect" id="node125" href="$class_review_form_form.html" title="Form for creating and modifying review forms." alt="" coords="154,2189,281,2217"/>
+<area shape="rect" id="node127" href="$class_review_form_response_form.html" title="Peer review form response form." alt="" coords="124,2241,311,2269"/>
+<area shape="rect" id="node129" href="$class_search_form.html" title="Form to change metadata information for an RT search." alt="" coords="170,2293,265,2321"/>
+<area shape="rect" id="node131" href="$class_section_form.html" title="Form for creating and modifying journal sections." alt="" coords="169,2345,266,2373"/>
+<area shape="rect" id="node133" href="$class_settings_form.html" title="Form for METS gateway plugin settings." alt="" coords="167,2397,268,2425"/>
+<area shape="rect" id="node135" href="$class_static_pages_edit_form.html" title="StaticPagesEditForm" alt="" coords="144,2449,291,2477"/>
+<area shape="rect" id="node137" href="$class_static_pages_settings_form.html" title="StaticPagesSettingsForm" alt="" coords="131,2501,303,2529"/>
+<area shape="rect" id="node139" href="$class_student_thesis_form.html" title="Form for students to submit thesis abstract." alt="" coords="148,2553,286,2581"/>
+<area shape="rect" id="node141" href="$class_subscription_form.html" title="Base form class for subscription create/edits." alt="" coords="154,2605,280,2633"/>
+<area shape="rect" id="node147" href="$class_subscription_policy_form.html" title="Form for managers to setup subscription policies." alt="" coords="137,2657,298,2685"/>
+<area shape="rect" id="node149" href="$class_subscription_type_form.html" title="Form for journal managers to create/edit subscription types." alt="" coords="140,2709,295,2737"/>
+<area shape="rect" id="node151" href="$class_supp_file_form.html" title="Supplementary file form." alt="" coords="165,2761,270,2789"/>
+<area shape="rect" id="node153" href="$class_thesis_form.html" title="Form for journal managers to create/edit thesis abstracts." alt="" coords="171,2813,263,2841"/>
+<area shape="rect" id="node155" href="$class_thesis_settings_form.html" title="Form for journal managers to modify Thesis Abstract plugin settings." alt="" coords="147,2865,287,2893"/>
+<area shape="rect" id="node157" href="$class_upgrade_form.html" title="Form for system upgrades." alt="" coords="166,2917,269,2945"/>
+<area shape="rect" id="node159" href="$class_user_individual_subscription_form.html" title="Form class for user purchase of individual subscription." alt="" coords="112,2969,322,2997"/>
+<area shape="rect" id="node161" href="$class_user_institutional_subscription_form.html" title="Form class for user purchase of institutional subscription." alt="" coords="107,3021,328,3049"/>
+<area shape="rect" id="node163" href="$class_user_management_form.html" title="Form for journal managers to edit user profiles." alt="" coords="138,3073,297,3101"/>
+<area shape="rect" id="node165" href="$class_version_form.html" title="Form to change metadata information for an RT version." alt="" coords="169,3125,266,3153"/>
+<area shape="rect" id="node167" href="$class_x_m_l_galley_settings_form.html" title="Form for journal managers to modify Article XML Galley plugin settings." alt="" coords="134,3177,300,3205"/>
+<area shape="rect" id="node9" href="$class_author_submit_step1_form.html" title="Form for Step 1 of author article submission." alt="" coords="391,5,559,33"/>
+<area shape="rect" id="node11" href="$class_author_submit_step2_form.html" title="Form for Step 2 of author article submission." alt="" coords="391,57,559,85"/>
+<area shape="rect" id="node13" href="$class_author_submit_step3_form.html" title="Form for Step 3 of author article submission." alt="" coords="391,109,559,137"/>
+<area shape="rect" id="node15" href="$class_author_submit_step4_form.html" title="Form for Step 4 of author article submission." alt="" coords="391,161,559,189"/>
+<area shape="rect" id="node17" href="$class_author_submit_step5_form.html" title="Form for Step 5 of author article submission." alt="" coords="391,213,559,241"/>
+<area shape="rect" id="node33" href="$class_copyedit_comment_form.html" title="CopyeditComment form." alt="" coords="393,369,556,397"/>
+<area shape="rect" id="node35" href="$class_editor_decision_comment_form.html" title="EditorDecisionComment form." alt="" coords="377,421,573,449"/>
+<area shape="rect" id="node37" href="$class_layout_comment_form.html" title="LayoutComment form." alt="" coords="400,473,550,501"/>
+<area shape="rect" id="node39" href="$class_peer_review_comment_form.html" title="Comment form." alt="" coords="384,525,566,553"/>
+<area shape="rect" id="node41" href="$class_proofread_comment_form.html" title="ProofreadComment form." alt="" coords="390,577,559,605"/>
+<area shape="rect" id="node73" href="$class_journal_setup_step1_form.html" title="Form for Step 1 of journal setup." alt="" coords="392,1149,558,1177"/>
+<area shape="rect" id="node75" href="$class_journal_setup_step2_form.html" title="Form for Step 2 of journal setup." alt="" coords="392,1201,558,1229"/>
+<area shape="rect" id="node77" href="$class_journal_setup_step3_form.html" title="Form for Step 3 of journal setup." alt="" coords="392,1253,558,1281"/>
+<area shape="rect" id="node79" href="$class_journal_setup_step4_form.html" title="Form for Step 4 of journal setup." alt="" coords="392,1305,558,1333"/>
+<area shape="rect" id="node81" href="$class_journal_setup_step5_form.html" title="Form for Step 5 of journal setup." alt="" coords="392,1357,558,1385"/>
+<area shape="rect" id="node103" href="$class_announcement_form.html" title="Form for journal managers to create/edit announcements." alt="" coords="404,1773,546,1801"/>
+<area shape="rect" id="node107" href="$class_announcement_type_form.html" title="Form for journal managers to create/edit announcement types." alt="" coords="389,1825,560,1853"/>
+<area shape="rect" id="node111" href="$class_notification_settings_form.html" title="Form to edit notification settings." alt="" coords="391,1877,558,1905"/>
+<area shape="rect" id="node115" href="$class_site_settings_form.html" title="Form to edit site settings." alt="" coords="413,1929,536,1957"/>
+<area shape="rect" id="node143" href="$class_individual_subscription_form.html" title="Form class for individual subscription create/edits." alt="" coords="384,2579,566,2607"/>
+<area shape="rect" id="node145" href="$class_institutional_subscription_form.html" title="Form class for institutional subscription create/edits." alt="" coords="378,2631,571,2659"/>
+</map>

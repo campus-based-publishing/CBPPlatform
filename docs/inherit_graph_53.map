@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_item_iterator.html" title="Generic iterator class; needs to be overloaded by subclasses providing specific implementations." alt="" coords="6,83,95,111"/>
+<area shape="rect" id="node3" href="$class_array_item_iterator.html" title="Provides paging and iteration for arrays." alt="" coords="150,5,271,33"/>
+<area shape="rect" id="node5" href="$class_d_a_o_result_factory.html" title="Wrapper around ADORecordSet providing &quot;factory&quot; features for generating objects from DAOs..." alt="" coords="144,57,277,85"/>
+<area shape="rect" id="node7" href="$class_d_b_row_iterator.html" title="Wrapper around ADORecordSet providing &quot;factory&quot; features for generating objects from DAOs..." alt="" coords="156,109,265,137"/>
+<area shape="rect" id="node9" href="$class_virtual_array_iterator.html" title="Provides paging and iteration for &quot;virtual&quot; arrays &#45;&#45; arrays for which only the current &quot;page&quot; is ava..." alt="" coords="144,161,277,189"/>
+</map>

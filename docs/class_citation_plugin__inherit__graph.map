@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_abnt_citation_plugin.html" title="ABNT citation format plugin." alt="" coords="413,5,544,33"/>
+<area shape="rect" id="node9" href="$class_apa_citation_plugin.html" title="APA citation format plugin." alt="" coords="415,57,542,85"/>
+<area shape="rect" id="node11" href="$class_bibtex_citation_plugin.html" title="BibTeX citation format plugin." alt="" coords="408,109,549,137"/>
+<area shape="rect" id="node13" href="$class_cbe_citation_plugin.html" title="CBE citation format plugin." alt="" coords="415,161,543,189"/>
+<area shape="rect" id="node15" href="$class_end_note_citation_plugin.html" title="EndNote citation format plugin." alt="" coords="401,213,556,241"/>
+<area shape="rect" id="node17" href="$class_mla_citation_plugin.html" title="MLA citation format plugin." alt="" coords="416,265,541,293"/>
+<area shape="rect" id="node19" href="$class_pro_cite_citation_plugin.html" title="ProCite citation format plugin." alt="" coords="405,317,553,345"/>
+<area shape="rect" id="node21" href="$class_ref_man_citation_plugin.html" title="Reference Manager citation format plugin." alt="" coords="404,369,554,397"/>
+<area shape="rect" id="node23" href="$class_ref_works_citation_plugin.html" title="RefWorks citation format plugin." alt="" coords="398,421,560,449"/>
+<area shape="rect" id="node25" href="$class_turabian_citation_plugin.html" title="Turabian citation format plugin." alt="" coords="401,473,557,501"/>
+<area shape="rect" id="node2" href="$class_plugin.html" title="Abstract class for plugins." alt="" coords="139,239,197,267"/>
+<area shape="rect" id="node4" href="$class_p_k_p_plugin.html" title="Abstract class for plugins." alt="" coords="5,239,91,267"/>
+</map>

@@ -1,0 +1,1965 @@
+-- MySQL dump 10.13  Distrib 5.1.50, for pc-linux-gnu (i686)
+--
+-- Host: localhost    Database: larkinpress
+-- ------------------------------------------------------
+-- Server version	5.1.50
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `access_keys`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `access_keys` (
+  `access_key_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `context` varchar(40) NOT NULL,
+  `key_hash` varchar(40) NOT NULL,
+  `user_id` bigint(20) NOT NULL,
+  `assoc_id` bigint(20) DEFAULT NULL,
+  `expiry_date` datetime NOT NULL,
+  PRIMARY KEY (`access_key_id`),
+  KEY `access_keys_hash` (`key_hash`,`user_id`,`context`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `announcement_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `announcement_settings` (
+  `announcement_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `announcement_settings_pkey` (`announcement_id`,`locale`,`setting_name`),
+  KEY `announcement_settings_announcement_id` (`announcement_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `announcement_type_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `announcement_type_settings` (
+  `type_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `announcement_type_settings_pkey` (`type_id`,`locale`,`setting_name`),
+  KEY `announcement_type_settings_type_id` (`type_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `announcement_types`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `announcement_types` (
+  `type_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `assoc_type` smallint(6) DEFAULT NULL,
+  `assoc_id` bigint(20) NOT NULL,
+  PRIMARY KEY (`type_id`),
+  KEY `announcement_types_assoc` (`assoc_type`,`assoc_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `announcements`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `announcements` (
+  `announcement_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `assoc_type` smallint(6) DEFAULT NULL,
+  `assoc_id` bigint(20) NOT NULL,
+  `type_id` bigint(20) DEFAULT NULL,
+  `date_expire` datetime DEFAULT NULL,
+  `date_posted` datetime NOT NULL,
+  PRIMARY KEY (`announcement_id`),
+  KEY `announcements_assoc` (`assoc_type`,`assoc_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_comments`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_comments` (
+  `comment_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `comment_type` bigint(20) DEFAULT NULL,
+  `role_id` bigint(20) NOT NULL,
+  `article_id` bigint(20) NOT NULL,
+  `assoc_id` bigint(20) NOT NULL,
+  `author_id` bigint(20) NOT NULL,
+  `comment_title` varchar(255) NOT NULL,
+  `comments` text,
+  `date_posted` datetime DEFAULT NULL,
+  `date_modified` datetime DEFAULT NULL,
+  `viewable` tinyint(4) DEFAULT NULL,
+  PRIMARY KEY (`comment_id`),
+  KEY `article_comments_article_id` (`article_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=142 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_email_log`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_email_log` (
+  `log_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `article_id` bigint(20) NOT NULL,
+  `sender_id` bigint(20) NOT NULL,
+  `date_sent` datetime NOT NULL,
+  `ip_address` varchar(15) DEFAULT NULL,
+  `event_type` bigint(20) DEFAULT NULL,
+  `assoc_type` bigint(20) DEFAULT NULL,
+  `assoc_id` bigint(20) DEFAULT NULL,
+  `from_address` varchar(255) DEFAULT NULL,
+  `recipients` text,
+  `cc_recipients` text,
+  `bcc_recipients` text,
+  `subject` varchar(255) DEFAULT NULL,
+  `body` text,
+  PRIMARY KEY (`log_id`),
+  KEY `article_email_log_article_id` (`article_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_event_log`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_event_log` (
+  `log_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `article_id` bigint(20) NOT NULL,
+  `user_id` bigint(20) NOT NULL,
+  `date_logged` datetime NOT NULL,
+  `ip_address` varchar(15) NOT NULL,
+  `log_level` varchar(1) DEFAULT NULL,
+  `event_type` bigint(20) DEFAULT NULL,
+  `assoc_type` bigint(20) DEFAULT NULL,
+  `assoc_id` bigint(20) DEFAULT NULL,
+  `message` text,
+  PRIMARY KEY (`log_id`),
+  KEY `article_event_log_article_id` (`article_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_files`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_files` (
+  `file_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `revision` bigint(20) NOT NULL,
+  `source_file_id` bigint(20) DEFAULT NULL,
+  `source_revision` bigint(20) DEFAULT NULL,
+  `article_id` bigint(20) NOT NULL,
+  `fedora_namespace` varchar(40) DEFAULT NULL,
+  `fedora_pid` varchar(40) DEFAULT NULL,
+  `fedora_dsid` varchar(40) DEFAULT NULL,
+  `file_name` varchar(90) NOT NULL,
+  `file_type` varchar(255) NOT NULL,
+  `file_size` bigint(20) NOT NULL,
+  `original_file_name` varchar(127) DEFAULT NULL,
+  `type` varchar(40) NOT NULL,
+  `viewable` tinyint(4) DEFAULT NULL,
+  `date_uploaded` datetime NOT NULL,
+  `date_modified` datetime NOT NULL,
+  `round` tinyint(4) NOT NULL,
+  `assoc_id` bigint(20) DEFAULT NULL,
+  `comment_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`file_id`,`revision`),
+  KEY `article_files_article_id` (`article_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=967 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_galleys`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_galleys` (
+  `galley_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `public_galley_id` varchar(255) DEFAULT NULL,
+  `locale` varchar(5) DEFAULT NULL,
+  `article_id` bigint(20) NOT NULL,
+  `file_id` bigint(20) NOT NULL,
+  `label` varchar(32) DEFAULT NULL,
+  `html_galley` tinyint(4) NOT NULL DEFAULT '0',
+  `style_file_id` bigint(20) DEFAULT NULL,
+  `seq` double NOT NULL DEFAULT '0',
+  `views` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`galley_id`),
+  UNIQUE KEY `article_galleys_public_id` (`public_galley_id`,`article_id`),
+  KEY `article_galleys_article_id` (`article_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=167 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_html_galley_images`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_html_galley_images` (
+  `galley_id` bigint(20) NOT NULL,
+  `file_id` bigint(20) NOT NULL,
+  UNIQUE KEY `article_html_galley_images_pkey` (`galley_id`,`file_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_notes`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_notes` (
+  `note_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `article_id` bigint(20) NOT NULL,
+  `user_id` bigint(20) NOT NULL,
+  `date_created` datetime NOT NULL,
+  `date_modified` datetime NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `note` text,
+  `file_id` bigint(20) NOT NULL,
+  PRIMARY KEY (`note_id`),
+  KEY `article_notes_article_id` (`article_id`),
+  KEY `article_notes_user_id` (`user_id`),
+  KEY `article_notes_file_id` (`file_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_search_keyword_list`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_search_keyword_list` (
+  `keyword_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `keyword_text` varchar(60) NOT NULL,
+  PRIMARY KEY (`keyword_id`),
+  UNIQUE KEY `article_search_keyword_text` (`keyword_text`)
+) ENGINE=MyISAM AUTO_INCREMENT=4772 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_search_object_keywords`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_search_object_keywords` (
+  `object_id` bigint(20) NOT NULL,
+  `keyword_id` bigint(20) NOT NULL,
+  `pos` int(11) NOT NULL,
+  UNIQUE KEY `article_search_object_keywords_pkey` (`object_id`,`pos`),
+  KEY `article_search_object_keywords_keyword_id` (`keyword_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_search_objects`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_search_objects` (
+  `object_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `article_id` bigint(20) NOT NULL,
+  `type` int(11) NOT NULL,
+  `assoc_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`object_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2340 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_settings` (
+  `article_id` bigint(20) NOT NULL,
+  `locale` varchar(5) CHARACTER SET latin1 NOT NULL DEFAULT '',
+  `setting_name` varchar(255) CHARACTER SET latin1 NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) CHARACTER SET latin1 NOT NULL,
+  UNIQUE KEY `article_settings_pkey` (`article_id`,`locale`,`setting_name`),
+  KEY `article_settings_article_id` (`article_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_supp_file_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_supp_file_settings` (
+  `supp_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `article_supp_file_settings_pkey` (`supp_id`,`locale`,`setting_name`),
+  KEY `article_supp_file_settings_supp_id` (`supp_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_supplementary_files`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_supplementary_files` (
+  `supp_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `file_id` bigint(20) NOT NULL,
+  `article_id` bigint(20) NOT NULL,
+  `type` varchar(255) DEFAULT NULL,
+  `language` varchar(10) DEFAULT NULL,
+  `public_supp_file_id` varchar(255) DEFAULT NULL,
+  `date_created` date DEFAULT NULL,
+  `show_reviewers` tinyint(4) DEFAULT '0',
+  `date_submitted` datetime NOT NULL,
+  `seq` double NOT NULL DEFAULT '0',
+  PRIMARY KEY (`supp_id`),
+  KEY `article_supplementary_files_file_id` (`file_id`),
+  KEY `article_supplementary_files_article_id` (`article_id`),
+  KEY `supp_public_supp_file_id` (`public_supp_file_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=67 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `article_xml_galleys`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `article_xml_galleys` (
+  `xml_galley_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `galley_id` bigint(20) NOT NULL,
+  `article_id` bigint(20) NOT NULL,
+  `label` varchar(32) NOT NULL,
+  `galley_type` varchar(255) NOT NULL,
+  `views` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`xml_galley_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `articles`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `articles` (
+  `article_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `locale` varchar(5) DEFAULT NULL,
+  `user_id` bigint(20) NOT NULL,
+  `journal_id` bigint(20) NOT NULL,
+  `section_id` bigint(20) DEFAULT NULL,
+  `language` varchar(10) DEFAULT 'en',
+  `comments_to_ed` text,
+  `citations` text,
+  `date_submitted` datetime DEFAULT NULL,
+  `last_modified` datetime DEFAULT NULL,
+  `date_status_modified` datetime DEFAULT NULL,
+  `status` tinyint(4) NOT NULL DEFAULT '1',
+  `submission_progress` tinyint(4) NOT NULL DEFAULT '1',
+  `current_round` tinyint(4) NOT NULL DEFAULT '1',
+  `submission_file_id` bigint(20) DEFAULT NULL,
+  `revised_file_id` bigint(20) DEFAULT NULL,
+  `review_file_id` bigint(20) DEFAULT NULL,
+  `editor_file_id` bigint(20) DEFAULT NULL,
+  `pages` varchar(255) DEFAULT NULL,
+  `doi` varchar(255) DEFAULT NULL,
+  `fast_tracked` tinyint(4) NOT NULL DEFAULT '0',
+  `hide_author` tinyint(4) NOT NULL DEFAULT '0',
+  `comments_status` tinyint(4) NOT NULL DEFAULT '0',
+  `proof_approved` tinyint(4) NOT NULL DEFAULT '0',
+  `proof_comments` varchar(255) DEFAULT NULL,
+  `creatively_complete` tinyint(4) NOT NULL DEFAULT '0',
+  `editor_attention` tinyint(4) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`article_id`),
+  KEY `articles_user_id` (`user_id`),
+  KEY `articles_journal_id` (`journal_id`),
+  KEY `articles_section_id` (`section_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=222 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `auth_sources`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `auth_sources` (
+  `auth_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `title` varchar(60) NOT NULL,
+  `plugin` varchar(32) NOT NULL,
+  `auth_default` tinyint(4) NOT NULL DEFAULT '0',
+  `settings` text,
+  PRIMARY KEY (`auth_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `author_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `author_settings` (
+  `author_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `author_settings_pkey` (`author_id`,`locale`,`setting_name`),
+  KEY `author_settings_author_id` (`author_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `authors`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `authors` (
+  `author_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `submission_id` bigint(20) NOT NULL,
+  `primary_contact` tinyint(4) NOT NULL DEFAULT '0',
+  `seq` double NOT NULL DEFAULT '0',
+  `first_name` varchar(40) NOT NULL,
+  `middle_name` varchar(40) DEFAULT NULL,
+  `last_name` varchar(90) NOT NULL,
+  `country` varchar(90) DEFAULT NULL,
+  `email` varchar(90) NOT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  `user_group_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`author_id`),
+  KEY `authors_submission_id` (`submission_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=223 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `books_for_review`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `books_for_review` (
+  `book_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `journal_id` bigint(20) NOT NULL,
+  `status` smallint(6) NOT NULL,
+  `author_type` smallint(6) NOT NULL,
+  `publisher` varchar(255) NOT NULL,
+  `year` smallint(6) NOT NULL,
+  `language` varchar(10) NOT NULL DEFAULT 'en',
+  `copy` tinyint(4) NOT NULL DEFAULT '0',
+  `url` varchar(255) DEFAULT NULL,
+  `edition` tinyint(4) DEFAULT NULL,
+  `pages` smallint(6) DEFAULT NULL,
+  `isbn` varchar(30) DEFAULT NULL,
+  `date_created` datetime NOT NULL,
+  `date_requested` datetime DEFAULT NULL,
+  `date_assigned` datetime DEFAULT NULL,
+  `date_mailed` datetime DEFAULT NULL,
+  `date_due` datetime DEFAULT NULL,
+  `date_submitted` datetime DEFAULT NULL,
+  `user_id` bigint(20) DEFAULT NULL,
+  `editor_id` bigint(20) DEFAULT NULL,
+  `article_id` bigint(20) DEFAULT NULL,
+  `notes` text,
+  PRIMARY KEY (`book_id`),
+  KEY `bfr_id` (`book_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `books_for_review_authors`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `books_for_review_authors` (
+  `author_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `book_id` bigint(20) NOT NULL,
+  `seq` double NOT NULL DEFAULT '0',
+  `first_name` varchar(40) NOT NULL,
+  `middle_name` varchar(40) DEFAULT NULL,
+  `last_name` varchar(90) NOT NULL,
+  PRIMARY KEY (`author_id`),
+  KEY `bfr_book_id` (`book_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `books_for_review_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `books_for_review_settings` (
+  `book_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `bfr_settings_pkey` (`book_id`,`locale`,`setting_name`),
+  KEY `bfr_settings_book_id` (`book_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `captchas`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `captchas` (
+  `captcha_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `session_id` varchar(40) NOT NULL,
+  `value` varchar(20) NOT NULL,
+  `date_created` datetime NOT NULL,
+  PRIMARY KEY (`captcha_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `citation_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `citation_settings` (
+  `citation_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `citation_settings_pkey` (`citation_id`,`locale`,`setting_name`),
+  KEY `citation_settings_citation_id` (`citation_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `citations`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `citations` (
+  `citation_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `assoc_type` bigint(20) NOT NULL DEFAULT '0',
+  `assoc_id` bigint(20) NOT NULL DEFAULT '0',
+  `citation_state` bigint(20) NOT NULL,
+  `raw_citation` text,
+  `seq` bigint(20) NOT NULL DEFAULT '0',
+  `lock_id` varchar(23) DEFAULT NULL,
+  PRIMARY KEY (`citation_id`),
+  UNIQUE KEY `citations_assoc_seq` (`assoc_type`,`assoc_id`,`seq`),
+  KEY `citations_assoc` (`assoc_type`,`assoc_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `comments`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `comments` (
+  `comment_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `submission_id` bigint(20) NOT NULL,
+  `parent_comment_id` bigint(20) DEFAULT NULL,
+  `num_children` int(11) NOT NULL DEFAULT '0',
+  `user_id` bigint(20) DEFAULT NULL,
+  `poster_ip` varchar(15) NOT NULL,
+  `poster_name` varchar(90) DEFAULT NULL,
+  `poster_email` varchar(90) DEFAULT NULL,
+  `title` varchar(255) NOT NULL,
+  `body` text,
+  `date_posted` datetime DEFAULT NULL,
+  `date_modified` datetime DEFAULT NULL,
+  PRIMARY KEY (`comment_id`),
+  KEY `comments_submission_id` (`submission_id`),
+  KEY `comments_parent_comment_id` (`parent_comment_id`),
+  KEY `comments_user_id` (`user_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `completed_payments`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `completed_payments` (
+  `completed_payment_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `timestamp` datetime NOT NULL,
+  `payment_type` bigint(20) NOT NULL,
+  `journal_id` bigint(20) NOT NULL,
+  `user_id` bigint(20) DEFAULT NULL,
+  `assoc_id` bigint(20) DEFAULT NULL,
+  `amount` double NOT NULL,
+  `currency_code_alpha` varchar(3) DEFAULT NULL,
+  `payment_method_plugin_name` varchar(80) DEFAULT NULL,
+  PRIMARY KEY (`completed_payment_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `controlled_vocab_entries`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `controlled_vocab_entries` (
+  `controlled_vocab_entry_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `controlled_vocab_id` bigint(20) NOT NULL,
+  `seq` double DEFAULT NULL,
+  PRIMARY KEY (`controlled_vocab_entry_id`),
+  KEY `controlled_vocab_entries_cv_id` (`controlled_vocab_id`,`seq`)
+) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `controlled_vocab_entry_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `controlled_vocab_entry_settings` (
+  `controlled_vocab_entry_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `c_v_e_s_pkey` (`controlled_vocab_entry_id`,`locale`,`setting_name`),
+  KEY `c_v_e_s_entry_id` (`controlled_vocab_entry_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `controlled_vocabs`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `controlled_vocabs` (
+  `controlled_vocab_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `symbolic` varchar(64) NOT NULL,
+  `assoc_type` bigint(20) NOT NULL DEFAULT '0',
+  `assoc_id` bigint(20) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`controlled_vocab_id`),
+  UNIQUE KEY `controlled_vocab_symbolic` (`symbolic`,`assoc_type`,`assoc_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=42 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `counter_monthly_log`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `counter_monthly_log` (
+  `year` bigint(20) NOT NULL,
+  `month` bigint(20) NOT NULL,
+  `journal_id` bigint(20) NOT NULL,
+  `count_html` bigint(20) NOT NULL DEFAULT '0',
+  `count_pdf` bigint(20) NOT NULL DEFAULT '0',
+  `count_other` bigint(20) NOT NULL DEFAULT '0',
+  UNIQUE KEY `counter_monthly_log_key` (`year`,`month`,`journal_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `custom_issue_orders`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `custom_issue_orders` (
+  `issue_id` bigint(20) NOT NULL,
+  `journal_id` bigint(20) NOT NULL,
+  `seq` double NOT NULL DEFAULT '0',
+  UNIQUE KEY `custom_issue_orders_pkey` (`issue_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `custom_section_orders`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `custom_section_orders` (
+  `issue_id` bigint(20) NOT NULL,
+  `section_id` bigint(20) NOT NULL,
+  `seq` double NOT NULL DEFAULT '0',
+  UNIQUE KEY `custom_section_orders_pkey` (`issue_id`,`section_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `edit_assignments`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `edit_assignments` (
+  `edit_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `article_id` bigint(20) NOT NULL,
+  `editor_id` bigint(20) NOT NULL,
+  `can_edit` tinyint(4) NOT NULL DEFAULT '1',
+  `can_review` tinyint(4) NOT NULL DEFAULT '1',
+  `date_assigned` datetime DEFAULT NULL,
+  `date_notified` datetime DEFAULT NULL,
+  `date_underway` datetime DEFAULT NULL,
+  PRIMARY KEY (`edit_id`),
+  KEY `edit_assignments_article_id` (`article_id`),
+  KEY `edit_assignments_editor_id` (`editor_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=147 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `edit_decisions`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `edit_decisions` (
+  `edit_decision_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `article_id` bigint(20) NOT NULL,
+  `round` tinyint(4) NOT NULL,
+  `editor_id` bigint(20) NOT NULL,
+  `decision` tinyint(4) NOT NULL,
+  `date_decided` datetime NOT NULL,
+  PRIMARY KEY (`edit_decision_id`),
+  KEY `edit_decisions_article_id` (`article_id`),
+  KEY `edit_decisions_editor_id` (`editor_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=167 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `email_templates`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `email_templates` (
+  `email_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `email_key` varchar(30) NOT NULL,
+  `assoc_type` bigint(20) DEFAULT '0',
+  `assoc_id` bigint(20) DEFAULT '0',
+  `enabled` tinyint(4) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`email_id`),
+  UNIQUE KEY `email_templates_email_key` (`email_key`,`assoc_type`,`assoc_id`),
+  KEY `email_templates_assoc` (`assoc_type`,`assoc_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `email_templates_data`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `email_templates_data` (
+  `email_key` varchar(30) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT 'en_US',
+  `assoc_type` bigint(20) DEFAULT '0',
+  `assoc_id` bigint(20) DEFAULT '0',
+  `subject` varchar(120) NOT NULL,
+  `body` text,
+  UNIQUE KEY `email_templates_data_pkey` (`email_key`,`locale`,`assoc_type`,`assoc_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `email_templates_default`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `email_templates_default` (
+  `email_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `email_key` varchar(30) NOT NULL,
+  `can_disable` tinyint(4) NOT NULL DEFAULT '1',
+  `can_edit` tinyint(4) NOT NULL DEFAULT '1',
+  `from_role_id` bigint(20) DEFAULT NULL,
+  `to_role_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`email_id`),
+  KEY `email_templates_default_email_key` (`email_key`)
+) ENGINE=MyISAM AUTO_INCREMENT=77 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `email_templates_default_data`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `email_templates_default_data` (
+  `email_key` varchar(30) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT 'en_US',
+  `subject` varchar(120) NOT NULL,
+  `body` text,
+  `description` text,
+  UNIQUE KEY `email_templates_default_data_pkey` (`email_key`,`locale`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `external_feed_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `external_feed_settings` (
+  `feed_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `external_feed_settings_pkey` (`feed_id`,`locale`,`setting_name`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `external_feeds`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `external_feeds` (
+  `feed_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `journal_id` bigint(20) NOT NULL,
+  `url` varchar(255) NOT NULL,
+  `seq` double NOT NULL DEFAULT '0',
+  `display_homepage` tinyint(4) NOT NULL DEFAULT '0',
+  `display_block` smallint(6) NOT NULL DEFAULT '0',
+  `limit_items` tinyint(4) DEFAULT '0',
+  `recent_items` smallint(6) DEFAULT NULL,
+  PRIMARY KEY (`feed_id`),
+  KEY `external_feeds_journal_id` (`journal_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `filter_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `filter_settings` (
+  `filter_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `filter_settings_pkey` (`filter_id`,`locale`,`setting_name`),
+  KEY `filter_settings_id` (`filter_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `filters`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `filters` (
+  `filter_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `context_id` bigint(20) NOT NULL DEFAULT '0',
+  `display_name` varchar(255) DEFAULT NULL,
+  `class_name` varchar(255) DEFAULT NULL,
+  `input_type` varchar(255) DEFAULT NULL,
+  `output_type` varchar(255) DEFAULT NULL,
+  `is_template` tinyint(4) NOT NULL DEFAULT '0',
+  `parent_filter_id` bigint(20) NOT NULL DEFAULT '0',
+  `seq` bigint(20) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`filter_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=23 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `group_memberships`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `group_memberships` (
+  `user_id` bigint(20) NOT NULL,
+  `group_id` bigint(20) NOT NULL,
+  `about_displayed` tinyint(4) NOT NULL DEFAULT '1',
+  `seq` double NOT NULL DEFAULT '0',
+  UNIQUE KEY `group_memberships_pkey` (`user_id`,`group_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `group_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `group_settings` (
+  `group_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `group_settings_pkey` (`group_id`,`locale`,`setting_name`),
+  KEY `group_settings_group_id` (`group_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `groups`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `groups` (
+  `group_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `assoc_type` smallint(6) DEFAULT NULL,
+  `publish_email` smallint(6) DEFAULT NULL,
+  `assoc_id` bigint(20) DEFAULT NULL,
+  `context` bigint(20) DEFAULT NULL,
+  `about_displayed` tinyint(4) NOT NULL DEFAULT '0',
+  `seq` double NOT NULL DEFAULT '0',
+  PRIMARY KEY (`group_id`),
+  KEY `groups_assoc` (`assoc_type`,`assoc_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `institutional_subscription_ip`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `institutional_subscription_ip` (
+  `institutional_subscription_ip_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `subscription_id` bigint(20) NOT NULL,
+  `ip_string` varchar(40) NOT NULL,
+  `ip_start` bigint(20) NOT NULL,
+  `ip_end` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`institutional_subscription_ip_id`),
+  KEY `institutional_subscription_ip_subscription_id` (`subscription_id`),
+  KEY `institutional_subscription_ip_start` (`ip_start`),
+  KEY `institutional_subscription_ip_end` (`ip_end`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `institutional_subscriptions`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `institutional_subscriptions` (
+  `institutional_subscription_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `subscription_id` bigint(20) NOT NULL,
+  `institution_name` varchar(255) NOT NULL,
+  `mailing_address` varchar(255) DEFAULT NULL,
+  `domain` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`institutional_subscription_id`),
+  KEY `institutional_subscriptions_subscription_id` (`subscription_id`),
+  KEY `institutional_subscriptions_domain` (`domain`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `issue_comments`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `issue_comments` (
+  `comment_id` int(11) NOT NULL AUTO_INCREMENT,
+  `issue_id` int(11) NOT NULL,
+  `reviewer_id` int(11) NOT NULL,
+  `comment` text,
+  `date_commented` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`comment_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `issue_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `issue_settings` (
+  `issue_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `issue_settings_pkey` (`issue_id`,`locale`,`setting_name`),
+  KEY `issue_settings_issue_id` (`issue_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `issues`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `issues` (
+  `issue_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `journal_id` bigint(20) NOT NULL,
+  `volume` smallint(6) DEFAULT NULL,
+  `number` varchar(10) DEFAULT NULL,
+  `year` smallint(6) DEFAULT NULL,
+  `published` tinyint(4) NOT NULL DEFAULT '0',
+  `current` tinyint(4) NOT NULL DEFAULT '0',
+  `date_published` datetime DEFAULT NULL,
+  `date_notified` datetime DEFAULT NULL,
+  `access_status` tinyint(4) NOT NULL DEFAULT '1',
+  `open_access_date` datetime DEFAULT NULL,
+  `public_issue_id` varchar(255) DEFAULT NULL,
+  `show_volume` tinyint(4) NOT NULL DEFAULT '0',
+  `show_number` tinyint(4) NOT NULL DEFAULT '0',
+  `show_year` tinyint(4) NOT NULL DEFAULT '0',
+  `show_title` tinyint(4) NOT NULL DEFAULT '0',
+  `style_file_name` varchar(90) DEFAULT NULL,
+  `original_style_file_name` varchar(255) DEFAULT NULL,
+  `EIC_comments` varchar(255) DEFAULT NULL,
+  `fedora_pid` varchar(40) DEFAULT NULL,
+  `fedora_namespace` varchar(40) DEFAULT NULL,
+  `fedora_dsid` varchar(40) DEFAULT NULL,
+  `ISBN` varchar(40) DEFAULT NULL,
+  `pending` tinyint(1) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`issue_id`),
+  UNIQUE KEY `issues_public_issue_id` (`public_issue_id`,`journal_id`),
+  KEY `issues_journal_id` (`journal_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=25 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `journal_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `journal_settings` (
+  `journal_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `journal_settings_pkey` (`journal_id`,`locale`,`setting_name`),
+  KEY `journal_settings_journal_id` (`journal_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `journals`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `journals` (
+  `journal_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `path` varchar(32) NOT NULL,
+  `seq` double NOT NULL DEFAULT '0',
+  `primary_locale` varchar(5) NOT NULL,
+  `enabled` tinyint(4) NOT NULL DEFAULT '1',
+  PRIMARY KEY (`journal_id`),
+  UNIQUE KEY `journals_path` (`path`)
+) ENGINE=MyISAM AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `metadata_description_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `metadata_description_settings` (
+  `metadata_description_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `metadata_descripton_settings_pkey` (`metadata_description_id`,`locale`,`setting_name`),
+  KEY `metadata_description_settings_id` (`metadata_description_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `metadata_descriptions`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `metadata_descriptions` (
+  `metadata_description_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `assoc_type` bigint(20) NOT NULL DEFAULT '0',
+  `assoc_id` bigint(20) NOT NULL DEFAULT '0',
+  `schema_namespace` varchar(255) NOT NULL,
+  `schema_name` varchar(255) NOT NULL,
+  `display_name` varchar(255) DEFAULT NULL,
+  `seq` bigint(20) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`metadata_description_id`),
+  KEY `metadata_descriptions_assoc` (`assoc_type`,`assoc_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `notes`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `notes` (
+  `note_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `assoc_type` smallint(6) DEFAULT NULL,
+  `assoc_id` bigint(20) DEFAULT NULL,
+  `user_id` bigint(20) NOT NULL,
+  `date_created` datetime NOT NULL,
+  `date_modified` datetime DEFAULT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `file_id` bigint(20) DEFAULT NULL,
+  `context_id` bigint(20) DEFAULT NULL,
+  `contents` text,
+  PRIMARY KEY (`note_id`),
+  KEY `notes_assoc` (`assoc_type`,`assoc_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `notification_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `notification_settings` (
+  `setting_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `setting_name` varchar(64) NOT NULL,
+  `setting_value` text,
+  `user_id` bigint(20) NOT NULL,
+  `product` varchar(20) DEFAULT NULL,
+  `context` bigint(20) NOT NULL,
+  PRIMARY KEY (`setting_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=90 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `notifications`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `notifications` (
+  `notification_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(20) NOT NULL,
+  `level` bigint(20) DEFAULT NULL,
+  `date_created` datetime NOT NULL,
+  `date_read` datetime DEFAULT NULL,
+  `title` varchar(255) DEFAULT NULL,
+  `contents` text,
+  `param` varchar(255) DEFAULT NULL,
+  `location` varchar(255) DEFAULT NULL,
+  `is_localized` tinyint(4) NOT NULL DEFAULT '1',
+  `product` varchar(20) DEFAULT NULL,
+  `context` bigint(20) NOT NULL,
+  `assoc_type` bigint(20) NOT NULL,
+  PRIMARY KEY (`notification_id`),
+  KEY `notifications_by_user` (`product`,`user_id`,`level`,`context`)
+) ENGINE=MyISAM AUTO_INCREMENT=6790 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `oai_resumption_tokens`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `oai_resumption_tokens` (
+  `token` varchar(32) NOT NULL,
+  `expire` bigint(20) NOT NULL,
+  `record_offset` int(11) NOT NULL,
+  `params` text,
+  UNIQUE KEY `oai_resumption_tokens_pkey` (`token`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `paypal_transactions`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `paypal_transactions` (
+  `txn_id` varchar(17) NOT NULL,
+  `txn_type` varchar(20) DEFAULT NULL,
+  `payer_email` varchar(127) DEFAULT NULL,
+  `receiver_email` varchar(127) DEFAULT NULL,
+  `item_number` varchar(127) DEFAULT NULL,
+  `payment_date` varchar(127) DEFAULT NULL,
+  `payer_id` varchar(13) DEFAULT NULL,
+  `receiver_id` varchar(13) DEFAULT NULL,
+  PRIMARY KEY (`txn_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `plugin_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `plugin_settings` (
+  `plugin_name` varchar(80) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `journal_id` bigint(20) NOT NULL,
+  `setting_name` varchar(80) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `plugin_settings_pkey` (`plugin_name`,`locale`,`journal_id`,`setting_name`),
+  KEY `plugin_settings_plugin_name` (`plugin_name`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `processes`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `processes` (
+  `process_id` varchar(23) NOT NULL,
+  `process_type` tinyint(4) NOT NULL,
+  `time_started` bigint(20) NOT NULL,
+  `obliterated` tinyint(4) NOT NULL DEFAULT '0',
+  UNIQUE KEY `processes_pkey` (`process_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `published_articles`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `published_articles` (
+  `pub_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `article_id` bigint(20) NOT NULL,
+  `issue_id` bigint(20) NOT NULL,
+  `date_published` datetime DEFAULT NULL,
+  `seq` double NOT NULL DEFAULT '0',
+  `views` int(11) NOT NULL DEFAULT '0',
+  `access_status` tinyint(4) NOT NULL DEFAULT '0',
+  `public_article_id` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`pub_id`),
+  UNIQUE KEY `published_articles_article_id` (`article_id`),
+  KEY `published_articles_issue_id` (`issue_id`),
+  KEY `published_articles_public_article_id` (`public_article_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=135 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `queued_payments`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `queued_payments` (
+  `queued_payment_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `date_created` datetime NOT NULL,
+  `date_modified` datetime NOT NULL,
+  `expiry_date` date DEFAULT NULL,
+  `payment_data` text,
+  PRIMARY KEY (`queued_payment_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `referral_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `referral_settings` (
+  `referral_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `referral_settings_pkey` (`referral_id`,`locale`,`setting_name`),
+  KEY `referral_settings_referral_id` (`referral_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `referrals`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `referrals` (
+  `referral_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `article_id` bigint(20) NOT NULL,
+  `status` smallint(6) NOT NULL,
+  `url` varchar(255) NOT NULL,
+  `date_added` datetime NOT NULL,
+  `link_count` bigint(20) NOT NULL,
+  PRIMARY KEY (`referral_id`),
+  UNIQUE KEY `referral_article_id` (`article_id`,`url`)
+) ENGINE=MyISAM AUTO_INCREMENT=24 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `review_assignments`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `review_assignments` (
+  `review_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `submission_id` bigint(20) NOT NULL,
+  `reviewer_id` bigint(20) NOT NULL,
+  `competing_interests` text,
+  `regret_message` text,
+  `recommendation` tinyint(4) DEFAULT NULL,
+  `date_assigned` datetime DEFAULT NULL,
+  `date_notified` datetime DEFAULT NULL,
+  `date_confirmed` datetime DEFAULT NULL,
+  `date_completed` datetime DEFAULT NULL,
+  `date_acknowledged` datetime DEFAULT NULL,
+  `date_due` datetime DEFAULT NULL,
+  `date_response_due` datetime DEFAULT NULL,
+  `last_modified` datetime DEFAULT NULL,
+  `reminder_was_automatic` tinyint(4) NOT NULL DEFAULT '0',
+  `declined` tinyint(4) NOT NULL DEFAULT '0',
+  `replaced` tinyint(4) NOT NULL DEFAULT '0',
+  `cancelled` tinyint(4) NOT NULL DEFAULT '0',
+  `reviewer_file_id` bigint(20) DEFAULT NULL,
+  `date_rated` datetime DEFAULT NULL,
+  `date_reminded` datetime DEFAULT NULL,
+  `quality` tinyint(4) DEFAULT NULL,
+  `review_type` tinyint(4) NOT NULL DEFAULT '1',
+  `review_method` tinyint(4) NOT NULL DEFAULT '1',
+  `round` tinyint(4) NOT NULL DEFAULT '1',
+  `step` tinyint(4) NOT NULL DEFAULT '1',
+  `review_form_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`review_id`),
+  KEY `review_assignments_submission_id` (`submission_id`),
+  KEY `review_assignments_reviewer_id` (`reviewer_id`),
+  KEY `review_assignments_form_id` (`review_form_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=96 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `review_form_element_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `review_form_element_settings` (
+  `review_form_element_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `review_form_element_settings_pkey` (`review_form_element_id`,`locale`,`setting_name`),
+  KEY `review_form_element_settings_review_form_element_id` (`review_form_element_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `review_form_elements`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `review_form_elements` (
+  `review_form_element_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `review_form_id` bigint(20) NOT NULL,
+  `seq` double DEFAULT NULL,
+  `element_type` bigint(20) DEFAULT NULL,
+  `required` tinyint(4) DEFAULT NULL,
+  `included` tinyint(4) DEFAULT NULL,
+  PRIMARY KEY (`review_form_element_id`),
+  KEY `review_form_elements_review_form_id` (`review_form_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `review_form_responses`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `review_form_responses` (
+  `review_form_element_id` bigint(20) NOT NULL,
+  `review_id` bigint(20) NOT NULL,
+  `response_type` varchar(6) DEFAULT NULL,
+  `response_value` text,
+  KEY `review_form_responses_pkey` (`review_form_element_id`,`review_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `review_form_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `review_form_settings` (
+  `review_form_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `review_form_settings_pkey` (`review_form_id`,`locale`,`setting_name`),
+  KEY `review_form_settings_review_form_id` (`review_form_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `review_forms`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `review_forms` (
+  `review_form_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `assoc_type` bigint(20) DEFAULT NULL,
+  `assoc_id` bigint(20) DEFAULT NULL,
+  `seq` double DEFAULT NULL,
+  `is_active` tinyint(4) DEFAULT NULL,
+  PRIMARY KEY (`review_form_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `review_rounds`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `review_rounds` (
+  `submission_id` bigint(20) NOT NULL,
+  `round` tinyint(4) NOT NULL,
+  `review_revision` bigint(20) DEFAULT NULL,
+  `review_type` bigint(20) DEFAULT NULL,
+  `status` bigint(20) DEFAULT NULL,
+  UNIQUE KEY `review_rounds_pkey` (`submission_id`,`round`,`review_type`),
+  KEY `review_rounds_submission_id` (`submission_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `roles`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `roles` (
+  `journal_id` bigint(20) NOT NULL,
+  `user_id` bigint(20) NOT NULL,
+  `role_id` bigint(20) NOT NULL,
+  `approved` tinyint(1) NOT NULL DEFAULT '1',
+  UNIQUE KEY `roles_pkey` (`journal_id`,`user_id`,`role_id`),
+  KEY `roles_journal_id` (`journal_id`),
+  KEY `roles_user_id` (`user_id`),
+  KEY `roles_role_id` (`role_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `rt_contexts`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `rt_contexts` (
+  `context_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `version_id` bigint(20) NOT NULL,
+  `title` varchar(120) NOT NULL,
+  `abbrev` varchar(32) NOT NULL,
+  `description` text,
+  `cited_by` tinyint(4) NOT NULL DEFAULT '0',
+  `author_terms` tinyint(4) NOT NULL DEFAULT '0',
+  `define_terms` tinyint(4) NOT NULL DEFAULT '0',
+  `geo_terms` tinyint(4) NOT NULL DEFAULT '0',
+  `seq` double NOT NULL DEFAULT '0',
+  PRIMARY KEY (`context_id`),
+  KEY `rt_contexts_version_id` (`version_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=4200 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `rt_searches`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `rt_searches` (
+  `search_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `context_id` bigint(20) NOT NULL,
+  `title` varchar(120) NOT NULL,
+  `description` text,
+  `url` text,
+  `search_url` text,
+  `search_post` text,
+  `seq` double NOT NULL DEFAULT '0',
+  PRIMARY KEY (`search_id`),
+  KEY `rt_searches_context_id` (`context_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=21778 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `rt_versions`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `rt_versions` (
+  `version_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `journal_id` bigint(20) NOT NULL,
+  `version_key` varchar(40) NOT NULL,
+  `locale` varchar(5) DEFAULT 'en_US',
+  `title` varchar(120) NOT NULL,
+  `description` text,
+  PRIMARY KEY (`version_id`),
+  KEY `rt_versions_journal_id` (`journal_id`),
+  KEY `rt_versions_version_key` (`version_key`)
+) ENGINE=MyISAM AUTO_INCREMENT=324 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `scheduled_tasks`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `scheduled_tasks` (
+  `class_name` varchar(255) NOT NULL,
+  `last_run` datetime DEFAULT NULL,
+  UNIQUE KEY `scheduled_tasks_pkey` (`class_name`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `section_editors`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `section_editors` (
+  `journal_id` bigint(20) NOT NULL,
+  `section_id` bigint(20) NOT NULL,
+  `user_id` bigint(20) NOT NULL,
+  `can_edit` tinyint(4) NOT NULL DEFAULT '1',
+  `can_review` tinyint(4) NOT NULL DEFAULT '1',
+  UNIQUE KEY `section_editors_pkey` (`journal_id`,`section_id`,`user_id`),
+  KEY `section_editors_journal_id` (`journal_id`),
+  KEY `section_editors_section_id` (`section_id`),
+  KEY `section_editors_user_id` (`user_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `section_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `section_settings` (
+  `section_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `section_settings_pkey` (`section_id`,`locale`,`setting_name`),
+  KEY `section_settings_section_id` (`section_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `sections`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `sections` (
+  `section_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `journal_id` bigint(20) NOT NULL,
+  `review_form_id` bigint(20) DEFAULT NULL,
+  `seq` double NOT NULL DEFAULT '0',
+  `editor_restricted` tinyint(4) NOT NULL DEFAULT '0',
+  `meta_indexed` tinyint(4) NOT NULL DEFAULT '0',
+  `meta_reviewed` tinyint(4) NOT NULL DEFAULT '1',
+  `abstracts_not_required` tinyint(4) NOT NULL DEFAULT '0',
+  `hide_title` tinyint(4) NOT NULL DEFAULT '0',
+  `hide_author` tinyint(4) NOT NULL DEFAULT '0',
+  `hide_about` tinyint(4) NOT NULL DEFAULT '0',
+  `disable_comments` tinyint(4) NOT NULL DEFAULT '0',
+  `abstract_word_count` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`section_id`),
+  KEY `sections_journal_id` (`journal_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=102 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `sessions`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `sessions` (
+  `session_id` varchar(40) NOT NULL,
+  `user_id` bigint(20) DEFAULT NULL,
+  `ip_address` varchar(39) NOT NULL,
+  `user_agent` varchar(255) DEFAULT NULL,
+  `created` bigint(20) NOT NULL DEFAULT '0',
+  `last_used` bigint(20) NOT NULL DEFAULT '0',
+  `remember` tinyint(4) NOT NULL DEFAULT '0',
+  `data` text,
+  `acting_as` bigint(20) NOT NULL DEFAULT '0',
+  UNIQUE KEY `sessions_pkey` (`session_id`),
+  KEY `sessions_user_id` (`user_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `signoffs`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `signoffs` (
+  `signoff_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `symbolic` varchar(32) NOT NULL,
+  `assoc_type` bigint(20) NOT NULL DEFAULT '0',
+  `assoc_id` bigint(20) NOT NULL DEFAULT '0',
+  `user_id` bigint(20) NOT NULL,
+  `file_id` bigint(20) DEFAULT NULL,
+  `file_revision` bigint(20) DEFAULT NULL,
+  `date_notified` datetime DEFAULT NULL,
+  `date_underway` datetime DEFAULT NULL,
+  `date_completed` datetime DEFAULT NULL,
+  `date_acknowledged` datetime DEFAULT NULL,
+  `stage_id` bigint(20) DEFAULT NULL,
+  `user_group_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`signoff_id`),
+  UNIQUE KEY `signoff_symbolic` (`assoc_type`,`assoc_id`,`symbolic`,`user_id`,`stage_id`,`user_group_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=1145 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `site`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `site` (
+  `redirect` bigint(20) NOT NULL DEFAULT '0',
+  `primary_locale` varchar(5) NOT NULL,
+  `min_password_length` tinyint(4) NOT NULL DEFAULT '6',
+  `installed_locales` varchar(255) NOT NULL DEFAULT 'en_US',
+  `supported_locales` varchar(255) DEFAULT NULL,
+  `original_style_file_name` varchar(255) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `site_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `site_settings` (
+  `setting_name` varchar(255) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `site_settings_pkey` (`setting_name`,`locale`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `static_page_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `static_page_settings` (
+  `static_page_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` longtext,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `static_page_settings_pkey` (`static_page_id`,`locale`,`setting_name`),
+  KEY `static_page_settings_static_page_id` (`static_page_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `static_pages`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `static_pages` (
+  `static_page_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `path` varchar(255) NOT NULL,
+  `journal_id` bigint(20) NOT NULL,
+  PRIMARY KEY (`static_page_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `subscription_type_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `subscription_type_settings` (
+  `type_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `subscription_type_settings_pkey` (`type_id`,`locale`,`setting_name`),
+  KEY `subscription_type_settings_type_id` (`type_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `subscription_types`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `subscription_types` (
+  `type_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `journal_id` bigint(20) NOT NULL,
+  `cost` double NOT NULL,
+  `currency_code_alpha` varchar(3) NOT NULL,
+  `non_expiring` tinyint(4) NOT NULL DEFAULT '0',
+  `duration` smallint(6) DEFAULT NULL,
+  `format` smallint(6) NOT NULL,
+  `institutional` tinyint(4) NOT NULL DEFAULT '0',
+  `membership` tinyint(4) NOT NULL DEFAULT '0',
+  `disable_public_display` tinyint(4) NOT NULL,
+  `seq` double NOT NULL,
+  PRIMARY KEY (`type_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `subscriptions`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `subscriptions` (
+  `subscription_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `journal_id` bigint(20) NOT NULL,
+  `user_id` bigint(20) NOT NULL,
+  `type_id` bigint(20) NOT NULL,
+  `date_start` date DEFAULT NULL,
+  `date_end` datetime DEFAULT NULL,
+  `status` tinyint(4) NOT NULL DEFAULT '1',
+  `membership` varchar(40) DEFAULT NULL,
+  `reference_number` varchar(40) DEFAULT NULL,
+  `notes` text,
+  PRIMARY KEY (`subscription_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `temporary_files`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `temporary_files` (
+  `file_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `user_id` bigint(20) NOT NULL,
+  `file_name` varchar(90) NOT NULL,
+  `file_type` varchar(255) DEFAULT NULL,
+  `file_size` bigint(20) NOT NULL,
+  `original_file_name` varchar(127) DEFAULT NULL,
+  `date_uploaded` datetime NOT NULL,
+  PRIMARY KEY (`file_id`),
+  KEY `temporary_files_user_id` (`user_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `theses`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `theses` (
+  `thesis_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `journal_id` bigint(20) NOT NULL,
+  `status` smallint(6) NOT NULL,
+  `degree` smallint(6) NOT NULL,
+  `degree_name` varchar(255) DEFAULT NULL,
+  `department` varchar(255) NOT NULL,
+  `university` varchar(255) NOT NULL,
+  `date_approved` datetime NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `url` text,
+  `abstract` text,
+  `comment` text,
+  `student_first_name` varchar(40) NOT NULL,
+  `student_middle_name` varchar(40) DEFAULT NULL,
+  `student_last_name` varchar(90) NOT NULL,
+  `student_email` varchar(90) NOT NULL,
+  `student_email_publish` tinyint(4) DEFAULT '0',
+  `student_bio` text,
+  `supervisor_first_name` varchar(40) NOT NULL,
+  `supervisor_middle_name` varchar(40) DEFAULT NULL,
+  `supervisor_last_name` varchar(90) NOT NULL,
+  `supervisor_email` varchar(90) NOT NULL,
+  `discipline` varchar(255) DEFAULT NULL,
+  `subject_class` varchar(255) DEFAULT NULL,
+  `subject` varchar(255) DEFAULT NULL,
+  `coverage_geo` varchar(255) DEFAULT NULL,
+  `coverage_chron` varchar(255) DEFAULT NULL,
+  `coverage_sample` varchar(255) DEFAULT NULL,
+  `method` varchar(255) DEFAULT NULL,
+  `language` varchar(10) DEFAULT 'en',
+  `date_submitted` datetime NOT NULL,
+  PRIMARY KEY (`thesis_id`),
+  KEY `theses_journal_id` (`journal_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `user_settings`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `user_settings` (
+  `user_id` bigint(20) NOT NULL,
+  `locale` varchar(5) NOT NULL DEFAULT '',
+  `setting_name` varchar(255) NOT NULL,
+  `assoc_type` bigint(20) DEFAULT '0',
+  `assoc_id` bigint(20) DEFAULT '0',
+  `setting_value` text,
+  `setting_type` varchar(6) NOT NULL,
+  UNIQUE KEY `user_settings_pkey` (`user_id`,`locale`,`setting_name`,`assoc_type`,`assoc_id`),
+  KEY `user_settings_user_id` (`user_id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `users`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `users` (
+  `user_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `username` varchar(32) NOT NULL,
+  `password` varchar(40) NOT NULL,
+  `salutation` varchar(40) DEFAULT NULL,
+  `first_name` varchar(40) NOT NULL,
+  `middle_name` varchar(40) DEFAULT NULL,
+  `last_name` varchar(90) NOT NULL,
+  `gender` varchar(1) DEFAULT NULL,
+  `initials` varchar(5) DEFAULT NULL,
+  `email` varchar(90) NOT NULL,
+  `url` varchar(255) DEFAULT NULL,
+  `phone` varchar(24) DEFAULT NULL,
+  `fax` varchar(24) DEFAULT NULL,
+  `mailing_address` varchar(255) DEFAULT NULL,
+  `country` varchar(90) DEFAULT NULL,
+  `locales` varchar(255) DEFAULT NULL,
+  `date_last_email` datetime DEFAULT NULL,
+  `date_registered` datetime NOT NULL,
+  `date_validated` datetime DEFAULT NULL,
+  `date_last_login` datetime NOT NULL,
+  `must_change_password` tinyint(4) DEFAULT NULL,
+  `auth_id` bigint(20) DEFAULT NULL,
+  `auth_str` varchar(255) DEFAULT NULL,
+  `disabled` tinyint(4) NOT NULL DEFAULT '0',
+  `disabled_reason` text,
+  PRIMARY KEY (`user_id`),
+  UNIQUE KEY `users_username` (`username`),
+  UNIQUE KEY `users_email` (`email`)
+) ENGINE=MyISAM AUTO_INCREMENT=42 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Table structure for table `versions`
+--
+
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `versions` (
+  `major` int(11) NOT NULL DEFAULT '0',
+  `minor` int(11) NOT NULL DEFAULT '0',
+  `revision` int(11) NOT NULL DEFAULT '0',
+  `build` int(11) NOT NULL DEFAULT '0',
+  `date_installed` datetime NOT NULL,
+  `current` tinyint(4) NOT NULL DEFAULT '0',
+  `product_type` varchar(30) DEFAULT NULL,
+  `product` varchar(30) DEFAULT NULL,
+  `product_class_name` varchar(80) DEFAULT NULL,
+  `lazy_load` tinyint(4) NOT NULL DEFAULT '0',
+  `sitewide` tinyint(4) NOT NULL DEFAULT '0',
+  UNIQUE KEY `versions_pkey` (`product`,`major`,`minor`,`revision`,`build`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2011-12-22 15:23:43

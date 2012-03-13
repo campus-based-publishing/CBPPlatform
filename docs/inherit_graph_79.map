@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_payment.html" title="Abstract class for payments." alt="" coords="6,31,80,59"/>
+<area shape="rect" id="node3" href="$class_o_j_s_completed_payment.html" title="Class describing a payment ready to be in the database." alt="" coords="128,5,293,33"/>
+<area shape="rect" id="node5" href="$class_queued_payment.html" title="Queued (unfulfilled) payment data structure." alt="" coords="150,57,271,85"/>
+<area shape="rect" id="node7" href="$class_o_j_s_queued_payment.html" title="Queued payment data structure for OJS." alt="" coords="341,57,488,85"/>
+</map>

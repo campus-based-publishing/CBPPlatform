@@ -1,0 +1,47 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_block_plugin.html" title="Abstract class for block plugins." alt="" coords="418,525,510,553"/>
+<area shape="rect" id="node49" href="$class_generic_plugin.html" title="Abstract class for generic plugins." alt="" coords="411,1539,517,1567"/>
+<area shape="rect" id="node2" href="$class_plugin.html" title="Abstract class for plugins." alt="" coords="139,1019,197,1047"/>
+<area shape="rect" id="node4" href="$class_p_k_p_plugin.html" title="Abstract class for plugins." alt="" coords="5,1019,91,1047"/>
+<area shape="rect" id="node9" href="$class_announcement_feed_block_plugin.html" title="Class for block component of announcement feed plugin." alt="" coords="565,5,776,33"/>
+<area shape="rect" id="node11" href="$class_author_bios_block_plugin.html" title="Class for author bios block plugin." alt="" coords="593,57,749,85"/>
+<area shape="rect" id="node13" href="$class_custom_block_plugin.html" title="CustomBlockPlugin" alt="" coords="602,109,739,137"/>
+<area shape="rect" id="node15" href="$class_developed_by_block_plugin.html" title="Class for &quot;developed by&quot; block plugin." alt="" coords="586,161,756,189"/>
+<area shape="rect" id="node17" href="$class_donation_block_plugin.html" title="Class for user block plugin." alt="" coords="598,213,743,241"/>
+<area shape="rect" id="node19" href="$class_external_feed_block_plugin.html" title="Class for block component of external feed plugin." alt="" coords="586,265,756,293"/>
+<area shape="rect" id="node21" href="$class_help_block_plugin.html" title="Class for help block plugin." alt="" coords="611,317,730,345"/>
+<area shape="rect" id="node23" href="$class_information_block_plugin.html" title="Class for information block plugin." alt="" coords="592,369,750,397"/>
+<area shape="rect" id="node25" href="$class_keyword_cloud_block_plugin.html" title="Class for keyword cloud block plugin." alt="" coords="582,421,760,449"/>
+<area shape="rect" id="node27" href="$class_language_toggle_block_plugin.html" title="Class for language selector block plugin." alt="" coords="576,473,765,501"/>
+<area shape="rect" id="node29" href="$class_navigation_block_plugin.html" title="Class for navigation block plugin." alt="" coords="594,525,748,553"/>
+<area shape="rect" id="node31" href="$class_notification_block_plugin.html" title="Class for &quot;notification&quot; block plugin." alt="" coords="592,577,749,605"/>
+<area shape="rect" id="node33" href="$class_open_ads_block_plugin.html" title="OpenAds plugin class, block component." alt="" coords="597,629,744,657"/>
+<area shape="rect" id="node35" href="$class_reading_tools_block_plugin.html" title="Class for reading tools block plugin." alt="" coords="585,681,757,709"/>
+<area shape="rect" id="node37" href="$class_related_items_block_plugin.html" title="Class for related items block plugin." alt="" coords="586,733,755,761"/>
+<area shape="rect" id="node39" href="$class_role_block_plugin.html" title="Class for role block plugin." alt="" coords="611,785,730,813"/>
+<area shape="rect" id="node41" href="$class_subscription_block_plugin.html" title="Class for subscription block plugin." alt="" coords="588,837,753,865"/>
+<area shape="rect" id="node43" href="$class_thesis_feed_block_plugin.html" title="Class for block component of thesis feed plugin." alt="" coords="590,889,751,917"/>
+<area shape="rect" id="node45" href="$class_user_block_plugin.html" title="Class for user block plugin." alt="" coords="611,941,730,969"/>
+<area shape="rect" id="node47" href="$class_web_feed_block_plugin.html" title="Class for block component of web feed plugin." alt="" coords="596,993,745,1021"/>
+<area shape="rect" id="node51" href="$class_announcement_feed_plugin.html" title="Annoucement Feed plugin class." alt="" coords="581,1045,760,1073"/>
+<area shape="rect" id="node53" href="$class_books_for_review_plugin.html" title="BooksForReviewPlugin" alt="" coords="591,1097,750,1125"/>
+<area shape="rect" id="node55" href="$class_coins_plugin.html" title="COinS plugin class." alt="" coords="624,1149,717,1177"/>
+<area shape="rect" id="node57" href="$class_counter_plugin.html" title="COUNTER plugin; provides COUNTER statistics." alt="" coords="618,1201,724,1229"/>
+<area shape="rect" id="node59" href="$class_custom_block_manager_plugin.html" title="CustomBlockManagerPlugin" alt="" coords="576,1253,765,1281"/>
+<area shape="rect" id="node61" href="$class_custom_locale_plugin.html" title="This plugin enables customization of locale strings." alt="" coords="599,1305,742,1333"/>
+<area shape="rect" id="node63" href="$class_external_feed_plugin.html" title="ExternalFeed plugin class." alt="" coords="602,1357,740,1385"/>
+<area shape="rect" id="node65" href="$class_google_analytics_plugin.html" title="Google Analytics plugin class." alt="" coords="593,1409,748,1437"/>
+<area shape="rect" id="node67" href="$class_open_ads_plugin.html" title="Integrate OpenAds ad manager with OJS." alt="" coords="614,1461,728,1489"/>
+<area shape="rect" id="node69" href="$class_open_a_i_r_e_plugin.html" title="OpenAIRE plugin class." alt="" coords="610,1513,732,1541"/>
+<area shape="rect" id="node71" href="$class_php_my_visites_plugin.html" title="phpMyVisites plugin class" alt="" coords="601,1565,740,1593"/>
+<area shape="rect" id="node73" href="$class_rounded_corners_plugin.html" title="Rounded Corners plugin class." alt="" coords="591,1617,751,1645"/>
+<area shape="rect" id="node75" href="$class_sehl_plugin.html" title="Search Engine HighLighting plugin." alt="" coords="628,1669,713,1697"/>
+<area shape="rect" id="node77" href="$class_static_pages_plugin.html" title="StaticPagesPlugin" alt="" coords="606,1721,735,1749"/>
+<area shape="rect" id="node79" href="$class_sword_plugin.html" title="Sword deposit plugin." alt="" coords="623,1773,719,1801"/>
+<area shape="rect" id="node81" href="$class_thesis_feed_plugin.html" title="Thesis Feed plugin class." alt="" coords="607,1825,735,1853"/>
+<area shape="rect" id="node83" href="$class_thesis_plugin.html" title="Thesis abstracts plugin class." alt="" coords="622,1877,720,1905"/>
+<area shape="rect" id="node85" href="$class_tiny_m_c_e_plugin.html" title="TinyMCE WYSIWYG plugin for textareas &#45; to allow cross&#45;browser HTML editing." alt="" coords="614,1929,727,1957"/>
+<area shape="rect" id="node87" href="$class_translator_plugin.html" title="This plugin helps with translation maintenance." alt="" coords="612,1981,730,2009"/>
+<area shape="rect" id="node89" href="$class_web_feed_plugin.html" title="Web Feeds plugin class." alt="" coords="613,2033,729,2061"/>
+<area shape="rect" id="node91" href="$class_x_m_l_galley_plugin.html" title="XML Galley Plugin." alt="" coords="609,2085,732,2113"/>
+</map>

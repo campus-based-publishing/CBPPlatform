@@ -1,0 +1,10 @@
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rel="info:fedora/fedora-system:def/relations-external#" xmlns:fedora-model="info:fedora/fedora-system:def/model#" xmlns:hydra="http://projecthydra.org/ns/relations#">
+          <rdf:Description rdf:about="info:fedora/hull:4239">
+	        <rel:isMemberOf rdf:resource="info:fedora/hull:4900" />
+            <hydra:isGovernedBy rdf:resource="info:fedora/hull:4900" />
+            <fedora-model:hasModel rdf:resource="info:fedora/hull-cModel:book"></fedora-model:hasModel>
+            <fedora-model:hasModel rdf:resource="info:fedora/hydra-cModel:commonMetadata"></fedora-model:hasModel>
+            <fedora-model:hasModel rdf:resource="info:fedora/hydra-cModel:compoundContent"></fedora-model:hasModel>
+          </rdf:Description>
+</rdf:RDF>

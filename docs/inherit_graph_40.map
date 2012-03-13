@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_generic_cache.html" title="Provides implementation&#45;independent caching. Although this class is intended to be overridden with a ..." alt="" coords="5,83,112,111"/>
+<area shape="rect" id="node3" href="$class_a_p_c_cache.html" title="Provides caching based on APC&#39;s variable store." alt="" coords="179,5,266,33"/>
+<area shape="rect" id="node5" href="$class_file_cache.html" title="Provides caching based on machine&#45;generated PHP code on the filesystem." alt="" coords="182,57,263,85"/>
+<area shape="rect" id="node7" href="$class_memcache_cache.html" title="Provides caching based on Memcache." alt="" coords="160,109,285,137"/>
+<area shape="rect" id="node9" href="$class_x_cache_cache.html" title="Provides caching based on XCache&#39;s variable store." alt="" coords="169,161,276,189"/>
+</map>

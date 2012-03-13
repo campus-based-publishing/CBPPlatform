@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin_settings SYSTEM "../../../lib/pkp/dtd/pluginSettings.dtd">
+
+<!--
+  * settings.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Default plugin settings.
+  *
+  * $Id$
+  -->
+
+<plugin_settings>
+	<setting type="bool">
+		<name>enabled</name>
+		<value>true</value>
+	</setting>
+	<setting type="string">
+		<name>displayPage</name>
+		<value>homepage</value>
+	</setting>
+	<setting type="bool">
+		<name>displayItems</name>
+		<value>issue</value>
+	</setting>
+</plugin_settings>

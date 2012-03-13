@@ -1,0 +1,98 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_d_a_o.html" title="Operations for retrieving and modifying objects from a database." alt="" coords="6,2059,56,2087"/>
+<area shape="rect" id="node3" href="$class_access_key_d_a_o.html" title="Operations for retrieving and modifying AccessKey objects." alt="" coords="146,5,262,33"/>
+<area shape="rect" id="node5" href="$class_article_comment_d_a_o.html" title="Operations for retrieving and modifying ArticleComment objects." alt="" coords="131,57,277,85"/>
+<area shape="rect" id="node7" href="$class_article_d_a_o.html" title="Operations for retrieving and modifying Article objects." alt="" coords="160,109,248,137"/>
+<area shape="rect" id="node9" href="$class_article_email_log_d_a_o.html" title="Class for inserting/accessing article email log entries." alt="" coords="133,161,275,189"/>
+<area shape="rect" id="node11" href="$class_article_event_log_d_a_o.html" title="Class for inserting/accessing article history log entries." alt="" coords="132,213,276,241"/>
+<area shape="rect" id="node13" href="$class_article_file_d_a_o.html" title="Operations for retrieving and modifying ArticleFile objects." alt="" coords="150,265,258,293"/>
+<area shape="rect" id="node15" href="$class_article_galley_d_a_o.html" title="Operations for retrieving and modifying ArticleGalley/ArticleHTMLGalley objects." alt="" coords="141,317,267,345"/>
+<area shape="rect" id="node19" href="$class_article_report_d_a_o.html" title="Article report DAO." alt="" coords="140,369,268,397"/>
+<area shape="rect" id="node21" href="$class_article_search_d_a_o.html" title="DAO class for article search index." alt="" coords="139,421,269,449"/>
+<area shape="rect" id="node23" href="$class_author_submission_d_a_o.html" title="Operations for retrieving and modifying AuthorSubmission objects." alt="" coords="125,473,283,501"/>
+<area shape="rect" id="node25" href="$class_auth_source_d_a_o.html" title="Operations for retrieving and modifying AuthSource objects." alt="" coords="144,525,264,553"/>
+<area shape="rect" id="node27" href="$class_book_for_review_author_d_a_o.html" title="Operations for retrieving and modifying BookForReviewAuthor objects." alt="" coords="112,577,296,605"/>
+<area shape="rect" id="node29" href="$class_book_for_review_d_a_o.html" title="Operations for retrieving and modifying BookForReview objects." alt="" coords="132,629,276,657"/>
+<area shape="rect" id="node31" href="$class_captcha_d_a_o.html" title="Operations for retrieving and modifying Captcha keys." alt="" coords="154,681,254,709"/>
+<area shape="rect" id="node33" href="$class_c_b_p_platform_d_a_o.html" title="Operations for CBPPlatform functionality." alt="" coords="140,733,268,761"/>
+<area shape="rect" id="node35" href="$class_citation_d_a_o.html" title="Operations for retrieving and modifying Citation objects." alt="" coords="156,785,252,813"/>
+<area shape="rect" id="node37" href="$class_comment_d_a_o.html" title="Operations for retrieving and modifying Comment objects." alt="" coords="150,837,258,865"/>
+<area shape="rect" id="node39" href="$class_controlled_vocab_d_a_o.html" title="Operations for retrieving and modifying ControlledVocab objects." alt="" coords="130,889,278,917"/>
+<area shape="rect" id="node43" href="$class_controlled_vocab_entry_d_a_o.html" title="Operations for retrieving and modifying ControlledVocabEntry objects." alt="" coords="114,941,294,969"/>
+<area shape="rect" id="node47" href="$class_copyeditor_submission_d_a_o.html" title="Operations for retrieving and modifying CopyeditorSubmission objects." alt="" coords="112,993,296,1021"/>
+<area shape="rect" id="node49" href="$class_counter_report_d_a_o.html" title="Class for managing COUNTER records." alt="" coords="135,1045,273,1073"/>
+<area shape="rect" id="node51" href="$class_country_d_a_o.html" title="CountryDAO" alt="" coords="156,1097,252,1125"/>
+<area shape="rect" id="node53" href="$class_currency_d_a_o.html" title="Operations for retrieving and modifying Currency objects." alt="" coords="152,1149,256,1177"/>
+<area shape="rect" id="node55" href="$class_edit_assignment_d_a_o.html" title="Class for DAO relating editors to articles." alt="" coords="133,1201,275,1229"/>
+<area shape="rect" id="node57" href="$class_editor_submission_d_a_o.html" title="Operations for retrieving and modifying EditorSubmission objects." alt="" coords="127,1253,281,1281"/>
+<area shape="rect" id="node59" href="$class_external_feed_d_a_o.html" title="Operations for retrieving and modifying ExternalFeed objects." alt="" coords="139,1305,269,1333"/>
+<area shape="rect" id="node61" href="$class_filter_d_a_o.html" title="Operations for retrieving and modifying Filter objects." alt="" coords="164,1357,244,1385"/>
+<area shape="rect" id="node63" href="$class_group_d_a_o.html" title="Operations for retrieving and modifying Group objects." alt="" coords="160,1409,248,1437"/>
+<area shape="rect" id="node65" href="$class_group_membership_d_a_o.html" title="Operations for retrieving and modifying group membership info." alt="" coords="124,1461,284,1489"/>
+<area shape="rect" id="node67" href="$class_issue_d_a_o.html" title="Operations for retrieving and modifying Issue objects." alt="" coords="163,1513,245,1541"/>
+<area shape="rect" id="node69" href="$class_journal_d_a_o.html" title="Operations for retrieving and modifying Journal objects." alt="" coords="157,1565,251,1593"/>
+<area shape="rect" id="node71" href="$class_journal_settings_d_a_o.html" title="Operations for retrieving and modifying journal settings." alt="" coords="133,1617,275,1645"/>
+<area shape="rect" id="node73" href="$class_journal_statistics_d_a_o.html" title="Operations for retrieving journal statistics." alt="" coords="130,1669,278,1697"/>
+<area shape="rect" id="node75" href="$class_language_d_a_o.html" title="Operations for retrieving and modifying Language objects." alt="" coords="149,1721,259,1749"/>
+<area shape="rect" id="node77" href="$class_layout_editor_submission_d_a_o.html" title="Operations for retrieving and modifying LayoutEditorSubmission objects." alt="" coords="107,1773,301,1801"/>
+<area shape="rect" id="node79" href="$class_metadata_description_d_a_o.html" title="Operations for retrieving and modifying MetadataDescription objects." alt="" coords="118,1825,290,1853"/>
+<area shape="rect" id="node81" href="$class_notification_d_a_o.html" title="Operations for retrieving and modifying Notification objects." alt="" coords="146,1877,262,1905"/>
+<area shape="rect" id="node83" href="$class_notification_settings_d_a_o.html" title="Operations for retrieving and modifying user&#39;s notification settings." alt="" coords="122,1929,286,1957"/>
+<area shape="rect" id="node85" href="$class_notification_status_d_a_o.html" title="Operations for retrieving and modifying users&#39; journal notification status." alt="" coords="127,1981,281,2009"/>
+<area shape="rect" id="node87" href="$class_o_a_i_d_a_o.html" title="DAO operations for the OJS OAI interface." alt="" coords="167,2033,241,2061"/>
+<area shape="rect" id="node91" href="$class_o_j_s_completed_payment_d_a_o.html" title="Operations for retrieving and querying past payments." alt="" coords="107,2085,301,2113"/>
+<area shape="rect" id="node93" href="$class_pay_pal_d_a_o.html" title="Operations for retrieving and modifying Transactions objects." alt="" coords="158,2137,250,2165"/>
+<area shape="rect" id="node95" href="$class_p_k_p_announcement_d_a_o.html" title="Operations for retrieving and modifying Announcement objects." alt="" coords="121,2189,287,2217"/>
+<area shape="rect" id="node99" href="$class_p_k_p_announcement_type_d_a_o.html" title="Operations for retrieving and modifying AnnouncementType objects." alt="" coords="107,2241,301,2269"/>
+<area shape="rect" id="node103" href="$class_p_k_p_author_d_a_o.html" title="Operations for retrieving and modifying PKPAuthor objects." alt="" coords="146,2293,262,2321"/>
+<area shape="rect" id="node107" href="$class_p_k_p_email_template_d_a_o.html" title="Operations for retrieving and modifying Email Template objects." alt="" coords="122,2345,286,2373"/>
+<area shape="rect" id="node111" href="$class_p_k_p_note_d_a_o.html" title="PKPNoteDAO" alt="" coords="151,2397,257,2425"/>
+<area shape="rect" id="node117" href="$class_p_k_p_review_assignment_d_a_o.html" title="Class for DAO relating reviewers to submissions." alt="" coords="109,2449,299,2477"/>
+<area shape="rect" id="node121" href="$class_p_k_p_user_d_a_o.html" title="Operations for retrieving and modifying User objects." alt="" coords="151,2501,257,2529"/>
+<area shape="rect" id="node125" href="$class_p_k_p_user_settings_d_a_o.html" title="Operations for retrieving and modifying user settings." alt="" coords="127,2553,281,2581"/>
+<area shape="rect" id="node129" href="$class_plugin_settings_d_a_o.html" title="Operations for retrieving and modifying plugin settings." alt="" coords="136,2605,272,2633"/>
+<area shape="rect" id="node131" href="$class_process_d_a_o.html" title="Operations for retrieving and modifying process data." alt="" coords="155,2657,253,2685"/>
+<area shape="rect" id="node133" href="$class_proofreader_submission_d_a_o.html" title="Operations for retrieving and modifying ProofreaderSubmission objects." alt="" coords="109,2709,299,2737"/>
+<area shape="rect" id="node135" href="$class_published_article_d_a_o.html" title="Operations for retrieving and modifying PublishedArticle objects." alt="" coords="131,2761,277,2789"/>
+<area shape="rect" id="node137" href="$class_queued_payment_d_a_o.html" title="Operations for retrieving and modifying queued payment objects." alt="" coords="129,2813,279,2841"/>
+<area shape="rect" id="node139" href="$class_reviewer_submission_d_a_o.html" title="Operations for retrieving and modifying ReviewerSubmission objects." alt="" coords="117,2865,291,2893"/>
+<area shape="rect" id="node141" href="$class_review_form_d_a_o.html" title="Operations for retrieving and modifying ReviewForm objects." alt="" coords="141,2917,267,2945"/>
+<area shape="rect" id="node143" href="$class_review_form_element_d_a_o.html" title="Operations for retrieving and modifying ReviewFormElement objects." alt="" coords="117,2969,291,2997"/>
+<area shape="rect" id="node145" href="$class_review_form_response_d_a_o.html" title="Operations for retrieving and modifying ReviewFormResponse objects." alt="" coords="111,3021,297,3049"/>
+<area shape="rect" id="node147" href="$class_review_report_d_a_o.html" title="Review report DAO." alt="" coords="137,3073,271,3101"/>
+<area shape="rect" id="node149" href="$class_role_d_a_o.html" title="Operations for retrieving and modifying Role objects." alt="" coords="165,3125,243,3153"/>
+<area shape="rect" id="node151" href="$class_r_t_d_a_o.html" title="DAO operations for the OJS Reading Tools interface." alt="" coords="170,3177,238,3205"/>
+<area shape="rect" id="node153" href="$class_scheduled_task_d_a_o.html" title="Operations for retrieving and modifying Scheduled Task data." alt="" coords="134,3229,274,3257"/>
+<area shape="rect" id="node155" href="$class_section_d_a_o.html" title="Operations for retrieving and modifying Section objects." alt="" coords="157,3281,251,3309"/>
+<area shape="rect" id="node157" href="$class_section_editors_d_a_o.html" title="Class for DAO relating sections to editors." alt="" coords="136,3333,272,3361"/>
+<area shape="rect" id="node159" href="$class_section_editor_submission_d_a_o.html" title="Operations for retrieving and modifying SectionEditorSubmission objects." alt="" coords="105,3385,303,3413"/>
+<area shape="rect" id="node161" href="$class_session_d_a_o.html" title="Operations for retrieving and modifying Session objects." alt="" coords="155,3437,253,3465"/>
+<area shape="rect" id="node163" href="$class_signoff_d_a_o.html" title="Operations for retrieving and modifying Signoff objects." alt="" coords="158,3489,250,3517"/>
+<area shape="rect" id="node165" href="$class_site_d_a_o.html" title="Operations for retrieving and modifying the Site object." alt="" coords="167,3541,241,3569"/>
+<area shape="rect" id="node167" href="$class_site_settings_d_a_o.html" title="SiteSettingsDAO" alt="" coords="143,3593,265,3621"/>
+<area shape="rect" id="node169" href="$class_static_pages_d_a_o.html" title="StaticPagesDAO" alt="" coords="143,3645,265,3673"/>
+<area shape="rect" id="node171" href="$class_subscription_d_a_o.html" title="Abstract class for retrieving and modifying subscriptions." alt="" coords="142,3697,266,3725"/>
+<area shape="rect" id="node177" href="$class_subscription_type_d_a_o.html" title="Operations for retrieving and modifying SubscriptionType objects." alt="" coords="128,3749,280,3777"/>
+<area shape="rect" id="node179" href="$class_supp_file_d_a_o.html" title="Operations for retrieving and modifying SuppFile objects." alt="" coords="153,3801,255,3829"/>
+<area shape="rect" id="node181" href="$class_temporary_file_d_a_o.html" title="Operations for retrieving and modifying TemporaryFile objects." alt="" coords="137,3853,271,3881"/>
+<area shape="rect" id="node183" href="$class_thesis_d_a_o.html" title="Operations for retrieving and modifying Thesis objects." alt="" coords="159,3905,249,3933"/>
+<area shape="rect" id="node185" href="$class_time_zone_d_a_o.html" title="TimeZoneDAO" alt="" coords="149,3957,259,3985"/>
+<area shape="rect" id="node187" href="$class_user_group_assignment_d_a_o.html" title="UserGroupAssignmentDAO" alt="" coords="111,4009,297,4037"/>
+<area shape="rect" id="node189" href="$class_user_group_d_a_o.html" title="Operations for retrieving and modifying User Groups and user group assignments." alt="" coords="146,4061,262,4089"/>
+<area shape="rect" id="node191" href="$class_version_d_a_o.html" title="Operations for retrieving and modifying Version objects." alt="" coords="157,4113,251,4141"/>
+<area shape="rect" id="node17" href="$class_article_x_m_l_galley_d_a_o.html" title="Extended DAO methods for XML&#45;derived galleys NB: These require access to a number of hooks in Article..." alt="" coords="372,317,524,345"/>
+<area shape="rect" id="node41" href="$class_interest_d_a_o.html" title="Operations for retrieving and modifying a user&#39;s review interests." alt="" coords="401,889,495,917"/>
+<area shape="rect" id="node45" href="$class_interest_entry_d_a_o.html" title="InterestEntryDAO" alt="" coords="385,941,511,969"/>
+<area shape="rect" id="node89" href="$class_open_a_i_r_e_d_a_o.html" title="DAO operations for OpenAIRE." alt="" coords="391,2033,505,2061"/>
+<area shape="rect" id="node97" href="$class_announcement_d_a_o.html" title="Operations for retrieving and modifying Announcement objects." alt="" coords="378,2189,518,2217"/>
+<area shape="rect" id="node101" href="$class_announcement_type_d_a_o.html" title="Operations for retrieving and modifying AnnouncementType objects." alt="" coords="364,2241,532,2269"/>
+<area shape="rect" id="node105" href="$class_author_d_a_o.html" title="Operations for retrieving and modifying Author objects." alt="" coords="403,2293,493,2321"/>
+<area shape="rect" id="node109" href="$class_email_template_d_a_o.html" title="Operations for retrieving and modifying Email Template objects." alt="" coords="379,2345,517,2373"/>
+<area shape="rect" id="node113" href="$class_note_d_a_o.html" title="OJS extension of PKPNoteDAO." alt="" coords="409,2397,487,2425"/>
+<area shape="rect" id="node115" href="$class_article_note_d_a_o.html" title="Operations for retrieving and modifying ArticleNote objects." alt="" coords="593,2397,708,2425"/>
+<area shape="rect" id="node119" href="$class_review_assignment_d_a_o.html" title="Class for DAO relating reviewers to articles." alt="" coords="366,2449,530,2477"/>
+<area shape="rect" id="node123" href="$class_user_d_a_o.html" title="Basic class describing users existing in the system." alt="" coords="409,2501,487,2529"/>
+<area shape="rect" id="node127" href="$class_user_settings_d_a_o.html" title="Operations for retrieving and modifying user settings." alt="" coords="385,2553,511,2581"/>
+<area shape="rect" id="node173" href="$class_individual_subscription_d_a_o.html" title="Operations for retrieving and modifying IndividualSubscription objects." alt="" coords="358,3671,538,3699"/>
+<area shape="rect" id="node175" href="$class_institutional_subscription_d_a_o.html" title="Operations for retrieving and modifying InstitutionalSubscription objects." alt="" coords="352,3723,544,3751"/>
+</map>

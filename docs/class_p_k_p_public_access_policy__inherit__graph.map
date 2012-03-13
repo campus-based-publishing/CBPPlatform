@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_p_k_p_authenticated_access_policy.html" title="Class to that makes sure that a user is logged in." alt="" coords="4,238,211,266"/>
+<area shape="rect" id="node9" href="$class_p_k_p_process_access_policy.html" title="Class to control access to handler operations based on a one time key that authorizes a process to ex..." alt="" coords="235,238,409,266"/>
+<area shape="rect" id="node2" href="$class_handler_operation_policy.html" title="Abstract base class that provides infrastructure to control access to handler operations." alt="" coords="134,83,295,111"/>
+<area shape="rect" id="node4" href="$class_authorization_policy.html" title="Class to represent an authorization policy." alt="" coords="147,6,281,34"/>
+</map>

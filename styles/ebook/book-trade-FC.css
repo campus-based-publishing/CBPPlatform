@@ -1,0 +1,39 @@
+html, body {
+	padding: 0;
+	margin: 0;
+}
+#frontCover {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+	#frontCover img {
+		margin: 0;
+		padding: 0;
+	}
+#backCover {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	padding-bottom: 10%;
+	border-right: 1px solid #CFCFCF;
+}
+#spine {
+	position: absolute;
+}
+	div#spine table td {
+		color: #FFF;
+	}
+	td#imprint {
+		padding-top: 115mm;
+		padding-left: 37%;
+		font-size: 13pt;
+		text-rotate: -90;
+	}
+	td#title {
+		margin-top: 0mm;
+		padding-left: 37%;
+		font-size: 13pt;
+		text-rotate: -90;
+	}

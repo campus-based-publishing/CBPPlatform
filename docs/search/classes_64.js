@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['dao',['DAO',['../class_d_a_o.html',1,'']]],
+  ['daoregistry',['DAORegistry',['../class_d_a_o_registry.html',1,'']]],
+  ['daoresultfactory',['DAOResultFactory',['../class_d_a_o_result_factory.html',1,'']]],
+  ['dataobject',['DataObject',['../class_data_object.html',1,'']]],
+  ['dataobjectgridcellprovider',['DataObjectGridCellProvider',['../class_data_object_grid_cell_provider.html',1,'']]],
+  ['datestringnormalizerfilter',['DateStringNormalizerFilter',['../class_date_string_normalizer_filter.html',1,'']]],
+  ['dbconnection',['DBConnection',['../class_d_b_connection.html',1,'']]],
+  ['dbdataxmlparser',['DBDataXMLParser',['../class_d_b_data_x_m_l_parser.html',1,'']]],
+  ['dbresultrange',['DBResultRange',['../class_d_b_result_range.html',1,'']]],
+  ['dbrowiterator',['DBRowIterator',['../class_d_b_row_iterator.html',1,'']]],
+  ['dbxmltosql',['dbXMLtoSQL',['../classdb_x_m_lto_s_q_l.html',1,'']]],
+  ['deletesubmissions',['deleteSubmissions',['../classdelete_submissions.html',1,'']]],
+  ['depositpointform',['DepositPointForm',['../class_deposit_point_form.html',1,'']]],
+  ['desertthemeplugin',['DesertThemePlugin',['../class_desert_theme_plugin.html',1,'']]],
+  ['developedbyblockplugin',['DevelopedByBlockPlugin',['../class_developed_by_block_plugin.html',1,'']]],
+  ['dispatcher',['Dispatcher',['../class_dispatcher.html',1,'']]],
+  ['doajexportdom',['DOAJExportDom',['../class_d_o_a_j_export_dom.html',1,'']]],
+  ['doajplugin',['DOAJPlugin',['../class_d_o_a_j_plugin.html',1,'']]],
+  ['donationblockplugin',['DonationBlockPlugin',['../class_donation_block_plugin.html',1,'']]],
+  ['donationshandler',['DonationsHandler',['../class_donations_handler.html',1,'']]]
+];

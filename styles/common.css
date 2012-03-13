@@ -1,0 +1,537 @@
+/**
+ * common.css
+ *
+ * Copyright (c) 2003-2011 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Site-wide shared stylesheet.
+ *
+ * $Id$
+ */
+
+/*
+ * Notifications
+ * FIXME: (Re)move once OJS styles are consolidated with new styles and themes
+ */
+@import url("../lib/pkp/styles/themes/default/pnotify.css");
+
+.ui-pnotify-title {
+	font-size: 0.8em;
+}
+
+.ui-pnotify-text {
+	font-size: 0.6em;
+}
+
+.ui-pnotify-history-container .ui-pnotify-history-header {
+	font-size: 0.8em;
+}
+
+/**
+ * Common HTML elements
+ */
+
+a:link {
+	color: #173C71;
+}
+
+a:active {
+	color: #173C71;
+}
+
+a:visited {
+	color: #173C71;
+}
+
+a:hover {
+	color: #173C71;
+	background: #CDC;
+}
+
+
+/**
+ * Main layout elements
+ */
+
+#header {
+}
+
+#footer {
+	background-color: #ABA;
+}
+
+#main {
+	width: 90%;
+	margin: 0 auto;
+}
+
+div.featuredItem {
+	width: 175px;
+	float: left;
+}
+
+div.shelf {
+	margin-top: 20px;
+}
+
+h3.shelfHeading {
+	font-family: "Trebuchet MS",sans-serif;
+	color: #333333;
+	font-size: 18px;
+	line-height: 1em;
+	font-weight: normal;
+	background-color: #eeeeee;
+	border-top-left-radius: 8px;
+	border-top-right-radius: 0pt;
+	border-bottom-right-radius: 0pt;
+	border-bottom-left-radius: 0pt;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 0pt;
+	padding-left: 10px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #eeeeee;
+	margin-bottom: 20px;
+}
+
+div.shelfDivider {
+	height: 5px;
+	background-color: #eeeeee;
+	background-image: none;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-position: 0% 0%;
+	background-clip: border-box;
+	background-origin: padding-box;
+	background-size: auto auto;
+}
+
+/**
+ * Access icons and key
+ */
+#accessKey {
+	margin-bottom: 2em;
+}
+
+#accessKey img {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+#content img.accessLogo {
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+}
+
+
+/**
+ * Navigation bar
+ */
+
+#navbar a {
+	font-size: 0.65em;
+	letter-spacing: 0.05em;
+}
+
+#navbar a:hover {
+	background-color: #CCD9F2;
+}
+
+
+/**
+ * Announcements
+ */
+
+#announcementsHome {
+	width: 100%;
+	margin: 2em 0 2em 0;
+}
+
+#announcementsHome h3 {
+	text-align: center;
+}
+
+#announcements {
+	width: 100%;
+}
+
+#announcements h3 {
+	text-align: center;
+}
+
+table.announcements {
+	width: 100%;
+}
+
+table.announcements td {
+	padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+table.announcements td.nodata {
+	text-align: center;
+	font-style: italic;
+}
+
+table.announcements td.headseparator {
+	border-top: 1px dotted #000;
+	font-size: 0.1em;
+	line-height: 1%;
+}
+
+table.announcements td.endseparator {
+	border-top: 1px dotted #000;
+	font-size: 0.25em;
+	line-height: 10%;
+}
+
+table.announcements td.separator {
+	border-top: 1px dotted #DDDDD0;
+	font-size: 0.1em;
+	line-height: 1%;
+}
+
+table.announcements tr.intro {
+}
+
+table.announcements td.intro {
+}
+
+table.announcements tr.title {
+	vertical-align: top;
+}
+
+table.announcements td.title {
+	width: 85%;
+}
+
+table.announcements td.title h4 {
+}
+
+table.announcements tr.description {
+	vertical-align: top;
+}
+
+table.announcements td.description {
+	width: 85%;
+}
+
+table.announcements tr.details {
+	vertical-align: bottom;
+}
+
+table.announcements td.posted {
+	padding-top: 1em;
+	font-style: italic;
+}
+
+table.announcements td.more {
+	width: 15%;
+	text-align: right;
+}
+
+table.announcementsMore {
+	width: 100%;
+}
+
+table.announcementsMore td {
+	padding-top: 1.5em;
+	text-align: right;
+}
+
+
+/**
+ * Table of contents
+ */
+
+h4.tocSectionTitle {
+}
+
+table.tocArticle {
+	width: 100%;
+}
+
+table.tocArticle td.tocTitle {
+	width: 70%;
+	height: 100%;
+}
+
+table.tocArticle td.tocGalleys {
+	width: 30%;
+	text-align: right;
+}
+
+table.tocArticle td.tocAuthors {
+	padding-left: 30px;
+	font-style: italic;
+	vertical-align: top;
+}
+
+table.tocArticle td.tocPages {
+	text-align: right;
+	vertical-align: top;
+}
+
+.tocArticleCoverImage img {
+	border: 0;
+	float: left;
+	width: 100px;
+	margin: 0 1em 1em 0;
+}
+
+
+/**
+ * Homepage image
+ */
+
+#homepageImage img {
+	display: block;
+	margin: 0 auto;
+	border: 0;
+	text-align: center;
+}
+
+.homepageImage img {
+	margin: 0 auto;
+	border: 0;
+	float: left;
+	width: 100px;
+	margin: 1em 1em 1em 0;
+	text-align: center;
+}
+
+
+/**
+ * Issue cover image
+ */
+
+#issueCoverImage img {
+	display: block;
+	border: 0;
+}
+
+.issueCoverImage img {
+	border: 0;
+	float: left;
+	width: 100px;
+	margin: 1em 1em 1em 0;
+}
+
+#issueCoverImage a:link, .issueCoverImage a:link {
+}
+
+#issueCoverImage a:active, .issueCoverImage a:active {
+}
+
+#issueCoverImage a:visited, .issueCoverImage a:visited {
+}
+
+#issueCoverImage a:hover, .issueCoverImage a:hover {
+}
+
+
+/**
+ * Editorial Team Lists
+ */
+
+ol.editorialTeam {
+}
+
+ol.editorialTeam li {
+	list-style: none;
+}
+
+ol.editorialTeam, ol.editorialTeam li {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+
+/**
+ * Additional text styles
+ */
+
+pre {
+	background-color: #F0F0E8;
+	color: #000;
+	font-size: 1.25em;
+}
+
+/**
+ * Table styles
+ */
+
+table.listing tr.highlight {
+	background: yellow;
+}
+
+table.listing tr.fastTracked {
+	background-color: #ABA;
+}
+
+table.listing tr.data td {
+	border-top: 1px dotted #DDDDD0;
+	border-bottom: 1px dotted #DDDDD0;
+}
+
+table.listing tr.data td.drag {
+	cursor: move;
+}
+
+
+/**
+ * Other organizational elements
+ */
+
+div.progressbar {
+	background-image: url(../templates/images/progbg.gif);
+	background-repeat: no-repeat;
+	height: 27px;
+	width: 505px;
+	z-index:1;
+}
+
+td.notificationContent {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+td.notificationFunction {
+	padding-left: 5px;
+	padding-right: 5px;
+	text-align: right;
+}
+
+.throbber {
+	display: none;
+	background: url(../lib/pkp/templates/images/throbber.gif) no-repeat;
+	width: 25px;
+	height: 25px;
+	margin-left: 50%;
+	margin-top: 5%;
+}
+
+/* Font Sizer */
+
+.smallFont {
+	outline: none; /*for making it look nice in FF */
+	background: url(../lib/pkp/templates/images/icons/font-down.png);
+	text-indent: -9999px;
+	display: block;
+	float: left;
+	width: 20px;
+	height: 23px;
+	margin-right: 4px;
+	margin-left: 8px;
+}
+
+a.smallFont:hover {
+	background: url(../lib/pkp/templates/images/icons/font-down.png);
+	color: none;
+}
+
+.defaultFont {
+	/*if you want to hide the default font button, use display:none */
+	background: url(../lib/pkp/templates/images/icons/font-default.png);
+	text-indent: -9999px;
+	outline: none;
+	display: block;
+	float: left;
+	width: 20px;
+	height: 23px;
+	margin-right: 4px;
+
+}
+
+a.defaultFont:hover {
+	background: url(../lib/pkp/templates/images/icons/font-default.png);
+	color: none;
+}
+
+.largeFont {
+	background: url(../lib/pkp/templates/images/icons/font-up.png);
+	outline: none;
+	text-indent: -9999px;
+	display: block;
+	float: left;
+	width: 20px;
+	height: 23px;
+}
+
+a.largeFont:hover {
+	background: url(../lib/pkp/templates/images/icons/font-up.png);
+	color: none;
+}
+
+
+
+/* @group Tag-it */
+
+ul.tagit {
+	padding:1px 5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#C6C6C6;
+	overflow:auto !important;
+	width:500px;
+	margin-bottom: 0px;
+}
+ul.tagit li {
+	-moz-border-radius:5px 5px 5px 5px;
+	display: block;
+	float: left !important;
+	margin:2px 5px 2px 0;
+	clear: none;
+}
+ul.tagit li.tagit-choice {
+	background-color:#DEE7F8;
+	border:1px solid #CAD8F3;
+	padding:2px 4px 3px;
+}
+ul.tagit li.tagit-choice:hover {
+	background-color:#bbcef1;
+	border-color:#6d95e0;
+}
+ul.tagit li.tagit-new {
+	padding:2px 4px 3px;
+	padding:2px 4px 1px;
+	padding:2px 4px 1px 0;
+}
+
+ul.tagit li.tagit-choice input {
+	display:block !important;
+	float:left;
+	margin:2px 5px 2px 0;
+}
+ul.tagit li.tagit-choice a.close {
+	color:#777777;
+	cursor:pointer;
+	font-size:12px;
+	font-weight:bold;
+	outline:medium none;
+	padding:2px 0 2px 3px;
+	text-decoration:none;
+}
+ul.tagit input[type="text"] {
+	-moz-box-sizing:border-box;
+	border:none;
+	margin:0;
+	padding:0;
+	width:inherit;
+	border-color:#C6C6C6;
+	background-color:#FFFFFF;
+	color:#333333;
+}
+
+ul.tagit li:after, ul.tagit li div:after {
+	content:" ";
+	display:block;
+	clear:none;
+}
+
+/* @end */
+

@@ -1,0 +1,131 @@
+/**
+ * polished.css
+ *
+ * Copyright (c) 2003-2008 John Willinsky
+ * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Polished theme.
+ *
+ * $Id: night.css,v 1.3 2008/06/11 18:55:16 asmecher Exp $
+ */
+
+body {
+	background-color: #F0F8FF;
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+	color: #324977;
+}
+
+a, a:link {
+	color: #0C72A2;
+	text-decoration: none;
+}
+a:visited {
+	color: #0C72A2;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0C72A2;
+	background: #F0FDE2;
+	border-bottom: 1px solid #0C72A2;
+}
+
+#header {
+	background: #cde8fd url(/ojs/plugins/themes/polished/body-bg.gif) repeat-x;
+	height: 113px;
+}
+
+#main {
+	padding: 10px 0px 0px 5px;
+	border: 2px solid #DBEFF6;
+	border-top: none;
+	background: #FFFFFF url(/ojs/plugins/themes/polished/content-bg.gif) repeat-x;
+	margin-bottom: 50px;
+}
+
+div #sidebar {
+margin-left: 0px;
+}
+
+.block {
+	background: #FFF url(/ojs/plugins/themes/polished/widget-bg.gif) repeat-x bottom right;
+	padding: 5px 10px 10px 10px;
+	margin-bottom: 5px;
+	border: 2px solid #DBEFF6;
+}
+
+#headerTitle h1 {
+	margin-left: 15px;
+	font-family: Helvetica,sans-serif;
+}
+
+#main h2, #content h3 {
+	font-family: Arial,Verdana,Helvetica,sans-serif;
+}
+
+#content {
+	width: 98%;
+	border-top: 2px solid #DBEFF6;
+}
+
+#navbar {
+	height: 30px;
+	width: 98%;
+	border-bottom: 2px solid #DBEFF6;
+	line-height: normal;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+.menu {
+	list-style: none;
+	margin: 0 3px;
+	padding: 0px;
+}
+
+.menu li, td input.button {
+	float: left;
+	height: 30px;
+	background:#FFFFFF;
+	margin: 0 0px;
+	white-space: nowrap;
+	font-size: 20px;
+	border: 1px solid #becbdd;
+}
+
+.menu li a, td input.button{
+	color:#485B84;
+	display: block;
+	background:#FFFFFF;
+	width: 100%;
+
+	text-decoration: none;
+	padding: 0px 0px 0px 30px;
+	font: bold 14px Arial, Helvetica, sans-serif;
+	line-height: 30px;
+	text-transform: uppercase; 	
+}
+
+.menu li:hover, input.button:hover {
+	background:#dae4f2;
+	color:#ffffff;
+}
+
+.menu li a:hover, input.button:hover {
+	background-position: 0px -36px;
+	border: none;
+	color:#ffffff;
+	background:#dae4f2;
+}
+
+input.textField, select.selectMenu, textarea.textArea, input.uploadField {
+	background-color: #F0F0F0;
+	border: 2px solid #DBEFF6;
+	color: #0C72A2;
+}
+
+td input.button {
+	padding-left: 0px;
+	height: 2em;
+	max-width: 200px;
+}

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$class_editor_submission.html" title="EditorSubmission class." alt="" coords="27,315,151,343"/>
+<area shape="rect" id="node2" href="$class_article.html" title="Article class." alt="" coords="60,161,117,189"/>
+<area shape="rect" id="node4" href="$class_submission.html" title="Submission class." alt="" coords="44,83,133,111"/>
+<area shape="rect" id="node6" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="45,6,133,34"/>
+</map>

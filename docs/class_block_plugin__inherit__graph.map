@@ -1,0 +1,25 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$class_announcement_feed_block_plugin.html" title="Class for block component of announcement feed plugin." alt="" coords="549,5,760,33"/>
+<area shape="rect" id="node11" href="$class_author_bios_block_plugin.html" title="Class for author bios block plugin." alt="" coords="577,57,733,85"/>
+<area shape="rect" id="node13" href="$class_custom_block_plugin.html" title="CustomBlockPlugin" alt="" coords="586,109,723,137"/>
+<area shape="rect" id="node15" href="$class_developed_by_block_plugin.html" title="Class for &quot;developed by&quot; block plugin." alt="" coords="570,161,740,189"/>
+<area shape="rect" id="node17" href="$class_donation_block_plugin.html" title="Class for user block plugin." alt="" coords="582,213,727,241"/>
+<area shape="rect" id="node19" href="$class_external_feed_block_plugin.html" title="Class for block component of external feed plugin." alt="" coords="570,265,740,293"/>
+<area shape="rect" id="node21" href="$class_help_block_plugin.html" title="Class for help block plugin." alt="" coords="595,317,714,345"/>
+<area shape="rect" id="node23" href="$class_information_block_plugin.html" title="Class for information block plugin." alt="" coords="576,369,734,397"/>
+<area shape="rect" id="node25" href="$class_keyword_cloud_block_plugin.html" title="Class for keyword cloud block plugin." alt="" coords="566,421,744,449"/>
+<area shape="rect" id="node27" href="$class_language_toggle_block_plugin.html" title="Class for language selector block plugin." alt="" coords="560,473,749,501"/>
+<area shape="rect" id="node29" href="$class_navigation_block_plugin.html" title="Class for navigation block plugin." alt="" coords="578,525,732,553"/>
+<area shape="rect" id="node31" href="$class_notification_block_plugin.html" title="Class for &quot;notification&quot; block plugin." alt="" coords="576,577,733,605"/>
+<area shape="rect" id="node33" href="$class_open_ads_block_plugin.html" title="OpenAds plugin class, block component." alt="" coords="581,629,728,657"/>
+<area shape="rect" id="node35" href="$class_reading_tools_block_plugin.html" title="Class for reading tools block plugin." alt="" coords="569,681,741,709"/>
+<area shape="rect" id="node37" href="$class_related_items_block_plugin.html" title="Class for related items block plugin." alt="" coords="570,733,739,761"/>
+<area shape="rect" id="node39" href="$class_role_block_plugin.html" title="Class for role block plugin." alt="" coords="595,785,714,813"/>
+<area shape="rect" id="node41" href="$class_subscription_block_plugin.html" title="Class for subscription block plugin." alt="" coords="572,837,737,865"/>
+<area shape="rect" id="node43" href="$class_thesis_feed_block_plugin.html" title="Class for block component of thesis feed plugin." alt="" coords="574,889,735,917"/>
+<area shape="rect" id="node45" href="$class_user_block_plugin.html" title="Class for user block plugin." alt="" coords="595,941,714,969"/>
+<area shape="rect" id="node47" href="$class_web_feed_block_plugin.html" title="Class for block component of web feed plugin." alt="" coords="580,993,729,1021"/>
+<area shape="rect" id="node2" href="$class_lazy_load_plugin.html" title="LazyLoadPlugin" alt="" coords="246,499,362,527"/>
+<area shape="rect" id="node4" href="$class_plugin.html" title="Abstract class for plugins." alt="" coords="139,499,197,527"/>
+<area shape="rect" id="node6" href="$class_p_k_p_plugin.html" title="Abstract class for plugins." alt="" coords="5,499,91,527"/>
+</map>

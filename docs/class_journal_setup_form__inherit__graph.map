@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$class_journal_setup_step1_form.html" title="Form for Step 1 of journal setup." alt="" coords="285,5,451,33"/>
+<area shape="rect" id="node7" href="$class_journal_setup_step2_form.html" title="Form for Step 2 of journal setup." alt="" coords="285,57,451,85"/>
+<area shape="rect" id="node9" href="$class_journal_setup_step3_form.html" title="Form for Step 3 of journal setup." alt="" coords="285,109,451,137"/>
+<area shape="rect" id="node11" href="$class_journal_setup_step4_form.html" title="Form for Step 4 of journal setup." alt="" coords="285,161,451,189"/>
+<area shape="rect" id="node13" href="$class_journal_setup_step5_form.html" title="Form for Step 5 of journal setup." alt="" coords="285,213,451,241"/>
+<area shape="rect" id="node2" href="$class_form.html" title="Class defining basic operations for handling HTML forms." alt="" coords="6,109,58,137"/>
+</map>

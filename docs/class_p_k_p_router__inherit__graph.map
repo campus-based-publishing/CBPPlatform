@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_p_k_p_component_router.html" title="Class mapping an HTTP request to a component handler operation." alt="" coords="4,83,160,111"/>
+<area shape="rect" id="node5" href="$class_p_k_p_page_router.html" title="Class mapping an HTTP request to a handler or context." alt="" coords="186,83,304,111"/>
+<area shape="rect" id="node7" href="$class_page_router.html" title="Class providing OJS&#45;specific page routing." alt="" coords="199,161,291,189"/>
+</map>

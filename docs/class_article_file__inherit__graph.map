@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_article_galley.html" title="A galley is a final presentation version of the full&#45;text of an article." alt="" coords="23,238,119,266"/>
+<area shape="rect" id="node13" href="$class_supp_file.html" title="Supplementary file class." alt="" coords="143,238,216,266"/>
+<area shape="rect" id="node2" href="$class_submission_file.html" title="Submission file class." alt="" coords="69,83,180,111"/>
+<area shape="rect" id="node4" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="81,6,169,34"/>
+<area shape="rect" id="node9" href="$class_article_h_t_m_l_galley.html" title="An HTML galley may include an optional stylesheet and set of images." alt="" coords="4,315,136,343"/>
+<area shape="rect" id="node11" href="$class_article_x_m_l_galley.html" title="Article XML galley model object." alt="" coords="9,393,132,421"/>
+</map>

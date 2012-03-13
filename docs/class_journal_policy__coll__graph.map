@@ -1,0 +1,3 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_policy_set.html" title="An ordered list of policies. Policy sets can be added to decision managers like policies. The decision manager will evaluate the contained policies in the order they were added." alt="" coords="16,6,92,34"/>
+</map>

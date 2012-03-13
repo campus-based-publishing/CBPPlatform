@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['journal_2einc_2ephp',['Journal.inc.php',['../_journal_8inc_8php.html',1,'']]],
+  ['journaldao_2einc_2ephp',['JournalDAO.inc.php',['../_journal_d_a_o_8inc_8php.html',1,'']]],
+  ['journalfilemanager_2einc_2ephp',['JournalFileManager.inc.php',['../_journal_file_manager_8inc_8php.html',1,'']]],
+  ['journallanguageshandler_2einc_2ephp',['JournalLanguagesHandler.inc.php',['../_journal_languages_handler_8inc_8php.html',1,'']]],
+  ['journaloai_2einc_2ephp',['JournalOAI.inc.php',['../_journal_o_a_i_8inc_8php.html',1,'']]],
+  ['journalpolicy_2einc_2ephp',['JournalPolicy.inc.php',['../_journal_policy_8inc_8php.html',1,'']]],
+  ['journalrt_2einc_2ephp',['JournalRT.inc.php',['../_journal_r_t_8inc_8php.html',1,'']]],
+  ['journalrtadmin_2einc_2ephp',['JournalRTAdmin.inc.php',['../_journal_r_t_admin_8inc_8php.html',1,'']]],
+  ['journalsettingsdao_2einc_2ephp',['JournalSettingsDAO.inc.php',['../_journal_settings_d_a_o_8inc_8php.html',1,'']]],
+  ['journalsetupform_2einc_2ephp',['JournalSetupForm.inc.php',['../_journal_setup_form_8inc_8php.html',1,'']]],
+  ['journalsetupstep1form_2einc_2ephp',['JournalSetupStep1Form.inc.php',['../_journal_setup_step1_form_8inc_8php.html',1,'']]],
+  ['journalsetupstep2form_2einc_2ephp',['JournalSetupStep2Form.inc.php',['../_journal_setup_step2_form_8inc_8php.html',1,'']]],
+  ['journalsetupstep3form_2einc_2ephp',['JournalSetupStep3Form.inc.php',['../_journal_setup_step3_form_8inc_8php.html',1,'']]],
+  ['journalsetupstep4form_2einc_2ephp',['JournalSetupStep4Form.inc.php',['../_journal_setup_step4_form_8inc_8php.html',1,'']]],
+  ['journalsetupstep5form_2einc_2ephp',['JournalSetupStep5Form.inc.php',['../_journal_setup_step5_form_8inc_8php.html',1,'']]],
+  ['journalstatisticsdao_2einc_2ephp',['JournalStatisticsDAO.inc.php',['../_journal_statistics_d_a_o_8inc_8php.html',1,'']]],
+  ['json_2einc_2ephp',['JSON.inc.php',['../_j_s_o_n_8inc_8php.html',1,'']]]
+];

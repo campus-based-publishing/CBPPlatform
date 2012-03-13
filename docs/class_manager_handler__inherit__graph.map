@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_email_handler.html" title="Handle requests for email management functions." alt="" coords="476,5,577,33"/>
+<area shape="rect" id="node9" href="$class_files_handler.html" title="Handle requests for files browser functions." alt="" coords="479,57,575,85"/>
+<area shape="rect" id="node11" href="$class_group_handler.html" title="Handle requests for editorial team management functions." alt="" coords="474,109,579,137"/>
+<area shape="rect" id="node13" href="$class_import_export_handler.html" title="Handle requests for import/export functions." alt="" coords="454,161,599,189"/>
+<area shape="rect" id="node15" href="$class_journal_languages_handler.html" title="Handle requests for changing journal language settings." alt="" coords="438,213,616,241"/>
+<area shape="rect" id="node17" href="$class_manager_payment_handler.html" title="Handle requests for configuring payments." alt="" coords="440,265,613,293"/>
+<area shape="rect" id="node19" href="$class_pending_users_handler.html" title="Handle requests for pending user account requests." alt="" coords="451,317,603,345"/>
+<area shape="rect" id="node21" href="$class_people_handler.html" title="Handle requests for people management functions." alt="" coords="472,369,581,397"/>
+<area shape="rect" id="node23" href="$class_p_k_p_announcement_handler.html" title="Handle requests for public announcement functions." alt="" coords="435,421,618,449"/>
+<area shape="rect" id="node28" href="$class_plugin_handler.html" title="Handle requests for plugin management functions." alt="" coords="474,473,579,501"/>
+<area shape="rect" id="node30" href="$class_plugin_management_handler.html" title="Handle requests for installing/upgrading/deleting plugins." alt="" coords="435,525,618,553"/>
+<area shape="rect" id="node32" href="$class_review_form_handler.html" title="Handle requests for review form management functions." alt="" coords="455,577,598,605"/>
+<area shape="rect" id="node34" href="$class_section_handler.html" title="Handle requests for section management functions." alt="" coords="470,629,583,657"/>
+<area shape="rect" id="node36" href="$class_setup_handler.html" title="Handle requests for journal setup functions." alt="" coords="475,681,578,709"/>
+<area shape="rect" id="node38" href="$class_statistics_handler.html" title="Handle requests for statistics functions." alt="" coords="466,733,587,761"/>
+<area shape="rect" id="node40" href="$class_subscription_handler.html" title="SubscriptionHandler" alt="" coords="456,785,597,813"/>
+<area shape="rect" id="node2" href="$class_handler.html" title="Base request handler application class." alt="" coords="150,395,218,423"/>
+<area shape="rect" id="node4" href="$class_p_k_p_handler.html" title="PKPHandler" alt="" coords="6,395,101,423"/>
+<area shape="rect" id="node25" href="$class_announcement_handler.html" title="Handle requests for announcement management functions." alt="" coords="666,421,824,449"/>
+</map>

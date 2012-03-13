@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_announcement_feed_gateway_plugin.html" title="Gateway component of announcement feed plugin." alt="" coords="406,5,637,33"/>
+<area shape="rect" id="node9" href="$class_m_e_t_s_gateway_plugin.html" title="A plugin to allow exposure of Journals in METS format for web service access." alt="" coords="447,57,595,85"/>
+<area shape="rect" id="node11" href="$class_resolver_plugin.html" title="Simple resolver gateway plugin." alt="" coords="466,109,577,137"/>
+<area shape="rect" id="node13" href="$class_thesis_feed_gateway_plugin.html" title="Gateway component of thesis feed plugin." alt="" coords="431,161,612,189"/>
+<area shape="rect" id="node15" href="$class_web_feed_gateway_plugin.html" title="Gateway component of web feed plugin." alt="" coords="437,213,606,241"/>
+<area shape="rect" id="node2" href="$class_plugin.html" title="Abstract class for plugins." alt="" coords="139,109,197,137"/>
+<area shape="rect" id="node4" href="$class_p_k_p_plugin.html" title="Abstract class for plugins." alt="" coords="5,109,91,137"/>
+</map>

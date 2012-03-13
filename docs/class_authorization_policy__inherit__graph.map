@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_context_required_policy.html" title="Policy to deny access if a context cannot be found in the request." alt="" coords="242,5,398,33"/>
+<area shape="rect" id="node5" href="$class_copyeditor_submission_assignment_policy.html" title="Class to control access of copyeditors to submissions." alt="" coords="190,57,450,85"/>
+<area shape="rect" id="node7" href="$class_handler_operation_policy.html" title="Abstract base class that provides infrastructure to control access to handler operations." alt="" coords="239,109,401,137"/>
+<area shape="rect" id="node17" href="$class_https_policy.html" title="Class to control access to handler operations based on protocol." alt="" coords="276,161,364,189"/>
+<area shape="rect" id="node19" href="$class_logged_in_with_valid_user_group_policy.html" title="Class to that makes sure that a user is logged in with a valid user group and role assigned..." alt="" coords="203,213,437,241"/>
+<area shape="rect" id="node21" href="$class_restricted_site_access_policy.html" title="Policy enforcing restricted site access when the context contains such a setting." alt="" coords="229,265,411,293"/>
+<area shape="rect" id="node23" href="$class_section_submission_assignment_policy.html" title="Class to control access to journal sections." alt="" coords="200,317,440,345"/>
+<area shape="rect" id="node25" href="$class_submission_required_policy.html" title="Abstract base class for submission policies." alt="" coords="230,369,410,397"/>
+<area shape="rect" id="node9" href="$class_p_k_p_public_access_policy.html" title="Class to control access to handler operations based on an operation whitelist." alt="" coords="547,83,709,111"/>
+<area shape="rect" id="node15" href="$class_role_based_handler_operation_policy.html" title="Class to control access to handler operations via role based access control." alt="" coords="514,135,742,163"/>
+<area shape="rect" id="node11" href="$class_p_k_p_authenticated_access_policy.html" title="Class to that makes sure that a user is logged in." alt="" coords="806,58,1013,86"/>
+<area shape="rect" id="node13" href="$class_p_k_p_process_access_policy.html" title="Class to control access to handler operations based on a one time key that authorizes a process to ex..." alt="" coords="822,110,997,138"/>
+<area shape="rect" id="node27" href="$class_copyeditor_submission_required_policy.html" title="Policy that ensures that the request contains a valid copyeditor submission." alt="" coords="506,342,750,370"/>
+<area shape="rect" id="node29" href="$class_section_editor_submission_required_policy.html" title="Policy that ensures that the request contains a valid section editor submission." alt="" coords="498,394,758,422"/>
+</map>

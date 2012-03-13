@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_boolean_filter_setting.html" title="Class that describes a configurable filter setting which must be either true or false." alt="" coords="5,83,147,111"/>
+<area shape="rect" id="node5" href="$class_email_filter_setting.html" title="Class that describes a configurable filter setting which must be an email." alt="" coords="170,83,296,111"/>
+<area shape="rect" id="node7" href="$class_set_filter_setting.html" title="Class that describes a configurable filter setting which must be one of a given set of values..." alt="" coords="320,83,432,111"/>
+</map>

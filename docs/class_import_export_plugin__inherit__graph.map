@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_cross_ref_export_plugin.html" title="CrossRef/MEDLINE XML metadata export plugin." alt="" coords="444,5,596,33"/>
+<area shape="rect" id="node9" href="$class_d_o_a_j_plugin.html" title="DOAJ import/export plugin." alt="" coords="473,57,567,85"/>
+<area shape="rect" id="node11" href="$class_erudit_export_plugin.html" title="Erudit english DTD article export plugin." alt="" coords="454,109,586,137"/>
+<area shape="rect" id="node13" href="$class_m_e_t_s_export_plugin.html" title="METSExportPlugin" alt="" coords="453,161,587,189"/>
+<area shape="rect" id="node15" href="$class_native_import_export_plugin.html" title="Native import/export plugin." alt="" coords="434,213,606,241"/>
+<area shape="rect" id="node17" href="$class_pub_med_export_plugin.html" title="METS/MODS XML metadata export plugin." alt="" coords="447,265,593,293"/>
+<area shape="rect" id="node19" href="$class_quick_submit_plugin.html" title="Quick Submit one&#45;page submission plugin." alt="" coords="453,317,587,345"/>
+<area shape="rect" id="node21" href="$class_sample_import_export_plugin.html" title="Sample import/export plugin." alt="" coords="430,369,610,397"/>
+<area shape="rect" id="node23" href="$class_sword_import_export_plugin.html" title="SwordImportExportPlugin" alt="" coords="434,421,606,449"/>
+<area shape="rect" id="node25" href="$class_user_import_export_plugin.html" title="Users import/export plugin." alt="" coords="439,473,601,501"/>
+<area shape="rect" id="node2" href="$class_plugin.html" title="Abstract class for plugins." alt="" coords="139,239,197,267"/>
+<area shape="rect" id="node4" href="$class_p_k_p_plugin.html" title="Abstract class for plugins." alt="" coords="5,239,91,267"/>
+</map>

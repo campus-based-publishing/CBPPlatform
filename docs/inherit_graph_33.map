@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_file_manager.html" title="Class defining basic operations for file management." alt="" coords="6,83,101,111"/>
+<area shape="rect" id="node3" href="$class_article_file_manager.html" title="Class defining operations for article file management." alt="" coords="176,5,309,33"/>
+<area shape="rect" id="node5" href="$class_journal_file_manager.html" title="Class defining operations for private journal file management." alt="" coords="173,57,312,85"/>
+<area shape="rect" id="node7" href="$class_p_k_p_public_file_manager.html" title="Wrapper class for uploading files to a site/journal&#39;s public directory." alt="" coords="163,109,322,137"/>
+<area shape="rect" id="node11" href="$class_p_k_p_temporary_file_manager.html" title="Class defining operations for temporary file management." alt="" coords="150,161,335,189"/>
+<area shape="rect" id="node9" href="$class_public_file_manager.html" title="Wrapper class for uploading files to a site/journal&#39;s public directory." alt="" coords="398,109,530,137"/>
+<area shape="rect" id="node13" href="$class_temporary_file_manager.html" title="Class defining operations for temporary file management." alt="" coords="385,161,543,189"/>
+</map>

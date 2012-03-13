@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node9" href="$class_announcement_feed_plugin.html" title="Annoucement Feed plugin class." alt="" coords="571,5,749,33"/>
+<area shape="rect" id="node11" href="$class_books_for_review_plugin.html" title="BooksForReviewPlugin" alt="" coords="580,57,740,85"/>
+<area shape="rect" id="node13" href="$class_coins_plugin.html" title="COinS plugin class." alt="" coords="614,109,706,137"/>
+<area shape="rect" id="node15" href="$class_counter_plugin.html" title="COUNTER plugin; provides COUNTER statistics." alt="" coords="607,161,713,189"/>
+<area shape="rect" id="node17" href="$class_custom_block_manager_plugin.html" title="CustomBlockManagerPlugin" alt="" coords="565,213,755,241"/>
+<area shape="rect" id="node19" href="$class_custom_locale_plugin.html" title="This plugin enables customization of locale strings." alt="" coords="588,265,732,293"/>
+<area shape="rect" id="node21" href="$class_external_feed_plugin.html" title="ExternalFeed plugin class." alt="" coords="591,317,729,345"/>
+<area shape="rect" id="node23" href="$class_google_analytics_plugin.html" title="Google Analytics plugin class." alt="" coords="583,369,737,397"/>
+<area shape="rect" id="node25" href="$class_open_ads_plugin.html" title="Integrate OpenAds ad manager with OJS." alt="" coords="603,421,717,449"/>
+<area shape="rect" id="node27" href="$class_open_a_i_r_e_plugin.html" title="OpenAIRE plugin class." alt="" coords="599,473,721,501"/>
+<area shape="rect" id="node29" href="$class_php_my_visites_plugin.html" title="phpMyVisites plugin class" alt="" coords="591,525,729,553"/>
+<area shape="rect" id="node31" href="$class_rounded_corners_plugin.html" title="Rounded Corners plugin class." alt="" coords="580,577,740,605"/>
+<area shape="rect" id="node33" href="$class_sehl_plugin.html" title="Search Engine HighLighting plugin." alt="" coords="617,629,703,657"/>
+<area shape="rect" id="node35" href="$class_static_pages_plugin.html" title="StaticPagesPlugin" alt="" coords="595,681,725,709"/>
+<area shape="rect" id="node37" href="$class_sword_plugin.html" title="Sword deposit plugin." alt="" coords="612,733,708,761"/>
+<area shape="rect" id="node39" href="$class_thesis_feed_plugin.html" title="Thesis Feed plugin class." alt="" coords="596,785,724,813"/>
+<area shape="rect" id="node41" href="$class_thesis_plugin.html" title="Thesis abstracts plugin class." alt="" coords="611,837,709,865"/>
+<area shape="rect" id="node43" href="$class_tiny_m_c_e_plugin.html" title="TinyMCE WYSIWYG plugin for textareas &#45; to allow cross&#45;browser HTML editing." alt="" coords="604,889,716,917"/>
+<area shape="rect" id="node45" href="$class_translator_plugin.html" title="This plugin helps with translation maintenance." alt="" coords="601,941,719,969"/>
+<area shape="rect" id="node47" href="$class_web_feed_plugin.html" title="Web Feeds plugin class." alt="" coords="602,993,718,1021"/>
+<area shape="rect" id="node49" href="$class_x_m_l_galley_plugin.html" title="XML Galley Plugin." alt="" coords="598,1045,722,1073"/>
+<area shape="rect" id="node2" href="$class_lazy_load_plugin.html" title="LazyLoadPlugin" alt="" coords="246,525,362,553"/>
+<area shape="rect" id="node4" href="$class_plugin.html" title="Abstract class for plugins." alt="" coords="139,525,197,553"/>
+<area shape="rect" id="node6" href="$class_p_k_p_plugin.html" title="Abstract class for plugins." alt="" coords="5,525,91,553"/>
+</map>

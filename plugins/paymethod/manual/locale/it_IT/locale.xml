@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the it_IT (Italiano) locale.
+  *
+  * $Id: locale.xml,v 1.7 2009/08/17 23:38:36 asmecher Exp $
+ -->
+ 
+<locale name="it_IT" full_name="Italiano">
+	<message key="plugins.paymethod.manual.displayName">Pagamenti manuali</message>
+	<message key="plugins.paymethod.manual.description">L'amministratore registrerà manualmente la ricevuta del pagamento di un utente (fuori da OJS).</message>
+	<message key="plugins.paymethod.manual">Pagamento manuale</message>
+	<message key="plugins.paymethod.manual.settings">Impostazioni del pagamento manuale</message>
+	<message key="plugins.paymethod.manual.settings.instructions">Istruzioni</message>
+	<message key="plugins.paymethod.manual.settings.manualInstructions">Istruzioni di pagamento per gli utenti che selezioneranno il pagamento manuale</message>
+	
+	<message key="plugins.paymethod.manual.purchase.title">Titolo</message>
+	<message key="plugins.paymethod.manual.purchase.fee">Quota</message>	
+	<message key="plugins.paymethod.manual.sendNotificationOfPayment">Invia una notifica di pagamento</message>
+	<message key="plugins.paymethod.manual.paymentNotification">Notifica di pagamento</message>
+	<message key="plugins.paymethod.manual.notificationSent">Notifica di pagamento inviata</message>
+</locale>

@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['journal',['Journal',['../class_journal.html#a41b0c0c4c0fb1742067e1e6ff7504441',1,'Journal']]],
+  ['journalexistsbypath',['journalExistsByPath',['../class_journal_d_a_o.html#ab7c5bd31e4df7eb3aed189d84403e970',1,'JournalDAO']]],
+  ['journalfilemanager',['JournalFileManager',['../class_journal_file_manager.html#a0862371fcdaab79cf8c4200aab6f4430',1,'JournalFileManager']]],
+  ['journallanguageshandler',['JournalLanguagesHandler',['../class_journal_languages_handler.html#a851b24f21e32aefbf0e65a8ffe1a4d11',1,'JournalLanguagesHandler']]],
+  ['journaloai',['JournalOAI',['../class_journal_o_a_i.html#a6d8a237ab115ce26235d6d52c7b3b641',1,'JournalOAI']]],
+  ['journalpolicy',['JournalPolicy',['../class_journal_policy.html#a00263381aab6b29b9a272895218ff5c5',1,'JournalPolicy']]],
+  ['journals',['journals',['../class_admin_journal_handler.html#aca3a86c56b787550aa961d60478b792d',1,'AdminJournalHandler']]],
+  ['journalsetupform',['JournalSetupForm',['../class_journal_setup_form.html#ab832676f072726fb0e65f3d23f084786',1,'JournalSetupForm']]],
+  ['journalsetupstep1form',['JournalSetupStep1Form',['../class_journal_setup_step1_form.html#aa01182a6cdda1cd7a5c345b853a1db01',1,'JournalSetupStep1Form']]],
+  ['journalsetupstep2form',['JournalSetupStep2Form',['../class_journal_setup_step2_form.html#a1df19d7ab4e203db68818f4232d6163f',1,'JournalSetupStep2Form']]],
+  ['journalsetupstep3form',['JournalSetupStep3Form',['../class_journal_setup_step3_form.html#a53a6d7ef3dfbdcd98adb5411712b0d99',1,'JournalSetupStep3Form']]],
+  ['journalsetupstep4form',['JournalSetupStep4Form',['../class_journal_setup_step4_form.html#a58287a5754f6549a9845669e8c07c4c2',1,'JournalSetupStep4Form']]],
+  ['journalsetupstep5form',['JournalSetupStep5Form',['../class_journal_setup_step5_form.html#a2d1a5c25e5ea8c05e4b03565ffa15fb8',1,'JournalSetupStep5Form']]],
+  ['journalsitesettingsform',['JournalSiteSettingsForm',['../class_journal_site_settings_form.html#aaae33428441eb530300a47852a5bf804',1,'JournalSiteSettingsForm']]],
+  ['journalsponsorship',['journalSponsorship',['../class_about_handler.html#af9b0fb0a01309415415694799f3bfe78',1,'AboutHandler']]],
+  ['json',['JSON',['../class_j_s_o_n.html#ae78b922708537e21536c8a537c2a1c46',1,'JSON']]],
+  ['json_5fencode',['json_encode',['../class_j_s_o_n.html#a0c561e7f4d2f5d58197136a88f8d20d7',1,'JSON']]]
+];

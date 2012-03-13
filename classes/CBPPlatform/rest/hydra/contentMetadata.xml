@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentMetadata type="book" xmlns="http://hydra-collab.hull.ac.uk/schemas/contentMetadata/v1">
+  <resource sequence="1" id="book" displayLabel="Book" serviceDef="hull-sDef:book" serviceMethod="getContent" objectID="hull:4239" dsID="content" contains="content">
+    <file id="content" format="pdf" mimeType="application/pdf" size="2968255">
+      <location type="url">http://hydra.hull.ac.uk/assets/hull:4239/content</location>
+    </file>
+  </resource>
+</contentMetadata>

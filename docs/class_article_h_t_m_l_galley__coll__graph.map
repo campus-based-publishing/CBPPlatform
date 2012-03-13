@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_article_galley.html" title="A galley is a final presentation version of the full&#45;text of an article." alt="" coords="23,238,119,266"/>
+<area shape="rect" id="node4" href="$class_article_file.html" title="Article file class." alt="" coords="31,161,109,189"/>
+<area shape="rect" id="node6" href="$class_submission_file.html" title="Submission file class." alt="" coords="15,83,125,111"/>
+<area shape="rect" id="node8" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="27,6,115,34"/>
+</map>

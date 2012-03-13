@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_composite_filter.html" title="An abstract base class for generic filters that compose other filters into filter networks..." alt="" coords="28,238,143,266"/>
+<area shape="rect" id="node4" href="$class_generic_filter.html" title="Abstract base class for filters that can transform any type of data." alt="" coords="37,161,133,189"/>
+<area shape="rect" id="node6" href="$class_filter.html" title="Class that provides the basic template for a filter. Filters are generic data processors that take in..." alt="" coords="60,83,111,111"/>
+<area shape="rect" id="node8" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="41,6,129,34"/>
+</map>

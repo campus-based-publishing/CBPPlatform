@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_installer.html" title="Base class for install and upgrade scripts." alt="" coords="6,31,74,59"/>
+<area shape="rect" id="node3" href="$class_p_k_p_install.html" title="PKPInstall" alt="" coords="123,5,205,33"/>
+<area shape="rect" id="node7" href="$class_upgrade.html" title="Perform system upgrade." alt="" coords="128,57,200,85"/>
+<area shape="rect" id="node5" href="$class_install.html" title="Perform system installation." alt="" coords="253,5,309,33"/>
+</map>

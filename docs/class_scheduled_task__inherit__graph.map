@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_books_for_review_reminder.html" title="Class to perform automated reminders for book reviewers." alt="" coords="170,5,350,33"/>
+<area shape="rect" id="node5" href="$class_open_access_notification.html" title="Class to perform automated email notifications when an issue becomes open access." alt="" coords="179,57,341,85"/>
+<area shape="rect" id="node7" href="$class_review_reminder.html" title="Class to perform automated reminders for reviewers." alt="" coords="199,109,321,137"/>
+<area shape="rect" id="node9" href="$class_subscription_expiry_reminder.html" title="Class to perform automated reminders for reviewers." alt="" coords="165,161,355,189"/>
+</map>

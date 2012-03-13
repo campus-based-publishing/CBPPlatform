@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mods xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-4.xsd" xmlns="http://www.loc.gov/mods/v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <titleInfo>
+    <title>Saint Monday, a poem</title>
+  </titleInfo>
+  <name type="personal">
+    <namePart>Brown, Henry, artisan</namePart>
+    <role>
+      <roleTerm type="text">creator</roleTerm>
+    </role>
+  </name>
+  <typeOfResource>text</typeOfResource>
+  <genre>Book</genre>
+  <originInfo>
+    <publisher>The University of Hull</publisher>
+  </originInfo>
+  <language>
+    <languageTerm type="text">English</languageTerm>
+    <languageTerm type="code" authority="iso639-2b">eng</languageTerm>
+  </language>
+  <physicalDescription>
+    <extent>Filesize: 2968KB</extent>
+    <internetMediaType>application/pdf</internetMediaType>
+    <digitalOrigin>digitized other analog</digitalOrigin>
+  </physicalDescription>
+  <subject authority="UoH">
+    <topic>Poetry</topic>
+  </subject>
+  <identifier type="fedora">hull:4239</identifier>
+  <relatedItem ID="privateObject">
+    <identifier type="fedora">hull-private:2844</identifier>
+  </relatedItem>
+  <location>
+    <url usage="primary display" access="object in context">http://hydra.hull.ac.uk/resources/hull:4239</url>
+    <url access="raw object">http://hydra.hull.ac.uk/assets/hull:4239/content</url>
+  </location>
+  <accessCondition type="useAndReproduction">Creative Commons Licence: Attribution-Noncommercial-Share Alike 2.0 UK: England and Wales. See: http://creativecommons.org/licenses/by-nc-sa/2.0/uk/</accessCondition>
+  <recordInfo>
+    <recordContentSource>The University of Hull</recordContentSource>
+    <recordCreationDate encoding="w3cdtf">2011-06-01</recordCreationDate>
+    <recordChangeDate encoding="w3cdtf" />
+    <languageOfCataloging>
+      <languageTerm authority="iso639-2b">eng</languageTerm>
+    </languageOfCataloging>
+  </recordInfo>
+</mods>

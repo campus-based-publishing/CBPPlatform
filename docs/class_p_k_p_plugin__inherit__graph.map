@@ -1,0 +1,50 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_plugin.html" title="Abstract class for plugins." alt="" coords="139,1409,197,1437"/>
+<area shape="rect" id="node5" href="$class_auth_plugin.html" title="Abstract class for authentication plugins." alt="" coords="292,135,378,163"/>
+<area shape="rect" id="node9" href="$class_citation_plugin.html" title="Abstract class for citation plugins." alt="" coords="283,317,386,345"/>
+<area shape="rect" id="node31" href="$class_gateway_plugin.html" title="Abstract class for gateway plugins." alt="" coords="279,707,390,735"/>
+<area shape="rect" id="node43" href="$class_implicit_auth_plugin.html" title="Abstract class for implicit authentication plugins." alt="" coords="271,966,398,994"/>
+<area shape="rect" id="node47" href="$class_import_export_plugin.html" title="Abstract class for import/export plugins." alt="" coords="267,1149,402,1177"/>
+<area shape="rect" id="node69" href="$class_lazy_load_plugin.html" title="LazyLoadPlugin" alt="" coords="277,1409,393,1437"/>
+<area shape="rect" id="node75" href="$class_metadata_plugin.html" title="Abstract class for metadata plugins." alt="" coords="278,1461,392,1489"/>
+<area shape="rect" id="node77" href="$class_o_a_i_metadata_format_plugin.html" title="Abstract class for OAI Metadata format plugins." alt="" coords="245,1565,424,1593"/>
+<area shape="rect" id="node89" href="$class_paymethod_plugin.html" title="Abstract class for paymethod plugins." alt="" coords="272,1617,398,1645"/>
+<area shape="rect" id="node95" href="$class_report_plugin.html" title="Abstract class for report plugins." alt="" coords="285,1669,384,1697"/>
+<area shape="rect" id="node97" href="$class_theme_plugin.html" title="Abstract class for theme plugins." alt="" coords="285,1721,385,1749"/>
+<area shape="rect" id="node7" href="$class_l_d_a_p_auth_plugin.html" title="LDAP authentication plugin." alt="" coords="535,5,655,33"/>
+<area shape="rect" id="node11" href="$class_abnt_citation_plugin.html" title="ABNT citation format plugin." alt="" coords="529,57,660,85"/>
+<area shape="rect" id="node13" href="$class_apa_citation_plugin.html" title="APA citation format plugin." alt="" coords="531,109,658,137"/>
+<area shape="rect" id="node15" href="$class_bibtex_citation_plugin.html" title="BibTeX citation format plugin." alt="" coords="524,161,665,189"/>
+<area shape="rect" id="node17" href="$class_cbe_citation_plugin.html" title="CBE citation format plugin." alt="" coords="531,213,659,241"/>
+<area shape="rect" id="node19" href="$class_end_note_citation_plugin.html" title="EndNote citation format plugin." alt="" coords="517,265,672,293"/>
+<area shape="rect" id="node21" href="$class_mla_citation_plugin.html" title="MLA citation format plugin." alt="" coords="532,317,657,345"/>
+<area shape="rect" id="node23" href="$class_pro_cite_citation_plugin.html" title="ProCite citation format plugin." alt="" coords="521,369,669,397"/>
+<area shape="rect" id="node25" href="$class_ref_man_citation_plugin.html" title="Reference Manager citation format plugin." alt="" coords="520,421,670,449"/>
+<area shape="rect" id="node27" href="$class_ref_works_citation_plugin.html" title="RefWorks citation format plugin." alt="" coords="514,473,676,501"/>
+<area shape="rect" id="node29" href="$class_turabian_citation_plugin.html" title="Turabian citation format plugin." alt="" coords="517,525,673,553"/>
+<area shape="rect" id="node33" href="$class_announcement_feed_gateway_plugin.html" title="Gateway component of announcement feed plugin." alt="" coords="479,577,710,605"/>
+<area shape="rect" id="node35" href="$class_m_e_t_s_gateway_plugin.html" title="A plugin to allow exposure of Journals in METS format for web service access." alt="" coords="521,629,669,657"/>
+<area shape="rect" id="node37" href="$class_resolver_plugin.html" title="Simple resolver gateway plugin." alt="" coords="539,681,650,709"/>
+<area shape="rect" id="node39" href="$class_thesis_feed_gateway_plugin.html" title="Gateway component of thesis feed plugin." alt="" coords="504,733,685,761"/>
+<area shape="rect" id="node41" href="$class_web_feed_gateway_plugin.html" title="Gateway component of web feed plugin." alt="" coords="510,785,679,813"/>
+<area shape="rect" id="node45" href="$class_shib_auth_plugin.html" title="ShibAuthPlugin" alt="" coords="538,837,651,865"/>
+<area shape="rect" id="node49" href="$class_cross_ref_export_plugin.html" title="CrossRef/MEDLINE XML metadata export plugin." alt="" coords="518,889,671,917"/>
+<area shape="rect" id="node51" href="$class_d_o_a_j_plugin.html" title="DOAJ import/export plugin." alt="" coords="548,941,642,969"/>
+<area shape="rect" id="node53" href="$class_erudit_export_plugin.html" title="Erudit english DTD article export plugin." alt="" coords="529,993,661,1021"/>
+<area shape="rect" id="node55" href="$class_m_e_t_s_export_plugin.html" title="METSExportPlugin" alt="" coords="528,1045,662,1073"/>
+<area shape="rect" id="node57" href="$class_native_import_export_plugin.html" title="Native import/export plugin." alt="" coords="508,1097,681,1125"/>
+<area shape="rect" id="node59" href="$class_pub_med_export_plugin.html" title="METS/MODS XML metadata export plugin." alt="" coords="521,1149,668,1177"/>
+<area shape="rect" id="node61" href="$class_quick_submit_plugin.html" title="Quick Submit one&#45;page submission plugin." alt="" coords="528,1201,662,1229"/>
+<area shape="rect" id="node63" href="$class_sample_import_export_plugin.html" title="Sample import/export plugin." alt="" coords="505,1253,685,1281"/>
+<area shape="rect" id="node65" href="$class_sword_import_export_plugin.html" title="SwordImportExportPlugin" alt="" coords="508,1305,681,1333"/>
+<area shape="rect" id="node67" href="$class_user_import_export_plugin.html" title="Users import/export plugin." alt="" coords="513,1357,676,1385"/>
+<area shape="rect" id="node71" href="$class_block_plugin.html" title="Abstract class for block plugins." alt="" coords="549,1409,640,1437"/>
+<area shape="rect" id="node73" href="$class_generic_plugin.html" title="Abstract class for generic plugins." alt="" coords="542,1461,647,1489"/>
+<area shape="rect" id="node79" href="$class_o_a_i_metadata_format_plugin___d_c.html" title="dc metadata format plugin for OAI." alt="" coords="492,1513,698,1541"/>
+<area shape="rect" id="node81" href="$class_o_a_i_metadata_format_plugin___m_a_r_c.html" title="marc metadata format plugin for OAI." alt="" coords="482,1565,708,1593"/>
+<area shape="rect" id="node83" href="$class_o_a_i_metadata_format_plugin___m_a_r_c21.html" title="marc21 metadata format plugin for OAI." alt="" coords="474,1617,715,1645"/>
+<area shape="rect" id="node85" href="$class_o_a_i_metadata_format_plugin___n_l_m.html" title="NLM Journal Article metadata format plugin for OAI." alt="" coords="487,1669,702,1697"/>
+<area shape="rect" id="node87" href="$class_o_a_i_metadata_format_plugin___r_f_c1807.html" title="rfc1807 metadata format plugin for OAI." alt="" coords="473,1721,716,1749"/>
+<area shape="rect" id="node91" href="$class_manual_payment_plugin.html" title="Manual payment plugin class." alt="" coords="517,1773,672,1801"/>
+<area shape="rect" id="node93" href="$class_pay_pal_plugin.html" title="PayPal Paymethod plugin class." alt="" coords="544,1825,645,1853"/>
+</map>

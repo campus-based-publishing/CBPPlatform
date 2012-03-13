@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_a_p_c_cache.html" title="Provides caching based on APC&#39;s variable store." alt="" coords="4,83,91,111"/>
+<area shape="rect" id="node5" href="$class_file_cache.html" title="Provides caching based on machine&#45;generated PHP code on the filesystem." alt="" coords="115,83,196,111"/>
+<area shape="rect" id="node7" href="$class_memcache_cache.html" title="Provides caching based on Memcache." alt="" coords="220,83,344,111"/>
+<area shape="rect" id="node9" href="$class_x_cache_cache.html" title="Provides caching based on XCache&#39;s variable store." alt="" coords="369,83,476,111"/>
+</map>

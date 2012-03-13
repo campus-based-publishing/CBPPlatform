@@ -1,0 +1,94 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_p_k_p_handler.html" title="PKPHandler" alt="" coords="6,667,101,695"/>
+<area shape="rect" id="node3" href="$class_citation_api_handler.html" title="Class defining the headless API for backend citation manipulation." alt="" coords="150,109,282,137"/>
+<area shape="rect" id="node5" href="$class_grid_handler.html" title="Class defining basic operations for handling HTML grids." alt="" coords="169,161,263,189"/>
+<area shape="rect" id="node23" href="$class_handler.html" title="Base request handler application class." alt="" coords="182,1174,250,1202"/>
+<area shape="rect" id="node190" href="$class_user_api_handler.html" title="Class defining the headless AJAX API for backend user manipulation." alt="" coords="158,1226,274,1254"/>
+<area shape="rect" id="node7" href="$class_category_grid_handler.html" title="CategoryGridHandler" alt="" coords="361,82,508,110"/>
+<area shape="rect" id="node9" href="$class_listbuilder_handler.html" title="Class defining basic operations for handling Listbuilder UI elements." alt="" coords="370,134,499,162"/>
+<area shape="rect" id="node11" href="$class_p_k_p_citation_grid_handler.html" title="Handle generic parts of citation grid requests." alt="" coords="352,186,517,214"/>
+<area shape="rect" id="node15" href="$class_p_k_p_filter_grid_handler.html" title="Manage filter administration and settings." alt="" coords="360,30,509,58"/>
+<area shape="rect" id="node13" href="$class_citation_grid_handler.html" title="Handle OJS specific parts of citation grid requests." alt="" coords="619,186,757,214"/>
+<area shape="rect" id="node17" href="$class_filter_grid_handler.html" title="Handle OJS specific parts of filter grid requests." alt="" coords="627,30,749,58"/>
+<area shape="rect" id="node19" href="$class_lookup_filter_grid_handler.html" title="Defines the filters that will be configured in this grid." alt="" coords="843,5,1010,33"/>
+<area shape="rect" id="node21" href="$class_parser_filter_grid_handler.html" title="Defines the filters that will be configured in this grid." alt="" coords="846,57,1008,85"/>
+<area shape="rect" id="node25" href="$class_about_handler.html" title="Handle requests for editor functions." alt="" coords="383,862,486,890"/>
+<area shape="rect" id="node27" href="$class_admin_handler.html" title="Handle requests for site administration functions." alt="" coords="382,914,488,942"/>
+<area shape="rect" id="node41" href="$class_admin_issue_handler.html" title="Handle requests for issue/book management in site administration." alt="" coords="366,966,504,994"/>
+<area shape="rect" id="node43" href="$class_article_handler.html" title="Handle requests for article functions." alt="" coords="382,1018,487,1046"/>
+<area shape="rect" id="node47" href="$class_author_handler.html" title="Handle requests for journal author functions." alt="" coords="381,1174,488,1202"/>
+<area shape="rect" id="node55" href="$class_books_for_review_author_handler.html" title="Handle requests for author book for review functions." alt="" coords="331,1382,539,1410"/>
+<area shape="rect" id="node57" href="$class_books_for_review_editor_handler.html" title="Handle requests for editor books for review functions." alt="" coords="333,1434,536,1462"/>
+<area shape="rect" id="node59" href="$class_books_for_review_handler.html" title="Handle requests for reviewer book functions." alt="" coords="350,1486,519,1514"/>
+<area shape="rect" id="node61" href="$class_comment_handler.html" title="Handle requests for user comments." alt="" coords="372,1538,498,1566"/>
+<area shape="rect" id="node63" href="$class_copyeditor_handler.html" title="Handle requests for copyeditor functions." alt="" coords="368,1070,501,1098"/>
+<area shape="rect" id="node68" href="$class_counter_handler.html" title="Counter statistics request handler." alt="" coords="377,1590,492,1618"/>
+<area shape="rect" id="node70" href="$class_custom_locale_handler.html" title="This handles requests for the customLocale plugin." alt="" coords="358,1642,511,1670"/>
+<area shape="rect" id="node72" href="$class_donations_handler.html" title="Display a form for accepting donations." alt="" coords="371,1694,499,1722"/>
+<area shape="rect" id="node74" href="$class_gateway_handler.html" title="Handle external gateway requests." alt="" coords="374,1746,495,1774"/>
+<area shape="rect" id="node76" href="$class_help_handler.html" title="Handle requests for viewing help pages." alt="" coords="387,1798,482,1826"/>
+<area shape="rect" id="node78" href="$class_index_handler.html" title="Handle site index requests." alt="" coords="384,1850,485,1878"/>
+<area shape="rect" id="node80" href="$class_information_handler.html" title="Display journal information." alt="" coords="367,1902,502,1930"/>
+<area shape="rect" id="node82" href="$class_issue_handler.html" title="Handle requests for issue functions." alt="" coords="385,1954,485,1982"/>
+<area shape="rect" id="node84" href="$class_layout_editor_handler.html" title="Handle requests for layout editor functions." alt="" coords="363,1122,506,1150"/>
+<area shape="rect" id="node89" href="$class_manager_handler.html" title="Handle requests for journal management functions." alt="" coords="374,2058,495,2086"/>
+<area shape="rect" id="node107" href="$class_p_k_p_announcement_handler.html" title="Handle requests for public announcement functions." alt="" coords="596,2499,780,2527"/>
+<area shape="rect" id="node125" href="$class_notification_handler.html" title="Handle requests for viewing notifications." alt="" coords="368,2162,502,2190"/>
+<area shape="rect" id="node127" href="$class_o_a_i_handler.html" title="Handle OAI protocol requests." alt="" coords="389,2214,480,2242"/>
+<area shape="rect" id="node129" href="$class_payment_handler.html" title="Handle requests for payment functions." alt="" coords="374,238,495,266"/>
+<area shape="rect" id="node132" href="$class_p_k_p_install_handler.html" title="Handle installation requests." alt="" coords="370,290,499,318"/>
+<area shape="rect" id="node134" href="$class_p_k_p_login_handler.html" title="Handle login/logout requests." alt="" coords="371,342,498,370"/>
+<area shape="rect" id="node138" href="$class_proofreader_handler.html" title="Handle requests for proofreader functions." alt="" coords="365,1226,504,1254"/>
+<area shape="rect" id="node143" href="$class_reviewer_handler.html" title="Handle requests for reviewer functions." alt="" coords="373,1278,496,1306"/>
+<area shape="rect" id="node148" href="$class_r_t_admin_handler.html" title="Handle Reading Tools administration requests." alt="" coords="373,394,496,422"/>
+<area shape="rect" id="node158" href="$class_search_handler.html" title="Handle site index requests." alt="" coords="380,446,490,474"/>
+<area shape="rect" id="node160" href="$class_section_editor_handler.html" title="Handle requests for section editor functions." alt="" coords="361,1330,508,1358"/>
+<area shape="rect" id="node169" href="$class_sitemap_handler.html" title="Produce a sitemap in XML format for submitting to search engines." alt="" coords="376,498,493,526"/>
+<area shape="rect" id="node171" href="$class_static_pages_handler.html" title="StaticPagesHandler" alt="" coords="365,550,504,578"/>
+<area shape="rect" id="node173" href="$class_subscription_manager_handler.html" title="Handle requests for subscription management functions." alt="" coords="338,602,532,630"/>
+<area shape="rect" id="node175" href="$class_sword_handler.html" title="Handle requests for author SWORD deposits." alt="" coords="382,654,488,682"/>
+<area shape="rect" id="node177" href="$class_thesis_handler.html" title="Handle requests for public thesis abstract functions." alt="" coords="381,706,488,734"/>
+<area shape="rect" id="node179" href="$class_translator_handler.html" title="This handles requests for the translator plugin." alt="" coords="371,758,498,786"/>
+<area shape="rect" id="node181" href="$class_user_handler.html" title="Handle requests for user functions." alt="" coords="387,2006,483,2034"/>
+<area shape="rect" id="node188" href="$class_workshop_handler.html" title="WorkshopHandler" alt="" coords="371,810,499,838"/>
+<area shape="rect" id="node29" href="$class_admin_functions_handler.html" title="Handle requests for site administrative/maintenance functions." alt="" coords="606,914,770,942"/>
+<area shape="rect" id="node31" href="$class_admin_journal_handler.html" title="Handle requests for journal management in site administration." alt="" coords="613,966,763,994"/>
+<area shape="rect" id="node33" href="$class_admin_languages_handler.html" title="Handle requests for changing site language settings." alt="" coords="602,706,774,734"/>
+<area shape="rect" id="node35" href="$class_admin_people_handler.html" title="Handle requests for people management functions." alt="" coords="614,758,762,786"/>
+<area shape="rect" id="node37" href="$class_admin_settings_handler.html" title="Handle requests for changing site admin settings." alt="" coords="611,810,765,838"/>
+<area shape="rect" id="node39" href="$class_auth_sources_handler.html" title="Handle requests for authentication source management in site administration." alt="" coords="616,862,760,890"/>
+<area shape="rect" id="node45" href="$class_r_t_handler.html" title="Handle Reading Tools requests." alt="" coords="645,1018,731,1046"/>
+<area shape="rect" id="node49" href="$class_submission_comments_handler.html" title="Handle requests for submission comments." alt="" coords="587,1278,789,1306"/>
+<area shape="rect" id="node51" href="$class_submit_handler.html" title="Handle requests for author article submission." alt="" coords="633,1174,743,1202"/>
+<area shape="rect" id="node53" href="$class_track_submission_handler.html" title="Handle requests for submission tracking." alt="" coords="603,1226,773,1254"/>
+<area shape="rect" id="node66" href="$class_submission_copyedit_handler.html" title="Handle requests for submission tracking." alt="" coords="593,1070,783,1098"/>
+<area shape="rect" id="node87" href="$class_submission_layout_handler.html" title="Handle requests related to submission layout editing." alt="" coords="600,1122,776,1150"/>
+<area shape="rect" id="node91" href="$class_email_handler.html" title="Handle requests for email management functions." alt="" coords="637,1719,739,1747"/>
+<area shape="rect" id="node93" href="$class_files_handler.html" title="Handle requests for files browser functions." alt="" coords="640,2083,736,2111"/>
+<area shape="rect" id="node95" href="$class_group_handler.html" title="Handle requests for editorial team management functions." alt="" coords="635,2135,741,2163"/>
+<area shape="rect" id="node97" href="$class_import_export_handler.html" title="Handle requests for import/export functions." alt="" coords="616,2187,760,2215"/>
+<area shape="rect" id="node99" href="$class_journal_languages_handler.html" title="Handle requests for changing journal language settings." alt="" coords="599,2239,777,2267"/>
+<area shape="rect" id="node101" href="$class_manager_payment_handler.html" title="Handle requests for configuring payments." alt="" coords="601,2291,775,2319"/>
+<area shape="rect" id="node103" href="$class_pending_users_handler.html" title="Handle requests for pending user account requests." alt="" coords="612,2343,764,2371"/>
+<area shape="rect" id="node105" href="$class_people_handler.html" title="Handle requests for people management functions." alt="" coords="633,2395,743,2423"/>
+<area shape="rect" id="node111" href="$class_plugin_handler.html" title="Handle requests for plugin management functions." alt="" coords="635,2447,741,2475"/>
+<area shape="rect" id="node113" href="$class_plugin_management_handler.html" title="Handle requests for installing/upgrading/deleting plugins." alt="" coords="597,1771,779,1799"/>
+<area shape="rect" id="node115" href="$class_review_form_handler.html" title="Handle requests for review form management functions." alt="" coords="617,1823,759,1851"/>
+<area shape="rect" id="node117" href="$class_section_handler.html" title="Handle requests for section management functions." alt="" coords="632,1875,744,1903"/>
+<area shape="rect" id="node119" href="$class_setup_handler.html" title="Handle requests for journal setup functions." alt="" coords="637,1927,739,1955"/>
+<area shape="rect" id="node121" href="$class_statistics_handler.html" title="Handle requests for statistics functions." alt="" coords="627,1979,749,2007"/>
+<area shape="rect" id="node123" href="$class_subscription_handler.html" title="SubscriptionHandler" alt="" coords="617,2031,759,2059"/>
+<area shape="rect" id="node109" href="$class_announcement_handler.html" title="Handle requests for announcement management functions." alt="" coords="848,2499,1006,2527"/>
+<area shape="rect" id="node136" href="$class_login_handler.html" title="Handle login/logout requests." alt="" coords="638,290,738,318"/>
+<area shape="rect" id="node141" href="$class_submission_proofread_handler.html" title="Handle requests for proofreader submission functions." alt="" coords="590,1330,786,1358"/>
+<area shape="rect" id="node146" href="$class_submission_review_handler.html" title="Handle requests for submission tracking." alt="" coords="598,1382,778,1410"/>
+<area shape="rect" id="node150" href="$class_r_t_context_handler.html" title="Handle Reading Tools administration requests &#45;&#45; contexts section." alt="" coords="622,498,754,526"/>
+<area shape="rect" id="node152" href="$class_r_t_search_handler.html" title="Handle Reading Tools administration requests &#45;&#45; contexts section." alt="" coords="624,342,752,370"/>
+<area shape="rect" id="node154" href="$class_r_t_setup_handler.html" title="Handle Reading Tools administration requests &#45;&#45; setup section." alt="" coords="628,394,748,422"/>
+<area shape="rect" id="node156" href="$class_r_t_version_handler.html" title="Handle Reading Tools administration requests &#45;&#45; setup section." alt="" coords="623,446,753,474"/>
+<area shape="rect" id="node162" href="$class_editor_handler.html" title="Handle requests for editor functions." alt="" coords="637,1434,739,1462"/>
+<area shape="rect" id="node167" href="$class_submission_edit_handler.html" title="Handle requests for submission tracking." alt="" coords="608,1486,768,1514"/>
+<area shape="rect" id="node164" href="$class_issue_management_handler.html" title="Handle requests for issue management in publishing." alt="" coords="838,1434,1016,1462"/>
+<area shape="rect" id="node184" href="$class_profile_handler.html" title="Handle requests for modifying user profiles." alt="" coords="635,1615,741,1643"/>
+<area shape="rect" id="node186" href="$class_registration_handler.html" title="Handle requests for user registration." alt="" coords="618,1667,758,1695"/>
+</map>

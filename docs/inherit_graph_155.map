@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_web_service.html" title="Abstract base class for a web service." alt="" coords="6,5,98,33"/>
+<area shape="rect" id="node3" href="$class_xml_web_service.html" title="A web service that returns XML data." alt="" coords="147,5,263,33"/>
+</map>

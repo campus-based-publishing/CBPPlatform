@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_help_mapping_file.html" title="Abstracts a Help mapping XML file." alt="" coords="6,31,127,59"/>
+<area shape="rect" id="node3" href="$class_o_j_s_help_mapping_file.html" title="Abstracts the built&#45;in help mapping XML file." alt="" coords="182,5,330,33"/>
+<area shape="rect" id="node5" href="$class_plugin_help_mapping_file.html" title="Abstracts the plugin&#39;s help mapping XML files." alt="" coords="177,57,335,85"/>
+</map>

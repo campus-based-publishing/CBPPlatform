@@ -1,0 +1,18 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_command_line_tool.html" title="Initialization code for command&#45;line scripts." alt="" coords="6,265,138,293"/>
+<area shape="rect" id="node3" href="$classimport_export.html" title="CLI tool to perform import/export tasks." alt="" coords="221,5,318,33"/>
+<area shape="rect" id="node5" href="$class_install_tool.html" title="InstallTool" alt="" coords="229,57,310,85"/>
+<area shape="rect" id="node9" href="$classmerge_users.html" title="CLI tool for merging two OJS 2 user accounts." alt="" coords="222,109,316,137"/>
+<area shape="rect" id="node11" href="$class_php_compat.html" title="A small wrapper script around PEAR&#39;s PHP_CompatInfo package to test PHP version compatibility." alt="" coords="223,161,315,189"/>
+<area shape="rect" id="node13" href="$classpo_to_countries.html" title="CLI tool to convert a .PO file for ISO3166 into the countries.xml format supported by the PKP suite..." alt="" coords="216,213,323,241"/>
+<area shape="rect" id="node15" href="$classpo_to_currencies.html" title="CLI tool to convert a .PO file for ISO4217 into the currencies.xml format supported by the PKP suite..." alt="" coords="212,265,327,293"/>
+<area shape="rect" id="node17" href="$classrebuild_search_index.html" title="CLI tool to rebuild the article keyword search database." alt="" coords="201,317,337,345"/>
+<area shape="rect" id="node19" href="$class_scheduled_task_tool.html" title="CLI tool to execute a set of scheduled tasks." alt="" coords="201,369,337,397"/>
+<area shape="rect" id="node23" href="$class_submission_deletion_tool.html" title="SubmissionDeletionTool" alt="" coords="188,421,351,449"/>
+<area shape="rect" id="node25" href="$class_upgrade_tool.html" title="UpgradeTool" alt="" coords="221,473,318,501"/>
+<area shape="rect" id="node29" href="$class_xml_to_sql_tool.html" title="CLI tool to output the SQL statements corresponding to an XML database schema." alt="" coords="218,525,320,553"/>
+<area shape="rect" id="node7" href="$class_o_j_s_install_tool.html" title="OJSInstallTool" alt="" coords="416,57,523,85"/>
+<area shape="rect" id="node21" href="$classrun_scheduled_tasks.html" title="CLI tool to execute a set of scheduled tasks." alt="" coords="400,369,538,397"/>
+<area shape="rect" id="node27" href="$class_o_j_s_upgrade_tool.html" title="OJSUpgradeTool" alt="" coords="408,473,531,501"/>
+<area shape="rect" id="node31" href="$classdb_x_m_lto_s_q_l.html" title="CLI tool to output the SQL statements corresponding to an XML database schema." alt="" coords="419,525,520,553"/>
+</map>

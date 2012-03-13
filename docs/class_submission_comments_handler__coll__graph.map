@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_section_editor_handler.html" title="Handle requests for section editor functions." alt="" coords="266,5,414,33"/>
+<area shape="rect" id="node4" href="$class_handler.html" title="Base request handler application class." alt="" coords="150,135,218,163"/>
+<area shape="rect" id="node8" href="$class_reviewer_handler.html" title="Handle requests for reviewer functions." alt="" coords="278,57,402,85"/>
+<area shape="rect" id="node11" href="$class_proofreader_handler.html" title="Handle requests for proofreader functions." alt="" coords="271,109,409,137"/>
+<area shape="rect" id="node14" href="$class_layout_editor_handler.html" title="Handle requests for layout editor functions." alt="" coords="269,161,411,189"/>
+<area shape="rect" id="node17" href="$class_copyeditor_handler.html" title="Handle requests for copyeditor functions." alt="" coords="274,213,406,241"/>
+<area shape="rect" id="node20" href="$class_author_handler.html" title="Handle requests for journal author functions." alt="" coords="286,265,394,293"/>
+<area shape="rect" id="node6" href="$class_p_k_p_handler.html" title="PKPHandler" alt="" coords="6,135,101,163"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_handler_validator_custom.html" title="HandlerValidatorCustom" alt="" coords="215,5,380,33"/>
+<area shape="rect" id="node5" href="$class_handler_validator_journal.html" title="Class to validate if a Journal is present." alt="" coords="216,57,379,85"/>
+<area shape="rect" id="node7" href="$class_handler_validator_policy.html" title="HandlerValidatorPolicy" alt="" coords="220,109,375,137"/>
+<area shape="rect" id="node11" href="$class_handler_validator_submission_comment.html" title="Class to validate that a comment exists (by id) and that the current user has access." alt="" coords="174,161,421,189"/>
+<area shape="rect" id="node9" href="$class_handler_validator_roles.html" title="HandlerValidatorRoles" alt="" coords="470,109,624,137"/>
+</map>

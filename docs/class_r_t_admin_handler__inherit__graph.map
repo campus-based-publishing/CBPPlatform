@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_r_t_context_handler.html" title="Handle Reading Tools administration requests &#45;&#45; contexts section." alt="" coords="5,238,136,266"/>
+<area shape="rect" id="node9" href="$class_r_t_search_handler.html" title="Handle Reading Tools administration requests &#45;&#45; contexts section." alt="" coords="160,238,287,266"/>
+<area shape="rect" id="node11" href="$class_r_t_setup_handler.html" title="Handle Reading Tools administration requests &#45;&#45; setup section." alt="" coords="312,238,432,266"/>
+<area shape="rect" id="node13" href="$class_r_t_version_handler.html" title="Handle Reading Tools administration requests &#45;&#45; setup section." alt="" coords="456,238,585,266"/>
+<area shape="rect" id="node2" href="$class_handler.html" title="Base request handler application class." alt="" coords="263,83,331,111"/>
+<area shape="rect" id="node4" href="$class_p_k_p_handler.html" title="PKPHandler" alt="" coords="250,6,344,34"/>
+</map>

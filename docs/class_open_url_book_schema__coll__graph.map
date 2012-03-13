@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_open_url_journal_book_base_schema.html" title="Class that provides meta&#45;data properties common to the journal and book variants of the OpenURL 1..." alt="" coords="5,161,229,189"/>
+<area shape="rect" id="node4" href="$class_open_url_base_schema.html" title="Class that provides meta&#45;data properties common to all variants of the OpenURL 1.0 standard..." alt="" coords="42,83,192,111"/>
+<area shape="rect" id="node6" href="$class_metadata_schema.html" title="Class that represents a meta&#45;data schema (e.g. NLM element&#45;citation, OpenURL, dc(terms), MODS) or a subset of it." alt="" coords="54,6,180,34"/>
+</map>

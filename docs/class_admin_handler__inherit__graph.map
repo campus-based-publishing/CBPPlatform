@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_admin_functions_handler.html" title="Handle requests for site administrative/maintenance functions." alt="" coords="426,5,590,33"/>
+<area shape="rect" id="node9" href="$class_admin_journal_handler.html" title="Handle requests for journal management in site administration." alt="" coords="433,57,583,85"/>
+<area shape="rect" id="node11" href="$class_admin_languages_handler.html" title="Handle requests for changing site language settings." alt="" coords="422,109,594,137"/>
+<area shape="rect" id="node13" href="$class_admin_people_handler.html" title="Handle requests for people management functions." alt="" coords="434,161,582,189"/>
+<area shape="rect" id="node15" href="$class_admin_settings_handler.html" title="Handle requests for changing site admin settings." alt="" coords="431,213,585,241"/>
+<area shape="rect" id="node17" href="$class_auth_sources_handler.html" title="Handle requests for authentication source management in site administration." alt="" coords="436,265,580,293"/>
+<area shape="rect" id="node2" href="$class_handler.html" title="Base request handler application class." alt="" coords="150,135,218,163"/>
+<area shape="rect" id="node4" href="$class_p_k_p_handler.html" title="PKPHandler" alt="" coords="6,135,101,163"/>
+</map>

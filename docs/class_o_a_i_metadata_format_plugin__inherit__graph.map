@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_o_a_i_metadata_format_plugin___d_c.html" title="dc metadata format plugin for OAI." alt="" coords="492,5,698,33"/>
+<area shape="rect" id="node9" href="$class_o_a_i_metadata_format_plugin___m_a_r_c.html" title="marc metadata format plugin for OAI." alt="" coords="482,57,708,85"/>
+<area shape="rect" id="node11" href="$class_o_a_i_metadata_format_plugin___m_a_r_c21.html" title="marc21 metadata format plugin for OAI." alt="" coords="474,109,715,137"/>
+<area shape="rect" id="node13" href="$class_o_a_i_metadata_format_plugin___n_l_m.html" title="NLM Journal Article metadata format plugin for OAI." alt="" coords="487,161,702,189"/>
+<area shape="rect" id="node15" href="$class_o_a_i_metadata_format_plugin___r_f_c1807.html" title="rfc1807 metadata format plugin for OAI." alt="" coords="473,213,716,241"/>
+<area shape="rect" id="node2" href="$class_plugin.html" title="Abstract class for plugins." alt="" coords="139,109,197,137"/>
+<area shape="rect" id="node4" href="$class_p_k_p_plugin.html" title="Abstract class for plugins." alt="" coords="5,109,91,137"/>
+</map>

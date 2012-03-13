@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node6" href="$class_copyedit_comment_form.html" title="CopyeditComment form." alt="" coords="284,5,447,33"/>
+<area shape="rect" id="node8" href="$class_editor_decision_comment_form.html" title="EditorDecisionComment form." alt="" coords="267,57,463,85"/>
+<area shape="rect" id="node10" href="$class_layout_comment_form.html" title="LayoutComment form." alt="" coords="290,109,440,137"/>
+<area shape="rect" id="node12" href="$class_peer_review_comment_form.html" title="Comment form." alt="" coords="274,161,456,189"/>
+<area shape="rect" id="node14" href="$class_proofread_comment_form.html" title="ProofreadComment form." alt="" coords="281,213,450,241"/>
+<area shape="rect" id="node2" href="$class_form.html" title="Class defining basic operations for handling HTML forms." alt="" coords="6,109,58,137"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_email_handler.html" title="Handle requests for email management functions." alt="" coords="5,238,107,266"/>
+<area shape="rect" id="node9" href="$class_profile_handler.html" title="Handle requests for modifying user profiles." alt="" coords="131,238,236,266"/>
+<area shape="rect" id="node11" href="$class_registration_handler.html" title="Handle requests for user registration." alt="" coords="261,238,400,266"/>
+<area shape="rect" id="node2" href="$class_handler.html" title="Base request handler application class." alt="" coords="150,83,217,111"/>
+<area shape="rect" id="node4" href="$class_p_k_p_handler.html" title="PKPHandler" alt="" coords="137,6,231,34"/>
+</map>

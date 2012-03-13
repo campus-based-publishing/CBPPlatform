@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_open_url_crosswalk_filter.html" title="Filter that converts from NLM citation to OpenURL schemas." alt="" coords="63,238,224,266"/>
+<area shape="rect" id="node4" href="$class_crosswalk_filter.html" title="Class that provides methods to convert one type of meta&#45;data description into another. This is an abstract class that must be sub&#45;classed by specific cross&#45;walk implementations." alt="" coords="88,161,200,189"/>
+<area shape="rect" id="node6" href="$class_filter.html" title="Class that provides the basic template for a filter. Filters are generic data processors that take in..." alt="" coords="119,83,169,111"/>
+<area shape="rect" id="node8" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="100,6,188,34"/>
+</map>

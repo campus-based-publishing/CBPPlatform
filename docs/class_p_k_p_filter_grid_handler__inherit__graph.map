@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_filter_grid_handler.html" title="Handle OJS specific parts of filter grid requests." alt="" coords="120,238,243,266"/>
+<area shape="rect" id="node2" href="$class_grid_handler.html" title="Class defining basic operations for handling HTML grids." alt="" coords="135,83,227,111"/>
+<area shape="rect" id="node4" href="$class_p_k_p_handler.html" title="PKPHandler" alt="" coords="134,6,228,34"/>
+<area shape="rect" id="node9" href="$class_lookup_filter_grid_handler.html" title="Defines the filters that will be configured in this grid." alt="" coords="5,315,171,343"/>
+<area shape="rect" id="node11" href="$class_parser_filter_grid_handler.html" title="Defines the filters that will be configured in this grid." alt="" coords="195,315,356,343"/>
+</map>

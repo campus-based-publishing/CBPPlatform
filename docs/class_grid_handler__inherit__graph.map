@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$class_category_grid_handler.html" title="CategoryGridHandler" alt="" coords="5,161,152,189"/>
+<area shape="rect" id="node7" href="$class_listbuilder_handler.html" title="Class defining basic operations for handling Listbuilder UI elements." alt="" coords="177,161,305,189"/>
+<area shape="rect" id="node9" href="$class_p_k_p_citation_grid_handler.html" title="Handle generic parts of citation grid requests." alt="" coords="329,161,493,189"/>
+<area shape="rect" id="node13" href="$class_p_k_p_filter_grid_handler.html" title="Manage filter administration and settings." alt="" coords="519,161,668,189"/>
+<area shape="rect" id="node2" href="$class_p_k_p_handler.html" title="PKPHandler" alt="" coords="279,6,373,34"/>
+<area shape="rect" id="node11" href="$class_citation_grid_handler.html" title="Handle OJS specific parts of citation grid requests." alt="" coords="343,238,480,266"/>
+<area shape="rect" id="node15" href="$class_filter_grid_handler.html" title="Handle OJS specific parts of filter grid requests." alt="" coords="532,238,655,266"/>
+<area shape="rect" id="node17" href="$class_lookup_filter_grid_handler.html" title="Defines the filters that will be configured in this grid." alt="" coords="417,315,583,343"/>
+<area shape="rect" id="node19" href="$class_parser_filter_grid_handler.html" title="Defines the filters that will be configured in this grid." alt="" coords="607,315,768,343"/>
+</map>

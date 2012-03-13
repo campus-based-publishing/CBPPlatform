@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/en_US/grid.xml
+  *
+  * Copyright (c) 2003-2008 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the en_US (English) locale.
+  *
+  * $Id: grid.xml,v 1.1 2009/12/24 04:32:29 jalperin Exp $
+  -->
+
+<locale name="zh_CN" full_name = "China .PR">
+	<!-- Common -->
+	<message key="grid.noItems">没有项目</message>
+
+	<message key="grid.action.sort">分类</message>
+	<message key="grid.action.addItem">添加项目</message>
+	<message key="grid.action.delete">删除</message>
+	<message key="grid.action.edit">编辑</message>
+
+	<!-- Common Grid Column Titles -->
+	<message key="grid.columns.actions">行动</message>
+	<message key="grid.columns.institution">机构</message>
+	<message key="grid.columns.url">URL</message>
+
+	<!-- Sponsors Grid -->
+	<message key="grid.sponsor.title">主管</message>
+
+	<!-- Masthead Grid -->
+	<message key="grid.masthead.title">群组</message>
+
+	<!-- Contributor Grid -->
+	<message key="grid.contributor.title">合作者</message>
+	<message key="grid.settings">设置</message>
+	<message key="grid.action.remove">删除</message>
+	<message key="grid.action.approve">同意</message>
+	<message key="grid.action.approveForPub">同意出版</message>
+	<message key="grid.action.decline">还原</message>
+	<message key="grid.action.moreInformation">更多</message>
+	<message key="grid.masthead.column.groups">组</message>
+	<message key="grid.action.addAuthor">添加作者</message>
+	<message key="grid.reviewForm.title">审查表单</message>
+	<message key="grid.artworkFile.file">文件</message>
+	<message key="grid.artworkFile.type">类型</message>
+	<message key="grid.artworkFile.type.table">表格</message>
+	<message key="grid.artworkFile.type.figure">图解</message>
+	<message key="grid.artworkFile.contactAuthor">联系作者</message>
+	<message key="grid.libraryFiles.column.files">文件</message>
+	<message key="grid.submissionChecklist.title">投稿检查列表</message>
+	<message key="grid.submissionChecklist.column.checklistItem">项目清单</message>
+	<message key="author.users.contributor.name">姓名</message>
+	<message key="author.users.contributor.email">电子邮件</message>
+	<message key="author.users.contributor.role">角色</message>
+	<message key="author.users.contributor.principalContact">主要联系人</message>
+	<message key="grid.reviewAttachments.title">审查人附件</message>
+	<message key="grid.reviewAttachments.add">为审查添加附件</message>
+</locale>

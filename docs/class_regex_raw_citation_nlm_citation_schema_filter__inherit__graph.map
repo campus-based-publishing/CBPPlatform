@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_nlm_citation_schema_filter.html" title="Abstract base class for all filters that transform NLM citation metadata descriptions." alt="" coords="60,161,228,189"/>
+<area shape="rect" id="node4" href="$class_filter.html" title="Class that provides the basic template for a filter. Filters are generic data processors that take in..." alt="" coords="119,83,169,111"/>
+<area shape="rect" id="node6" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="100,6,188,34"/>
+</map>

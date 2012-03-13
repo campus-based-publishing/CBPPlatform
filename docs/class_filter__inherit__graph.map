@@ -1,0 +1,44 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$class_citation_list_tokenizer_filter.html" title="Class that takes an unformatted list of citations and returns an array of raw citation strings..." alt="" coords="254,57,428,85"/>
+<area shape="rect" id="node7" href="$class_crosswalk_filter.html" title="Class that provides methods to convert one type of meta&#45;data description into another. This is an abstract class that must be sub&#45;classed by specific cross&#45;walk implementations." alt="" coords="285,109,398,137"/>
+<area shape="rect" id="node15" href="$class_date_string_normalizer_filter.html" title="Filter that normalizes a date string to YYYY[&#45;MM[&#45;DD]]." alt="" coords="252,161,431,189"/>
+<area shape="rect" id="node17" href="$class_generic_filter.html" title="Abstract base class for filters that can transform any type of data." alt="" coords="293,213,390,241"/>
+<area shape="rect" id="node27" href="$class_metadata_data_object_adapter.html" title="Class that injects/extracts a meta&#45;data description into/from an application entity object (DataObjec..." alt="" coords="246,265,436,293"/>
+<area shape="rect" id="node35" href="$class_mods_description_xml_filter.html" title="Class that converts a submission to a MODS 3.4 XML document." alt="" coords="255,317,428,345"/>
+<area shape="rect" id="node37" href="$class_nlm_citation_demultiplexer_filter.html" title="Filter that takes a list of NLM citation descriptions and joins them into a single &quot;best&quot; citation..." alt="" coords="241,369,442,397"/>
+<area shape="rect" id="node39" href="$class_nlm_citation_schema_filter.html" title="Abstract base class for all filters that transform NLM citation metadata descriptions." alt="" coords="257,525,426,553"/>
+<area shape="rect" id="node61" href="$class_nlm_person_string_filter.html" title="Filter that converts from a string to an (array of) NLM name description(s)." alt="" coords="265,785,417,813"/>
+<area shape="rect" id="node67" href="$class_template_based_filter.html" title="Abstract base class for all filters that transform their input via smarty templates." alt="" coords="270,889,413,917"/>
+<area shape="rect" id="node2" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="5,291,93,319"/>
+<area shape="rect" id="node9" href="$class_open_url_crosswalk_filter.html" title="Filter that converts from NLM citation to OpenURL schemas." alt="" coords="558,57,720,85"/>
+<area shape="rect" id="node11" href="$class_nlm_citation_schema_open_url_crosswalk_filter.html" title="Filter that converts from NLM citation to OpenURL schemas." alt="" coords="835,5,1115,33"/>
+<area shape="rect" id="node13" href="$class_open_url_nlm_citation_schema_crosswalk_filter.html" title="Filter that converts from NLM citation to OpenURL schemas." alt="" coords="835,57,1115,85"/>
+<area shape="rect" id="node19" href="$class_composite_filter.html" title="An abstract base class for generic filters that compose other filters into filter networks..." alt="" coords="581,109,696,137"/>
+<area shape="rect" id="node25" href="$class_x_s_l_transformation_filter.html" title="Class that transforms XML via XSL." alt="" coords="556,161,721,189"/>
+<area shape="rect" id="node21" href="$class_generic_multiplexer_filter.html" title="A generic filter that is configured with a number of equal type filters. It takes the input argument..." alt="" coords="894,109,1056,137"/>
+<area shape="rect" id="node23" href="$class_generic_sequencer_filter.html" title="A generic filter that is configured with a number of ordered filters. It takes the input argument of ..." alt="" coords="894,161,1056,189"/>
+<area shape="rect" id="node29" href="$class_metadata_description_dummy_adapter.html" title="Class that simulates a metadata adapter for metadata description object for direct metadata descripti..." alt="" coords="521,213,757,241"/>
+<area shape="rect" id="node31" href="$class_mods_schema_submission_adapter.html" title="Abstract base class for meta&#45;data adapters that inject/extract MODS schema compliant meta&#45;data into/f..." alt="" coords="529,265,748,293"/>
+<area shape="rect" id="node33" href="$class_nlm_citation_schema_citation_adapter.html" title="Class that injects/extracts NLM citation schema compliant meta&#45;data into/from a Citation object..." alt="" coords="523,317,754,345"/>
+<area shape="rect" id="node41" href="$class_crossref_nlm_citation_schema_filter.html" title="Filter that uses the Crossref web service to identify a DOI and corresponding meta&#45;data for a given N..." alt="" coords="529,369,748,397"/>
+<area shape="rect" id="node43" href="$class_freecite_raw_citation_nlm_citation_schema_filter.html" title="Parsing filter implementation that uses the Freecite web service." alt="" coords="494,421,783,449"/>
+<area shape="rect" id="node45" href="$class_isbndb_nlm_citation_schema_filter.html" title="Abstract filter that wraps the ISBNdb web service." alt="" coords="534,473,743,501"/>
+<area shape="rect" id="node51" href="$class_paracite_raw_citation_nlm_citation_schema_filter.html" title="Paracite parsing filter implementation." alt="" coords="494,525,783,553"/>
+<area shape="rect" id="node53" href="$class_parscit_raw_citation_nlm_citation_schema_filter.html" title="Parsing filter implementation that uses the Parscit web service." alt="" coords="498,577,779,605"/>
+<area shape="rect" id="node55" href="$class_pubmed_nlm_citation_schema_filter.html" title="Filter that uses the Pubmed web service to identify a PMID and corresponding meta&#45;data for a given NL..." alt="" coords="529,629,748,657"/>
+<area shape="rect" id="node57" href="$class_regex_raw_citation_nlm_citation_schema_filter.html" title="A simple regex based citation parsing filter. Uses regexes to break a citation string into metadata e..." alt="" coords="499,681,778,709"/>
+<area shape="rect" id="node59" href="$class_worldcat_nlm_citation_schema_filter.html" title="Citation lookup filter that uses the OCLC Worldcat Search API and xISBN services to search for book c..." alt="" coords="528,733,749,761"/>
+<area shape="rect" id="node47" href="$class_isbndb_isbn_nlm_citation_schema_filter.html" title="Filter that uses the ISBNdb web service to look up an ISBN and create a NLM citation description from..." alt="" coords="858,447,1092,475"/>
+<area shape="rect" id="node49" href="$class_isbndb_nlm_citation_schema_isbn_filter.html" title="Filter that uses the ISBNdb web service to identify an ISBN for a given citation." alt="" coords="858,499,1092,527"/>
+<area shape="rect" id="node63" href="$class_nlm_name_schema_person_string_filter.html" title="Filter that converts from NLM name to a string." alt="" coords="521,785,757,813"/>
+<area shape="rect" id="node65" href="$class_person_string_nlm_name_schema_filter.html" title="Filter that converts from a string to an (array of) NLM name description(s)." alt="" coords="521,837,757,865"/>
+<area shape="rect" id="node69" href="$class_nlm_citation_schema_citation_output_format_filter.html" title="Abstract base class for all filters that transform NLM citation metadata descriptions into citation o..." alt="" coords="491,889,787,917"/>
+<area shape="rect" id="node81" href="$class_template_based_references_list_filter.html" title="Abstract base class for filters that create a references list for a submission." alt="" coords="523,1018,755,1046"/>
+<area shape="rect" id="node71" href="$class_nlm_citation_schema_abnt_filter.html" title="Filter that transforms NLM citation metadata descriptions into ABNT citation output." alt="" coords="877,758,1073,786"/>
+<area shape="rect" id="node73" href="$class_nlm_citation_schema_apa_filter.html" title="Filter that transforms NLM citation metadata descriptions into APA citation output." alt="" coords="878,810,1071,838"/>
+<area shape="rect" id="node75" href="$class_nlm_citation_schema_mla_filter.html" title="Filter that transforms NLM citation metadata descriptions into MLA citation output." alt="" coords="880,862,1070,890"/>
+<area shape="rect" id="node77" href="$class_nlm_citation_schema_nlm_filter.html" title="Filter that transforms NLM citation metadata descriptions into NLM XML citation output." alt="" coords="878,914,1071,942"/>
+<area shape="rect" id="node79" href="$class_nlm_citation_schema_vancouver_filter.html" title="Filter that transforms NLM citation metadata descriptions into Vancouver citation output..." alt="" coords="859,966,1090,994"/>
+<area shape="rect" id="node83" href="$class_p_k_p_submission_nlm_xml_filter.html" title="Class that converts a submission to an NLM Journal Publishing Tag Set 3.0 XML document." alt="" coords="878,1018,1071,1046"/>
+<area shape="rect" id="node85" href="$class_plain_text_references_list_filter.html" title="Class that converts a submission to a plain text references list based on the configured ordering typ..." alt="" coords="878,1070,1072,1098"/>
+</map>

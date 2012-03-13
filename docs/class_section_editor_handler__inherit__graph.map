@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_editor_handler.html" title="Handle requests for editor functions." alt="" coords="42,238,144,266"/>
+<area shape="rect" id="node11" href="$class_submission_comments_handler.html" title="Handle requests for submission comments." alt="" coords="169,238,369,266"/>
+<area shape="rect" id="node13" href="$class_submission_edit_handler.html" title="Handle requests for submission tracking." alt="" coords="393,238,552,266"/>
+<area shape="rect" id="node2" href="$class_handler.html" title="Base request handler application class." alt="" coords="235,83,303,111"/>
+<area shape="rect" id="node4" href="$class_p_k_p_handler.html" title="PKPHandler" alt="" coords="222,6,316,34"/>
+<area shape="rect" id="node9" href="$class_issue_management_handler.html" title="Handle requests for issue management in publishing." alt="" coords="4,315,181,343"/>
+</map>

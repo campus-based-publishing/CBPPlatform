@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale.xml
+  *
+  * Copyright (c) 2003-2011 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for this citation plugin in it_IT.
+  *
+  * $Id: locale.xml,v 1.5 2009/04/08 19:54:37 asmecher Exp $
+  -->
+ 
+<locale name="it_IT" full_name="Italiano">
+	<message key="plugins.citationFormats.endNote.displayName">EndNote</message>
+	<message key="plugins.citationFormats.endNote.citationFormatName"><![CDATA[EndNote - formato EndNote (Macintosh & Windows)]]></message>
+	<message key="plugins.citationFormats.endNote.description"><![CDATA[Questo plugin implementa il formato di citazioni EndNote, <a href="http://www.endnote.com/">http://www.endnote.com/</a>.]]></message>
+</locale>

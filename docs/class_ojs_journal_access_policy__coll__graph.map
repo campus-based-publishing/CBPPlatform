@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_journal_policy.html" title="Policy that ensures availability of an OJS journal in the request context." alt="" coords="36,83,136,111"/>
+<area shape="rect" id="node4" href="$class_policy_set.html" title="An ordered list of policies. Policy sets can be added to decision managers like policies. The decision manager will evaluate the contained policies in the order they were added." alt="" coords="48,6,124,34"/>
+</map>

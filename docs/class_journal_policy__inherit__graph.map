@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$class_ojs_journal_access_policy.html" title="Class to control access to OJS&#39; journal setup components." alt="" coords="5,161,168,189"/>
+<area shape="rect" id="node7" href="$class_ojs_submission_access_policy.html" title="Class to control access to OJS&#39;s submission editing components." alt="" coords="192,161,380,189"/>
+<area shape="rect" id="node2" href="$class_policy_set.html" title="An ordered list of policies. Policy sets can be added to decision managers like policies. The decision manager will evaluate the contained policies in the order they were added." alt="" coords="148,6,224,34"/>
+</map>

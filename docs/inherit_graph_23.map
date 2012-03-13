@@ -1,0 +1,130 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="5,1383,93,1411"/>
+<area shape="rect" id="node3" href="$class_access_key.html" title="AccessKey class." alt="" coords="180,5,268,33"/>
+<area shape="rect" id="node5" href="$class_ad.html" title="Abstract an OpenAds ad." alt="" coords="205,57,243,85"/>
+<area shape="rect" id="node7" href="$class_article_comment.html" title="Class for ArticleComment." alt="" coords="166,109,282,137"/>
+<area shape="rect" id="node9" href="$class_article_email_log_entry.html" title="Describes an entry in the article email log." alt="" coords="151,161,297,189"/>
+<area shape="rect" id="node11" href="$class_article_event_log_entry.html" title="Describes an entry in the article history log." alt="" coords="151,213,297,241"/>
+<area shape="rect" id="node13" href="$class_auth_source.html" title="Describes an authentication source." alt="" coords="178,265,270,293"/>
+<area shape="rect" id="node15" href="$class_base_email_template.html" title="Describes basic email template properties." alt="" coords="154,317,294,345"/>
+<area shape="rect" id="node21" href="$class_book_for_review.html" title="Basic class describing a book for review." alt="" coords="166,369,282,397"/>
+<area shape="rect" id="node23" href="$class_book_for_review_author.html" title="Book for review author metadata class." alt="" coords="147,421,301,449"/>
+<area shape="rect" id="node25" href="$class_captcha.html" title="Class for Captcha verifiers." alt="" coords="189,473,259,501"/>
+<area shape="rect" id="node27" href="$class_citation.html" title="Class representing a citation (bibliographic reference)" alt="" coords="191,525,257,553"/>
+<area shape="rect" id="node29" href="$class_comment.html" title="Class for public Comment associated with submission." alt="" coords="184,577,264,605"/>
+<area shape="rect" id="node31" href="$class_controlled_vocab.html" title="Basic class describing an controlled vocab." alt="" coords="164,629,284,657"/>
+<area shape="rect" id="node33" href="$class_controlled_vocab_entry.html" title="Basic class describing a controlled vocab." alt="" coords="149,681,299,709"/>
+<area shape="rect" id="node37" href="$class_currency.html" title="Basic class describing a currency." alt="" coords="186,733,262,761"/>
+<area shape="rect" id="node39" href="$class_edit_assignment.html" title="Describes edit assignment properties." alt="" coords="167,785,281,813"/>
+<area shape="rect" id="node41" href="$class_external_feed.html" title="Basic class describing an external feed." alt="" coords="174,837,274,865"/>
+<area shape="rect" id="node43" href="$class_filter.html" title="Class that provides the basic template for a filter. Filters are generic data processors that take in..." alt="" coords="199,889,249,917"/>
+<area shape="rect" id="node127" href="$class_group.html" title="Describes user groups." alt="" coords="195,941,253,969"/>
+<area shape="rect" id="node129" href="$class_group_membership.html" title="Describes memberships for editorial board positions." alt="" coords="158,993,290,1021"/>
+<area shape="rect" id="node131" href="$class_help_toc.html" title="Help table of contents class. A HelpToc object is associated with zero or more HelpTopic objects..." alt="" coords="189,1045,259,1073"/>
+<area shape="rect" id="node133" href="$class_help_topic.html" title="A HelpTopic object is associated with a single HelpToc object and zero or more HelpTopicSection objec..." alt="" coords="184,1097,264,1125"/>
+<area shape="rect" id="node135" href="$class_help_topic_section.html" title="Help section class, designated a subsection of a topic. A HelpTopicSection is associated with a singl..." alt="" coords="162,1149,286,1177"/>
+<area shape="rect" id="node137" href="$class_issue.html" title="Class for Issue." alt="" coords="197,1201,251,1229"/>
+<area shape="rect" id="node139" href="$class_journal.html" title="Describes basic journal properties." alt="" coords="191,1253,257,1281"/>
+<area shape="rect" id="node141" href="$class_language.html" title="Basic class describing a language." alt="" coords="184,1305,264,1333"/>
+<area shape="rect" id="node143" href="$class_mail.html" title="Class defining basic operations for handling and sending emails." alt="" coords="201,1357,247,1385"/>
+<area shape="rect" id="node153" href="$class_metadata_description.html" title="Class modeling a description (DCMI abstract model) or subject&#45; predicate&#45;object graph (RDF)..." alt="" coords="152,1409,296,1437"/>
+<area shape="rect" id="node155" href="$class_p_k_p_announcement.html" title="Basic class describing a announcement." alt="" coords="156,1461,292,1489"/>
+<area shape="rect" id="node159" href="$class_p_k_p_announcement_type.html" title="Basic class describing an announcement type." alt="" coords="141,1513,307,1541"/>
+<area shape="rect" id="node163" href="$class_p_k_p_author.html" title="Author metadata class." alt="" coords="181,1565,267,1593"/>
+<area shape="rect" id="node167" href="$class_p_k_p_note.html" title="PKPNote" alt="" coords="186,1617,262,1645"/>
+<area shape="rect" id="node173" href="$class_p_k_p_notification.html" title="PKPNotification" alt="" coords="167,1669,281,1697"/>
+<area shape="rect" id="node177" href="$class_p_k_p_review_assignment.html" title="Describes review assignment properties (abstracted for PKP library)." alt="" coords="143,1721,305,1749"/>
+<area shape="rect" id="node181" href="$class_p_k_p_user.html" title="Basic class describing users existing in the system." alt="" coords="186,1773,262,1801"/>
+<area shape="rect" id="node187" href="$class_process.html" title="A class representing a running process." alt="" coords="189,1825,259,1853"/>
+<area shape="rect" id="node189" href="$class_review_form.html" title="Basic class describing a review form." alt="" coords="176,1877,272,1905"/>
+<area shape="rect" id="node191" href="$class_review_form_element.html" title="Basic class describing a review form element." alt="" coords="151,1929,297,1957"/>
+<area shape="rect" id="node193" href="$class_review_form_response.html" title="Basic class describing a review form response." alt="" coords="146,1981,302,2009"/>
+<area shape="rect" id="node195" href="$class_role.html" title="Describes user roles within the system and the associated permissions." alt="" coords="200,2033,248,2061"/>
+<area shape="rect" id="node197" href="$class_section.html" title="Describes basic section properties." alt="" coords="191,2085,257,2113"/>
+<area shape="rect" id="node199" href="$class_session.html" title="Maintains user state information from one request to the next." alt="" coords="190,2137,258,2165"/>
+<area shape="rect" id="node201" href="$class_signoff.html" title="Basic class describing a signoff." alt="" coords="193,2189,255,2217"/>
+<area shape="rect" id="node203" href="$class_site.html" title="Describes system&#45;wide site properties." alt="" coords="202,2241,246,2269"/>
+<area shape="rect" id="node205" href="$class_static_page.html" title="StaticPage" alt="" coords="181,2293,267,2321"/>
+<area shape="rect" id="node207" href="$class_submission.html" title="Submission class." alt="" coords="179,2345,269,2373"/>
+<area shape="rect" id="node227" href="$class_submission_file.html" title="Submission file class." alt="" coords="168,2397,280,2425"/>
+<area shape="rect" id="node239" href="$class_subscription.html" title="Basic class describing a subscription." alt="" coords="177,2449,271,2477"/>
+<area shape="rect" id="node245" href="$class_subscription_type.html" title="SubscriptionType" alt="" coords="162,2501,286,2529"/>
+<area shape="rect" id="node247" href="$class_temporary_file.html" title="Temporary file class." alt="" coords="171,2553,277,2581"/>
+<area shape="rect" id="node249" href="$class_thesis.html" title="Basic class describing a thesis." alt="" coords="194,2605,254,2633"/>
+<area shape="rect" id="node251" href="$class_user_group.html" title="Describes user groups." alt="" coords="181,2657,267,2685"/>
+<area shape="rect" id="node253" href="$class_user_group_assignment.html" title="UserGroupAssignment" alt="" coords="146,2709,302,2737"/>
+<area shape="rect" id="node255" href="$class_version.html" title="Describes system version history." alt="" coords="191,2761,257,2789"/>
+<area shape="rect" id="node17" href="$class_email_template.html" title="EmailTemplate" alt="" coords="402,291,510,319"/>
+<area shape="rect" id="node19" href="$class_locale_email_template.html" title="LocaleEmailTemplate" alt="" coords="382,343,530,371"/>
+<area shape="rect" id="node35" href="$class_interest_entry.html" title="InterestEntry" alt="" coords="408,551,504,579"/>
+<area shape="rect" id="node45" href="$class_citation_list_tokenizer_filter.html" title="Class that takes an unformatted list of citations and returns an array of raw citation strings..." alt="" coords="369,603,543,631"/>
+<area shape="rect" id="node47" href="$class_crosswalk_filter.html" title="Class that provides methods to convert one type of meta&#45;data description into another. This is an abstract class that must be sub&#45;classed by specific cross&#45;walk implementations." alt="" coords="400,655,512,683"/>
+<area shape="rect" id="node55" href="$class_date_string_normalizer_filter.html" title="Filter that normalizes a date string to YYYY[&#45;MM[&#45;DD]]." alt="" coords="367,707,545,735"/>
+<area shape="rect" id="node57" href="$class_generic_filter.html" title="Abstract base class for filters that can transform any type of data." alt="" coords="407,759,505,787"/>
+<area shape="rect" id="node67" href="$class_metadata_data_object_adapter.html" title="Class that injects/extracts a meta&#45;data description into/from an application entity object (DataObjec..." alt="" coords="361,811,551,839"/>
+<area shape="rect" id="node75" href="$class_mods_description_xml_filter.html" title="Class that converts a submission to a MODS 3.4 XML document." alt="" coords="369,877,543,905"/>
+<area shape="rect" id="node77" href="$class_nlm_citation_demultiplexer_filter.html" title="Filter that takes a list of NLM citation descriptions and joins them into a single &quot;best&quot; citation..." alt="" coords="355,929,557,957"/>
+<area shape="rect" id="node79" href="$class_nlm_citation_schema_filter.html" title="Abstract base class for all filters that transform NLM citation metadata descriptions." alt="" coords="372,1006,540,1034"/>
+<area shape="rect" id="node101" href="$class_nlm_person_string_filter.html" title="Filter that converts from a string to an (array of) NLM name description(s)." alt="" coords="380,1266,532,1294"/>
+<area shape="rect" id="node107" href="$class_template_based_filter.html" title="Abstract base class for all filters that transform their input via smarty templates." alt="" coords="385,1357,527,1385"/>
+<area shape="rect" id="node49" href="$class_open_url_crosswalk_filter.html" title="Filter that converts from NLM citation to OpenURL schemas." alt="" coords="672,538,834,566"/>
+<area shape="rect" id="node51" href="$class_nlm_citation_schema_open_url_crosswalk_filter.html" title="Filter that converts from NLM citation to OpenURL schemas." alt="" coords="949,486,1229,514"/>
+<area shape="rect" id="node53" href="$class_open_url_nlm_citation_schema_crosswalk_filter.html" title="Filter that converts from NLM citation to OpenURL schemas." alt="" coords="949,538,1229,566"/>
+<area shape="rect" id="node59" href="$class_composite_filter.html" title="An abstract base class for generic filters that compose other filters into filter networks..." alt="" coords="696,590,811,618"/>
+<area shape="rect" id="node65" href="$class_x_s_l_transformation_filter.html" title="Class that transforms XML via XSL." alt="" coords="671,642,836,670"/>
+<area shape="rect" id="node61" href="$class_generic_multiplexer_filter.html" title="A generic filter that is configured with a number of equal type filters. It takes the input argument..." alt="" coords="1008,590,1170,618"/>
+<area shape="rect" id="node63" href="$class_generic_sequencer_filter.html" title="A generic filter that is configured with a number of ordered filters. It takes the input argument of ..." alt="" coords="1008,642,1170,670"/>
+<area shape="rect" id="node69" href="$class_metadata_description_dummy_adapter.html" title="Class that simulates a metadata adapter for metadata description object for direct metadata descripti..." alt="" coords="635,694,871,722"/>
+<area shape="rect" id="node71" href="$class_mods_schema_submission_adapter.html" title="Abstract base class for meta&#45;data adapters that inject/extract MODS schema compliant meta&#45;data into/f..." alt="" coords="644,746,863,774"/>
+<area shape="rect" id="node73" href="$class_nlm_citation_schema_citation_adapter.html" title="Class that injects/extracts NLM citation schema compliant meta&#45;data into/from a Citation object..." alt="" coords="638,798,869,826"/>
+<area shape="rect" id="node81" href="$class_crossref_nlm_citation_schema_filter.html" title="Filter that uses the Crossref web service to identify a DOI and corresponding meta&#45;data for a given N..." alt="" coords="644,850,863,878"/>
+<area shape="rect" id="node83" href="$class_freecite_raw_citation_nlm_citation_schema_filter.html" title="Parsing filter implementation that uses the Freecite web service." alt="" coords="609,902,898,930"/>
+<area shape="rect" id="node85" href="$class_isbndb_nlm_citation_schema_filter.html" title="Abstract filter that wraps the ISBNdb web service." alt="" coords="649,954,858,982"/>
+<area shape="rect" id="node91" href="$class_paracite_raw_citation_nlm_citation_schema_filter.html" title="Paracite parsing filter implementation." alt="" coords="609,1006,898,1034"/>
+<area shape="rect" id="node93" href="$class_parscit_raw_citation_nlm_citation_schema_filter.html" title="Parsing filter implementation that uses the Parscit web service." alt="" coords="613,1058,894,1086"/>
+<area shape="rect" id="node95" href="$class_pubmed_nlm_citation_schema_filter.html" title="Filter that uses the Pubmed web service to identify a PMID and corresponding meta&#45;data for a given NL..." alt="" coords="644,1110,863,1138"/>
+<area shape="rect" id="node97" href="$class_regex_raw_citation_nlm_citation_schema_filter.html" title="A simple regex based citation parsing filter. Uses regexes to break a citation string into metadata e..." alt="" coords="614,1162,893,1190"/>
+<area shape="rect" id="node99" href="$class_worldcat_nlm_citation_schema_filter.html" title="Citation lookup filter that uses the OCLC Worldcat Search API and xISBN services to search for book c..." alt="" coords="643,1214,864,1242"/>
+<area shape="rect" id="node87" href="$class_isbndb_isbn_nlm_citation_schema_filter.html" title="Filter that uses the ISBNdb web service to look up an ISBN and create a NLM citation description from..." alt="" coords="972,929,1206,957"/>
+<area shape="rect" id="node89" href="$class_isbndb_nlm_citation_schema_isbn_filter.html" title="Filter that uses the ISBNdb web service to identify an ISBN for a given citation." alt="" coords="972,981,1206,1009"/>
+<area shape="rect" id="node103" href="$class_nlm_name_schema_person_string_filter.html" title="Filter that converts from NLM name to a string." alt="" coords="635,1266,871,1294"/>
+<area shape="rect" id="node105" href="$class_person_string_nlm_name_schema_filter.html" title="Filter that converts from a string to an (array of) NLM name description(s)." alt="" coords="635,1318,871,1346"/>
+<area shape="rect" id="node109" href="$class_nlm_citation_schema_citation_output_format_filter.html" title="Abstract base class for all filters that transform NLM citation metadata descriptions into citation o..." alt="" coords="605,1370,901,1398"/>
+<area shape="rect" id="node121" href="$class_template_based_references_list_filter.html" title="Abstract base class for filters that create a references list for a submission." alt="" coords="637,1467,869,1495"/>
+<area shape="rect" id="node111" href="$class_nlm_citation_schema_abnt_filter.html" title="Filter that transforms NLM citation metadata descriptions into ABNT citation output." alt="" coords="991,1207,1187,1235"/>
+<area shape="rect" id="node113" href="$class_nlm_citation_schema_apa_filter.html" title="Filter that transforms NLM citation metadata descriptions into APA citation output." alt="" coords="993,1259,1186,1287"/>
+<area shape="rect" id="node115" href="$class_nlm_citation_schema_mla_filter.html" title="Filter that transforms NLM citation metadata descriptions into MLA citation output." alt="" coords="994,1311,1184,1339"/>
+<area shape="rect" id="node117" href="$class_nlm_citation_schema_nlm_filter.html" title="Filter that transforms NLM citation metadata descriptions into NLM XML citation output." alt="" coords="993,1363,1186,1391"/>
+<area shape="rect" id="node119" href="$class_nlm_citation_schema_vancouver_filter.html" title="Filter that transforms NLM citation metadata descriptions into Vancouver citation output..." alt="" coords="974,1415,1205,1443"/>
+<area shape="rect" id="node123" href="$class_p_k_p_submission_nlm_xml_filter.html" title="Class that converts a submission to an NLM Journal Publishing Tag Set 3.0 XML document." alt="" coords="993,1467,1186,1495"/>
+<area shape="rect" id="node125" href="$class_plain_text_references_list_filter.html" title="Class that converts a submission to a plain text references list based on the configured ordering typ..." alt="" coords="992,1519,1186,1547"/>
+<area shape="rect" id="node145" href="$class_p_k_p_mail_template.html" title="Subclass of Mail for mailing a template email." alt="" coords="393,1409,519,1437"/>
+<area shape="rect" id="node147" href="$class_mail_template.html" title="Subclass of PKPMailTemplate for mailing a template email." alt="" coords="703,1567,803,1595"/>
+<area shape="rect" id="node149" href="$class_article_mail_template.html" title="Subclass of MailTemplate for sending emails related to articles." alt="" coords="1021,1571,1158,1599"/>
+<area shape="rect" id="node151" href="$class_mass_mail.html" title="Helper class to send mass emails." alt="" coords="1051,1623,1128,1651"/>
+<area shape="rect" id="node157" href="$class_announcement.html" title="Basic class describing a announcement." alt="" coords="400,1461,512,1489"/>
+<area shape="rect" id="node161" href="$class_announcement_type.html" title="Basic class describing an announcement type." alt="" coords="386,1513,526,1541"/>
+<area shape="rect" id="node165" href="$class_author.html" title="Article author metadata class." alt="" coords="426,1565,486,1593"/>
+<area shape="rect" id="node169" href="$class_note.html" title="Class for OJS Note." alt="" coords="431,1617,481,1645"/>
+<area shape="rect" id="node171" href="$class_article_note.html" title="Class for ArticleNote." alt="" coords="710,1619,797,1647"/>
+<area shape="rect" id="node175" href="$class_notification.html" title="Class for Notification." alt="" coords="412,1669,500,1697"/>
+<area shape="rect" id="node179" href="$class_review_assignment.html" title="Describes review assignment properties." alt="" coords="389,1721,523,1749"/>
+<area shape="rect" id="node183" href="$class_user.html" title="Basic class describing users existing in the system." alt="" coords="431,1773,481,1801"/>
+<area shape="rect" id="node185" href="$class_imported_user.html" title="ImportedUser" alt="" coords="702,1773,804,1801"/>
+<area shape="rect" id="node209" href="$class_article.html" title="Article class." alt="" coords="427,2215,485,2243"/>
+<area shape="rect" id="node211" href="$class_author_submission.html" title="AuthorSubmission class." alt="" coords="689,2033,818,2061"/>
+<area shape="rect" id="node213" href="$class_copyeditor_submission.html" title="CopyeditorSubmission class." alt="" coords="676,2085,831,2113"/>
+<area shape="rect" id="node215" href="$class_layout_editor_submission.html" title="Describes a layout editor&#39;s view of a submission." alt="" coords="671,2137,836,2165"/>
+<area shape="rect" id="node217" href="$class_proofreader_submission.html" title="Describes a proofreader&#39;s view of a submission." alt="" coords="673,2189,834,2217"/>
+<area shape="rect" id="node219" href="$class_published_article.html" title="Published article class." alt="" coords="695,2241,812,2269"/>
+<area shape="rect" id="node221" href="$class_reviewer_submission.html" title="ReviewerSubmission class." alt="" coords="680,2293,826,2321"/>
+<area shape="rect" id="node223" href="$class_section_editor_submission.html" title="SectionEditorSubmission class." alt="" coords="669,2345,838,2373"/>
+<area shape="rect" id="node225" href="$class_editor_submission.html" title="EditorSubmission class." alt="" coords="1027,2345,1152,2373"/>
+<area shape="rect" id="node229" href="$class_article_file.html" title="Article file class." alt="" coords="416,2397,496,2425"/>
+<area shape="rect" id="node231" href="$class_article_galley.html" title="A galley is a final presentation version of the full&#45;text of an article." alt="" coords="705,2397,801,2425"/>
+<area shape="rect" id="node237" href="$class_supp_file.html" title="Supplementary file class." alt="" coords="716,2449,790,2477"/>
+<area shape="rect" id="node233" href="$class_article_h_t_m_l_galley.html" title="An HTML galley may include an optional stylesheet and set of images." alt="" coords="1023,2397,1156,2425"/>
+<area shape="rect" id="node235" href="$class_article_x_m_l_galley.html" title="Article XML galley model object." alt="" coords="1278,2397,1402,2425"/>
+<area shape="rect" id="node241" href="$class_individual_subscription.html" title="Basic class describing an individual (non&#45;institutional) subscription." alt="" coords="380,2449,532,2477"/>
+<area shape="rect" id="node243" href="$class_institutional_subscription.html" title="Basic class describing an institutional subscription." alt="" coords="375,2501,537,2529"/>
+</map>

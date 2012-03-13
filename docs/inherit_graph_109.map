@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_search_file_parser.html" title="Abstract class to extract search text from a given file." alt="" coords="6,31,130,59"/>
+<area shape="rect" id="node3" href="$class_search_helper_parser.html" title="Class to extract text from a file using an external helper program." alt="" coords="180,5,322,33"/>
+<area shape="rect" id="node5" href="$class_search_h_t_m_l_parser.html" title="Class to extract text from an HTML file." alt="" coords="181,57,320,85"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_nlm_person_string_filter.html" title="Filter that converts from a string to an (array of) NLM name description(s)." alt="" coords="47,161,197,189"/>
+<area shape="rect" id="node4" href="$class_filter.html" title="Class that provides the basic template for a filter. Filters are generic data processors that take in..." alt="" coords="97,83,148,111"/>
+<area shape="rect" id="node6" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="79,6,167,34"/>
+</map>

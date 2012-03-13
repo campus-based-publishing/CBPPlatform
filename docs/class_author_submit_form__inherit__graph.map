@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$class_author_submit_step1_form.html" title="Form for Step 1 of author article submission." alt="" coords="288,5,456,33"/>
+<area shape="rect" id="node7" href="$class_author_submit_step2_form.html" title="Form for Step 2 of author article submission." alt="" coords="288,57,456,85"/>
+<area shape="rect" id="node9" href="$class_author_submit_step3_form.html" title="Form for Step 3 of author article submission." alt="" coords="288,109,456,137"/>
+<area shape="rect" id="node11" href="$class_author_submit_step4_form.html" title="Form for Step 4 of author article submission." alt="" coords="288,161,456,189"/>
+<area shape="rect" id="node13" href="$class_author_submit_step5_form.html" title="Form for Step 5 of author article submission." alt="" coords="288,213,456,241"/>
+<area shape="rect" id="node2" href="$class_form.html" title="Class defining basic operations for handling HTML forms." alt="" coords="6,109,58,137"/>
+</map>

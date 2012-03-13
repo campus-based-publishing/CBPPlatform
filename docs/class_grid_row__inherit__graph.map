@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_grid_category_row.html" title="Class defining basic operations for handling the category row in a grid." alt="" coords="4,83,131,111"/>
+<area shape="rect" id="node5" href="$class_listbuilder_grid_row.html" title="Handle list builder row requests." alt="" coords="156,83,289,111"/>
+<area shape="rect" id="node7" href="$class_p_k_p_citation_grid_row.html" title="The citation grid row definition." alt="" coords="314,83,459,111"/>
+<area shape="rect" id="node9" href="$class_p_k_p_filter_grid_row.html" title="The filter grid row definition." alt="" coords="483,83,612,111"/>
+</map>

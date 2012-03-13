@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_mail_template.html" title="Subclass of PKPMailTemplate for mailing a template email." alt="" coords="23,238,123,266"/>
+<area shape="rect" id="node4" href="$class_p_k_p_mail_template.html" title="Subclass of Mail for mailing a template email." alt="" coords="10,161,136,189"/>
+<area shape="rect" id="node6" href="$class_mail.html" title="Class defining basic operations for handling and sending emails." alt="" coords="50,83,96,111"/>
+<area shape="rect" id="node8" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="29,6,117,34"/>
+</map>

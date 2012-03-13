@@ -1,0 +1,118 @@
+/* Sample style sheet for boom!, the book microformat              */
+/* written  by Hakon Wium Lie and Bert Bos, November 2005          */
+/* You may reuse this style sheet for any purpose without any fees */
+
+
+@page {
+	/*A4*/
+	/*sheet-size: 213mm 300mm;
+	size: 210mm 297mm;*/
+	/*marks: crop;*/
+	
+	/*A5*/
+	size: 129mm 198mm;
+	sheet-size: 132mm 201mm;
+}
+			
+@page content {
+	odd-footer-name: html_myFooter1;
+	even-footer-name: html_myFooter2;
+}
+
+div.content {
+	page: content;
+}
+
+html { 
+  margin: 0;
+  font: 12pt/1.26 "Palatino", sans-serif !important;
+} 
+
+body { 
+  margin: 0;
+  line-height: 1.5em;
+  text-align: justify !important;
+}
+
+#cover {
+	width: 132mm; 
+	height: 201mm; 
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+  font-family: "Palatino", sans-serif;
+  page-break-after: avoid;
+  text-align: left !important;
+} 
+
+h1 { 
+  font-size: 2.4em !important;
+  font-weight: 900 !important;
+  margin: 0 !important;
+  margin-bottom: 20px !important;
+  line-height: 1.5em !important;
+  position: relative; 
+	margin-top: -30px; 
+}
+
+h2 { 
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+h3 { 
+  font-size: 1em;
+  font-weight: bold;
+}
+
+p { 
+	margin: 0;
+	line-height: 1.45em !important;
+	color #000 !important;
+	word-spacing: normal !important;
+	font-size: 10pt !important;
+}
+
+div.submissionIntro {
+	font-style: italic !important;
+	width: 70% !important;
+	text-align: center !important;
+	margin: 0px auto !important;
+}
+
+	div.submissionIntro p {
+		margin-bottom: 15px !important;
+	}
+	
+	div.submissionIntro h1 {
+		text-align: center !important;
+	}
+	
+div.submissionIntroEpub {
+	font-style: italic !important;
+	width: 70% !important;
+	text-align: center !important;
+	margin: 0px auto !important;
+	page-break-after: always !important;
+}
+
+	div.submissionIntroEpub p {
+		margin-bottom: 15px !important;
+	}
+
+hr {	
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 15px auto 15px auto;
+	width: 40%;
+	clear: both;
+	border: none;
+	border-top: 1px solid #AAA;
+	border-bottom: 1px solid #FFF;
+	font-size: 1px;
+	line-height: 0;
+}
+

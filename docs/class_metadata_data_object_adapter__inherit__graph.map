@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_metadata_description_dummy_adapter.html" title="Class that simulates a metadata adapter for metadata description object for direct metadata descripti..." alt="" coords="481,5,717,33"/>
+<area shape="rect" id="node9" href="$class_mods_schema_submission_adapter.html" title="Abstract base class for meta&#45;data adapters that inject/extract MODS schema compliant meta&#45;data into/f..." alt="" coords="489,57,708,85"/>
+<area shape="rect" id="node11" href="$class_nlm_citation_schema_citation_adapter.html" title="Class that injects/extracts NLM citation schema compliant meta&#45;data into/from a Citation object..." alt="" coords="483,109,714,137"/>
+<area shape="rect" id="node2" href="$class_filter.html" title="Class that provides the basic template for a filter. Filters are generic data processors that take in..." alt="" coords="141,57,192,85"/>
+<area shape="rect" id="node4" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="5,57,93,85"/>
+</map>

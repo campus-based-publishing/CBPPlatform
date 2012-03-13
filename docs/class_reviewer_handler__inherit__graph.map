@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node7" href="$class_submission_comments_handler.html" title="Handle requests for submission comments." alt="" coords="5,238,205,266"/>
+<area shape="rect" id="node9" href="$class_submission_review_handler.html" title="Handle requests for submission tracking." alt="" coords="230,238,409,266"/>
+<area shape="rect" id="node2" href="$class_handler.html" title="Base request handler application class." alt="" coords="178,83,245,111"/>
+<area shape="rect" id="node4" href="$class_p_k_p_handler.html" title="PKPHandler" alt="" coords="165,6,259,34"/>
+</map>

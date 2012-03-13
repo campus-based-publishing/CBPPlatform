@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$class_user.html" title="Basic class describing users existing in the system." alt="" coords="31,161,80,189"/>
+<area shape="rect" id="node2" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="12,6,100,34"/>
+<area shape="rect" id="node7" href="$class_imported_user.html" title="ImportedUser" alt="" coords="5,238,107,266"/>
+</map>

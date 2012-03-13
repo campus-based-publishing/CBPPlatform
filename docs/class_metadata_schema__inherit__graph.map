@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_mods_name_schema.html" title="Class that provides meta&#45;data properties compliant with the MODS name tag from MODS Version 3..." alt="" coords="4,83,141,111"/>
+<area shape="rect" id="node5" href="$class_nlm_citation_schema.html" title="Class that provides meta&#45;data properties compliant with the NLM element&#45;citation tag from the NLM Jou..." alt="" coords="166,83,305,111"/>
+<area shape="rect" id="node7" href="$class_nlm_name_schema.html" title="Class that provides meta&#45;data properties compliant with the NLM name tag from the NLM Journal Publish..." alt="" coords="330,83,459,111"/>
+<area shape="rect" id="node9" href="$class_open_url_base_schema.html" title="Class that provides meta&#45;data properties common to all variants of the OpenURL 1.0 standard..." alt="" coords="484,83,633,111"/>
+<area shape="rect" id="node19" href="$class_p_k_p_mods_schema.html" title="Class that provides meta&#45;data properties compliant with a subset of MODS Version 3.4. We only support those sub&#45;elements we have use&#45;cases (and data) for. We map elements and attributes from the original XML standard to &#39;element/subelement[=&quot;...&quot;]&#39; property names." alt="" coords="658,83,787,111"/>
+<area shape="rect" id="node11" href="$class_open_url_dissertation_schema.html" title="Class that provides meta&#45;data properties of the OpenURL 1.0 dissertation standard." alt="" coords="348,161,537,189"/>
+<area shape="rect" id="node13" href="$class_open_url_journal_book_base_schema.html" title="Class that provides meta&#45;data properties common to the journal and book variants of the OpenURL 1..." alt="" coords="562,161,787,189"/>
+<area shape="rect" id="node15" href="$class_open_url_book_schema.html" title="Class that provides meta&#45;data properties of the OpenURL 1.0 book standard." alt="" coords="509,238,659,266"/>
+<area shape="rect" id="node17" href="$class_open_url_journal_schema.html" title="Class that provides meta&#45;data properties of the OpenURL journal 1.0 standard." alt="" coords="684,238,847,266"/>
+</map>

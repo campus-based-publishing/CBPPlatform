@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_article.html" title="Article class." alt="" coords="48,161,105,189"/>
+<area shape="rect" id="node4" href="$class_submission.html" title="Submission class." alt="" coords="32,83,121,111"/>
+<area shape="rect" id="node6" href="$class_data_object.html" title="Any class with an associated DAO should extend this class." alt="" coords="33,6,121,34"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_action.html" title="Application&#45;specific submission actions." alt="" coords="139,135,197,163"/>
+<area shape="rect" id="node5" href="$class_author_action.html" title="AuthorAction class." alt="" coords="266,5,364,33"/>
+<area shape="rect" id="node7" href="$class_copyeditor_action.html" title="CopyeditorAction class." alt="" coords="253,57,376,85"/>
+<area shape="rect" id="node9" href="$class_layout_editor_action.html" title="LayoutEditorAction class." alt="" coords="248,109,381,137"/>
+<area shape="rect" id="node11" href="$class_proofreader_action.html" title="ProofreaderAction class." alt="" coords="250,161,379,189"/>
+<area shape="rect" id="node13" href="$class_reviewer_action.html" title="ReviewerAction class." alt="" coords="258,213,372,241"/>
+<area shape="rect" id="node15" href="$class_section_editor_action.html" title="SectionEditorAction class." alt="" coords="246,265,384,293"/>
+<area shape="rect" id="node17" href="$class_editor_action.html" title="EditorAction class." alt="" coords="432,265,525,293"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_file_wrapper.html" title="Class abstracting operations for reading remote files using various protocols. (for when allow_url_fo..." alt="" coords="5,31,99,59"/>
+<area shape="rect" id="node3" href="$class_f_t_p_file_wrapper.html" title="FTPFileWrapper" alt="" coords="151,5,270,33"/>
+<area shape="rect" id="node5" href="$class_h_t_t_p_file_wrapper.html" title="HTTPFileWrapper" alt="" coords="146,57,275,85"/>
+<area shape="rect" id="node7" href="$class_h_t_t_p_s_file_wrapper.html" title="Class abstracting operations for reading remote files using various protocols. (for when allow_url_fo..." alt="" coords="323,57,461,85"/>
+</map>

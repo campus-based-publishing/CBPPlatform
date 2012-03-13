@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_class_type_description.html" title="A type description that validates objects by class type." alt="" coords="18,83,168,111"/>
+<area shape="rect" id="node7" href="$class_primitive_type_description.html" title="Class that describes a primitive input/output type." alt="" coords="197,83,365,111"/>
+<area shape="rect" id="node11" href="$class_x_m_l_type_description.html" title="Class that describes an XML input/output type." alt="" coords="390,83,532,111"/>
+<area shape="rect" id="node5" href="$class_metadata_type_description.html" title="Type validator for metadata input/output." alt="" coords="4,161,176,189"/>
+<area shape="rect" id="node9" href="$class_validator_type_description.html" title="Class that describes a string input/output type that passes additional validation (via standard valid..." alt="" coords="201,161,369,189"/>
+</map>
