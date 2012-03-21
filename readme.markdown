@@ -78,3 +78,4 @@ CBP Platform platform utilises the following libraries, classes and other open-s
 * mPDF (http://www.mpdf1.com/mpdf/)
 * PHPDOCX (http://www.phpdocx.com/)
 * PHPThumb (https://github.com/masterexploder/PHPThumb)
+* Twitter Bootstrap (http://twitter.github.com/bootstrap/)
