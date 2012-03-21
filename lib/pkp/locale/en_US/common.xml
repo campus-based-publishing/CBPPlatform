@@ -282,6 +282,7 @@
 	<message key="navigation.searchImprint">Search</message>
 	<message key="navigation.stepNumber">Step {$step}</message>
 	<message key="navigation.userHome">User Home</message>
+	<message key="navigation.userLogin">Login</message>
 	<message key="navigation.user">User</message>
 	<message key="notification.allow">Allow these types of notifications to appear in my notification feed.</message>
 	<message key="notification.confirmError">There was an error confirming your subscription.</message>
