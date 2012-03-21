@@ -24,6 +24,8 @@
 }
 
 #rightSidebar {
+	position: relative;
+	margin-top: 5%;
 	float: right;
 	width: 14%;
 	padding: 1em 0em 1em 0em;
@@ -39,7 +41,7 @@
 	float: left;
 	width: 73%;
 	margin-left: 1%;
-	margin-top: 1%;
+	margin-top: 6%;
 	display: inline;
 	overflow: hidden;
 }

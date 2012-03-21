@@ -60,7 +60,6 @@ class NavigationBlockPlugin extends BlockPlugin {
 			ARTICLE_SEARCH_AUTHOR => 'search.author',
 			ARTICLE_SEARCH_TITLE => 'article.title',
 			ARTICLE_SEARCH_ABSTRACT => 'search.abstract',
-			//%LP% removing unrequired search functionality
 			/*ARTICLE_SEARCH_INDEX_TERMS => 'search.indexTerms',
 			ARTICLE_SEARCH_GALLEY_FILE => 'search.fullText'*/
 		));

@@ -184,7 +184,7 @@ $descOptionsAppend = array(
             'tag' => 'recordContentSource',
             'type' => 'complete',
             'level' => '3',
-            'value' => 'CBP Platform, University of Hull'
+            'value' => 'Campus-based Publishing Platform, University of Hull'
         ),
     array(
             'tag' => 'recordInfo',

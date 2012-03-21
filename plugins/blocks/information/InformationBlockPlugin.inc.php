@@ -52,7 +52,6 @@ class InformationBlockPlugin extends BlockPlugin {
 
 		$templateMgr->assign('forReaders', $journal->getLocalizedSetting('readerInformation'));
 		$templateMgr->assign('forAuthors', $journal->getLocalizedSetting('authorInformation'));
-		//%LP% removing 'for librarians' information
 		//$templateMgr->assign('forLibrarians', $journal->getLocalizedSetting('librarianInformation'));
 		return parent::getContents($templateMgr);
 	}

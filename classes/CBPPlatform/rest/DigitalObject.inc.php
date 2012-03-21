@@ -133,7 +133,7 @@
 					}
 				}
 				isset($ds[$id]['mimetype']) ? $mimetype = $ds[$id]['mimetype'] : $mimetype = mime_content_type($ds[$id]['file']);
-				if ($mimetype == $this->primaryFormat) {
+				if ($mimetype == $this->primaryFormat && $dsId == "content") {
 					$this->obj->hydra['filesize'] = filesize($ds[$id]['file']);
 					$this->obj->hydra['mimetype'] = $mimetype;
 					$this->obj->hydra['dsId'] = $dsId;

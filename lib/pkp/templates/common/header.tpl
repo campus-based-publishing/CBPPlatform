@@ -29,6 +29,7 @@
 	{if $displayFavicon}<link rel="icon" href="{$faviconDir}/{$displayFavicon.uploadName|escape:"url"}" />{/if}
 	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/pkp.css" type="text/css" />
 	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="{$baseUrl}/styles/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="{$baseUrl}/styles/common.css" type="text/css" />
 
 	<!-- Base Jquery -->
@@ -113,9 +114,13 @@
 </head>
 
 <body>
+
+{include file="common/navbar.tpl"}
+
 <div id="container">
 
 <div id="header">
+
 <div id="headerTitle">
 <!--<h1>
 {if $displayPageHeaderLogo && is_array($displayPageHeaderLogo)}
@@ -133,7 +138,6 @@
 	{$applicationName}
 {/if}
 </h1> -->
-<img src="/public/site/logo.jpg" alt="{$applicationName}" style="margin-top: 15px;" />
 </div>
 </div>
 
@@ -166,11 +170,11 @@
 {/if}
 
 <div id="main">
-{include file="common/navbar.tpl"}
 
-{include file="common/breadcrumbs.tpl"}
-
-<h2>{$pageTitleTranslated}</h2>
+{if $homepage != true}
+	{include file="common/breadcrumbs.tpl"}
+	<h2>{$pageTitleTranslated}</h2>
+{/if}
 
 {if $pageSubtitle && !$pageSubtitleTranslated}{translate|assign:"pageSubtitleTranslated" key=$pageSubtitle}{/if}
 {if $pageSubtitleTranslated}

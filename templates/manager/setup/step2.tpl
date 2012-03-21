@@ -42,12 +42,11 @@
 		</td>
 		<td width="95%" class="value">
 			<label for="mailSubmissionsToReviewers-0"><strong>{translate key="manager.setup.reviewProcessStandard"}</strong></label>
-			<br />
 			<span class="instruct">{translate key="manager.setup.reviewProcessStandardDescription"}</span>
 		</td>
 	</tr>
 	<tr>
-		<td colspan="2" class="separator">&nbsp;</td>
+		<td colspan="2" class="separator" style="height: 20px">&nbsp;</td>
 	</tr>
 	<tr valign="top">
 		<td width="5%" class="label" align="right">
@@ -55,9 +54,11 @@
 		</td>
 		<td width="95%" class="value">
 			<label for="mailSubmissionsToReviewers-1"><strong>{translate key="manager.setup.reviewProcessHybrid"}</strong></label>
-			<br />
 			<span class="instruct">{translate key="manager.setup.reviewProcessHybridDescription"}</span>
 		</td> 
+	</tr>
+		<tr>
+		<td colspan="2" class="separator" style="height: 20px">&nbsp;</td>
 	</tr>
 	<tr valign="top">
 		<td width="5%" class="label" align="right">
@@ -65,7 +66,6 @@
 		</td>
 		<td width="95%" class="value">
 			<label for="mailSubmissionsToReviewers-1"><strong>{translate key="manager.setup.reviewProcessWorkshop"}</strong></label>
-			<br />
 			<span class="instruct">{translate key="manager.setup.reviewProcessWorkshopDescription"}</span>
 		</td> 
 	</tr>

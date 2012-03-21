@@ -33,9 +33,9 @@
 
 	<div id="issueDescription">{$issue->getLocalizedDescription()|strip_unsafe_html|nl2br}</div>
 	
-	<p><strong><a href="{url page="article" op="download"}/{$repositoryObjectPid}/{$repositoryObjectDsid}/{$issue->getIssueId()}" class="file">Download this book [PDF Format]</a></strong></p>
-	<p><strong><a href="{url page="article" op="download"}/{$repositoryObjectPid}/{$repositoryObjectDsid}02/{$issue->getIssueId()}" class="file">Download this book [ePub Format]</a></strong></p>
-	<p><strong><a href="{url page="article" op="download"}/{$repositoryObjectPid}/{$repositoryObjectDsid}03/{$issue->getIssueId()}" class="file">Download this book [Amazon Kindle Format]</a></strong></p>
+	<p><strong><a class="btn btn-primary btn-medium" href="{url page="article" op="download"}/{$repositoryObjectPid}/{$repositoryObjectDsid}/{$issue->getIssueId()}" class="file">Download this book [PDF Format]</a></strong></p>
+	<p><strong><a class="btn btn-primary btn-medium" href="{url page="article" op="download"}/{$repositoryObjectPid}/{$repositoryObjectDsid}02/{$issue->getIssueId()}" class="file">Download this book [ePub Format]</a></strong></p>
+	<p><strong><a class="btn btn-primary btn-medium" href="{url page="article" op="download"}/{$repositoryObjectPid}/{$repositoryObjectDsid}03/{$issue->getIssueId()}" class="file">Download this book [Amazon Kindle Format]</a></strong></p>
 	
 	<p><em>To view other books from this Imprint, visit the Imprint's <a href="{url page="issue" op="archive"}">{translate key="navigation.archives"}</a>.</em></p>
 	{if $atomistic == 0}

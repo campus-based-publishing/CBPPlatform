@@ -276,6 +276,8 @@ class FileManager {
 			header("Content-Disposition: " . ($inline ? 'inline' : 'attachment') . "; filename=\"" . $label ."\"");
 			header("Cache-Control: private");
 			header("Pragma: public");
+			ob_clean();
+    		flush();
 			readfile($filePath);
 		}
 	}

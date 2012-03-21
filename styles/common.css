@@ -31,7 +31,7 @@
  * Common HTML elements
  */
 
-a:link {
+/*a:link {
 	color: #173C71;
 }
 
@@ -46,7 +46,7 @@ a:visited {
 a:hover {
 	color: #173C71;
 	background: #CDC;
-}
+}*/
 
 
 /**
@@ -74,28 +74,6 @@ div.shelf {
 	margin-top: 20px;
 }
 
-h3.shelfHeading {
-	font-family: "Trebuchet MS",sans-serif;
-	color: #333333;
-	font-size: 18px;
-	line-height: 1em;
-	font-weight: normal;
-	background-color: #eeeeee;
-	border-top-left-radius: 8px;
-	border-top-right-radius: 0pt;
-	border-bottom-right-radius: 0pt;
-	border-bottom-left-radius: 0pt;
-	padding-top: 1px;
-	padding-right: 20px;
-	padding-bottom: 0pt;
-	padding-left: 10px;
-	overflow-x: hidden;
-	overflow-y: hidden;
-	border-bottom-width: 5px;
-	border-bottom-style: solid;
-	border-bottom-color: #eeeeee;
-	margin-bottom: 20px;
-}
 
 div.shelfDivider {
 	height: 5px;
@@ -139,7 +117,6 @@ div.shelfDivider {
 }
 
 #navbar a:hover {
-	background-color: #CCD9F2;
 }
 
 

@@ -8,12 +8,13 @@
  *
  * $Id$
  *}
+ <!--
 {if !$currentJournal || $currentJournal->getSetting('publishingMode') != $smarty.const.PUBLISHING_MODE_NONE}
 <div class="block" id="sidebarNavigation">
 	<span class="blockTitle">{translate key="plugins.block.navigation.journalContent"}</span>
 	
 	<span class="blockSubtitle">{translate key="navigation.search"}</span>
-	<!-- %CBP% search in the context of the press rather than a specific imprint -->
+	--><!-- %CBP% search in the context of the press rather than a specific imprint --><!--
 	<form method="post" action="{url journal="index" page="search" op="results"}">
 	<table>
 	<tr>
@@ -29,7 +30,7 @@
 	</tr>
 	</table>
 	</form>
-	
+
 	<br />
 	
 	{if $currentJournal}
@@ -44,4 +45,4 @@
 	</ul>
 	{/if}
 </div>
-{/if}
+{/if}-->

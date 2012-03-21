@@ -8,15 +8,14 @@
  *
  * $Id$
  *}
-<div class="block" id="sidebarUser">
-<p style="font-style:italic;">This platform is a proof-of-concept prototype from a campus-based publishing project at the University of Hull, the project aim being to develop a web platform for authors, editors and reviewers to create, manage and disseminate multi-format academic output (eBook and Print).</p>
+	
 	{if !$implicitAuth}
-		<span class="blockTitle">{translate key="navigation.user"}</span>
+		<p><span class="blockTitle">{translate key="navigation.userLogin"}</span></p>
 	{/if}
 	
 	{if $isUserLoggedIn}
 		{translate key="plugins.block.user.loggedInAs"}<br />
-		<strong>{$loggedInUsername|escape}</strong>
+		<p><strong>{$loggedInUsername|escape}</strong></p>
 		<ul>
 			{if $hasOtherJournals}
 				<li><a href="{url journal="index" page="user"}">{translate key="plugins.block.user.myJournals"}</a></li>
@@ -29,7 +28,7 @@
 		</ul>
 	{else}
 		{if $implicitAuth}	
-			<a href="{url page="login" op="implicitAuthLogin"}">Journals Login</a>		
+			<p><a href="{url page="login" op="implicitAuthLogin"}">Journals Login</a></p>	
 		{else}
 			<form method="post" action="{$userBlockLoginUrl}">
 				<table>
@@ -51,14 +50,16 @@
 			</form>
 		{/if}
 	{/if}
-<!-- %CBP% social media buttons -->
+<!-- %LP% social media buttons -->
 {if $issue}
-		<div style="margin-top: 15px;" class="fb-like" data-href="{$currentUrl}" data-send="true" data-layout="box_count" data-width="450" data-show-faces="true" data-font="lucida grande"></div>
+		<div class="fb-like" data-href="{$currentUrl}" data-send="true" data-layout="box_count" data-width="450" data-show-faces="true" data-font="lucida grande"></div>
 		<br />
 		<a href="https://twitter.com/share" class="twitter-share-button" data-url="{$currentUrl}" data-count="vertical">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 {else}
-		<div style="margin-top: 15px;" class="fb-like" data-href="{$baseUrl}" data-send="true" data-layout="box_count" data-width="450" data-show-faces="true" data-font="lucida grande"></div>
+		<div class="fb-like" data-href="{$baseUrl}" data-send="true" data-layout="box_count" data-width="450" data-show-faces="true" data-font="lucida grande"></div>
 		<br />
 		<a href="https://twitter.com/share" class="twitter-share-button" data-url="{$baseUrl}" data-count="vertical">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script>
 {/if}
+<div class="block" id="sidebarUser" style="margin-top: 25px;">
+<p><small><strong>CBP Platform</strong> is a proof-of-concept prototype from a campus-based publishing project at the University of Hull, the project aim being to develop a web platform for authors, editors and reviewers to create, manage and disseminate multi-format academic output (eBook and Print).</small></p>
 </div>

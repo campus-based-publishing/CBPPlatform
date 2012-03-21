@@ -7,8 +7,11 @@
  * Navigation Bar
  *
  *}
-<div id="navbar">
-	<ul class="menu">
+ <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+    <div class="container-fluid"><a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> <a class="brand" href="{$baseUrl}">Campus-based Publishing Platform</a>
+<div class="nav-collapse">
+	<ul class="nav">
 		{if $homepage == true}
 			<li id="home"><a href="{$baseUrl}">{translate key="navigation.home"}</a></li>
 		{else}
@@ -24,9 +27,9 @@
 			{/if}
 		{/if}{* $isUserLoggedIn *}
 
-		{if !$currentJournal || $currentJournal->getSetting('publishingMode') != $smarty.const.PUBLISHING_MODE_NONE}
+		<!--{if !$currentJournal || $currentJournal->getSetting('publishingMode') != $smarty.const.PUBLISHING_MODE_NONE}
 			<li id="search"><a href="{url context="index" page="search"}">{translate key="navigation.search"}</a></li>
-		{/if}
+		{/if}-->
 
 		{if $currentJournal && $currentJournal->getSetting('publishingMode') != $smarty.const.PUBLISHING_MODE_NONE}
 			<li id="current"><a href="{url page="issue" op="current"}">{translate key="navigation.current"}</a></li>
@@ -45,5 +48,12 @@
 			{/if}
 		{/foreach}
 	</ul>
+		<!-- %CBP% search in the context of the press rather than a specific imprint -->
+		<form method="post" action="{url journal="index" page="search" op="results"}" class="navbar-form pull-left"><input type="text" class="search-query span2" placeholder="Search" id="query" name="query" ></form>
 </div>
+      </div>
+        <!--/.nav-collapse --> 
+      </div>
+  </div>
+  </div>
 
