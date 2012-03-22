@@ -67,7 +67,7 @@ The contents of this directory can also be repurposed for other use cases (speci
 
 # ACKNOWLEDGEMENTS
 
-CBP Platform platform utilises the following libraries, classes and other open-source elements:
+CBP Platform utilises the following libraries, classes and other open-source elements:
 
 * Open Journal Systems and its dependencies (http://pkp.sfu.ca/ojs/)
 * Fedora Commons Repository (http://fedora-commons.org/) 

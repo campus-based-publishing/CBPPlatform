@@ -78,7 +78,7 @@
 				$cover = $args['cover'];
 				$coverSrc = "
 					<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='100%' height='100%' viewBox='0 0 410 597' preserveAspectRatio='xMidYMid meet'>
-						<image width='410' height='597' xlink:href='$cover' />
+						<image width='410' height='597' xlink:href='images/Cover.jpg' />
 					</svg>";
 				$book->addChapter("Cover Page", "Cover.html", $this->contentStart . "$coverSrc</body>\n</html>\n", false, EPub::EXTERNAL_REF_ADD, $this->fileDir);
 				$book->setCoverImage("Cover.jpg", file_get_contents($args['cover']));

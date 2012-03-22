@@ -26,6 +26,7 @@
 
 	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/pkp.css" type="text/css" />
 	<link rel="stylesheet" href="{$baseUrl}/lib/pkp/styles/common.css" type="text/css" />
+	<link rel="stylesheet" href="{$baseUrl}/styles/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="{$baseUrl}/styles/common.css" type="text/css" />
 	<link rel="stylesheet" href="{$baseUrl}/styles/articleView.css" type="text/css" />
 	{if $journalRt && $journalRt->getEnabled()}
@@ -74,10 +75,12 @@
 </head>
 <body>
 
+{include file="common/navbar.tpl"}
+
 <div id="container">
-<div id="fade" class="black_overlay"></div>{* The background 'lightbox' effect *}
 
 <div id="header">
+
 <div id="headerTitle">
 <!--<h1>
 {if $displayPageHeaderLogo && is_array($displayPageHeaderLogo)}
@@ -95,11 +98,21 @@
 	{$applicationName}
 {/if}
 </h1> -->
-<img src="/public/site/larkin-press-logo.jpg" alt="The Larkin Press" />
 </div>
 </div>
 
 <div id="body">
+
+<div id="fb-root"></div>
+{literal} 
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+{/literal}
 
 {if $leftSidebarCode || $rightSidebarCode}
 	<div id="sidebar">
