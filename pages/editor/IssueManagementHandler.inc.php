@@ -645,7 +645,7 @@ class IssueManagementHandler extends EditorHandler {
 				$article->stampStatusModified();
 				$articleDao->updateArticle($article);
 			}
-			//TODO: %CBP% get most recent galley, not just a submission, review version et c
+			//TODO: %CBP% get most recent galley, not just a submission, review version etc
 			$articleGalleys = $publishedArticle->getGalleys();
 			$articleGalley = end($articleGalleys); //get the most recent galley
 			if (strpos($articleGalley->_data['fileName'], "RV") !== false) $path = "/submission/review/";

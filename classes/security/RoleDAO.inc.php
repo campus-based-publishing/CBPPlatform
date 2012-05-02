@@ -75,18 +75,17 @@ class RoleDAO extends DAO {
 	 * Insert a new role.
 	 * @param $role Role
 	 */
-	function insertRole(&$role, $approved = 1) {
-		//%LP% modified for approval field, required for EIC user approval
+	function insertRole(&$role) {
+		//%CBPP% modified for approval field, required for EIC user approval
 		return $this->update(
 			'INSERT INTO roles
-				(journal_id, user_id, role_id, approved)
+				(journal_id, user_id, role_id)
 				VALUES
-				(?, ?, ?, ?)',
+				(?, ?, ?)',
 			array(
 				(int) $role->getJournalId(),
 				(int) $role->getUserId(),
-				(int) $role->getRoleId(),
-				(int) $approved
+				(int) $role->getRoleId()
 			)
 		);
 	}

@@ -65,7 +65,15 @@ class SubmissionReviewHandler extends ReviewerHandler {
 						$session->setSessionVar('workshopReview_' . $articleId, $articleId);
 					}
 				}
-				Request::redirect(Request::getRequestedJournalPath(), Request::getRequestedPage(), Request::getRequestedOp(), array("review" => $reviewId, "redirect" => 1));	
+				Request::redirect(
+					Request::getRequestedJournalPath(), 
+					Request::getRequestedPage(), 
+					Request::getRequestedOp(), 
+					array(
+						"review" => $reviewId, 
+						"redirect" => 1
+					)
+				);	
 			}
 		}
 		$reviewId = $args[0];

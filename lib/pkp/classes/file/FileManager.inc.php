@@ -262,7 +262,7 @@ class FileManager {
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 			$c = curl_exec($ch);
 			$info = curl_getinfo($ch);
-			curl_close($ch);
+			curl_close($ch);			
 			
 			if ($label == null) {
 				$filename =  str_replace("/content", "", $filePath);
