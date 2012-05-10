@@ -13,7 +13,7 @@
 	  public $curl_opts = array(
 	   CURLOPT_RETURNTRANSFER => true, // return result instead of echoing
 	   CURLOPT_SSL_VERIFYPEER => false, // stop cURL from verifying the peer's certificate
-	   CURLOPT_FOLLOWLOCATION => true, // follow redirects, Location: headers
+	   CURLOPT_FOLLOWLOCATION => false, // follow redirects, Location: headers
 	   CURLOPT_MAXREDIRS => 10, // but dont redirect more than 10 times
 	  );
 	
@@ -153,7 +153,7 @@
 	      return;
 	    
 	    $err = null;
-	    switch ($meta['http_code']) {
+	    /*switch ($meta['http_code']) {
 	      case 400:
 	        throw new Pest_BadRequest($this->processError($body));
 	        break;
@@ -191,7 +191,7 @@
 	        elseif (!$meta['http_code'] || $meta['http_code'] >= 600) {
 	          throw new Pest_UnknownResponse($this->processError($body));
 	        }
-	    }
+	    }*/
 	  }
 	}
 	
